@@ -1,0 +1,383 @@
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    background: white;
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.chatbot-closed {
+    height: 50px;
+}
+
+.chatbot-open {
+    height: 450px;
+}
+
+.chatbot-header {
+    background: #0463ca;
+    color: white;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.chatbot-body {
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+}
+
+#chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bot-message,
+.user-message {
+    margin-bottom: 6px;
+    padding: 6px 10px;
+    border-radius: 14px 14px 14px 4px;
+    max-width: 80%;
+    line-height: 1.3;
+    font-size: 12px;
+}
+
+.bot-message {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #333;
+    word-break: break-word;
+}
+
+.user-message {
+    background-color: #0463ca;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+    padding: 6px 10px;
+    font-size: 12px;
+    max-width: 80%;
+    border-radius: 14px 14px 4px 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 6px;
+    line-height: 1.3;
+    word-break: break-word;
+}
+
+.chatbot-input {
+    display: flex;
+    padding: 8px;
+    border-top: 1px solid #eee;
+}
+
+#user-input {
+    flex: 1;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 13px;
+}
+
+#send-button {
+    background: #0463ca;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#send-button:hover {
+    background: #0352a3;
+}
+
+/* Quick reply buttons */
+.quick-replies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 6px;
+}
+
+.quick-reply-btn {
+    background: #e6f0ff;
+    border: 1px solid #0463ca;
+    color: #0463ca;
+    border-radius: 14px;
+    padding: 3px 8px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.quick-reply-btn:hover {
+    background: #0463ca;
+    color: white;
+}
+
+/* Initial chat bubble */
+.chat-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #0463ca;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+.chat-bubble i {
+    color: white;
+    font-size: 24px;
+}
+
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+}
+
+.typing-indicator span {
+    height: 6px;
+    width: 6px;
+    background: #0463ca;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 1px;
+    opacity: 0.6;
+}
+
+.typing-indicator span:nth-child(1) {
+    animation: pulse 1s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation: pulse 1s infinite 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation: pulse 1s infinite 0.4s;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+/* Make chatbot responsive on mobile devices */
+@media (max-width: 576px) {
+    #chatbot-container {
+        width: 85%;
+        max-width: 350px;
+        font-size: 13px;
+    }
+
+    .bot-message,
+    .user-message {
+        font-size: 12px;
+    }
+
+    .quick-reply-btn {
+        font-size: 11px;
+    }
+}
+
+/* Add this CSS to style the toggle button with Bootstrap Icons */
+.btn-chat-toggle {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: transform 0.3s;
+}
+
+.btn-chat-toggle:hover {
+    transform: scale(1.1);
+}
+
+.btn-chat-toggle i {
+    font-size: 18px;
+}
+
+/* When chatbot is open, show a different icon */
+.chatbot-open .btn-chat-toggle i.bi-chat-dots-fill::before {
+    content: "\f62a";
+    /* Bootstrap Icons code for 'x' icon */
+}
+
+/* Add these styles for the contact information */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 3px 0;
+}
+
+.contact-header {
+    font-weight: 600;
+    color: #0463ca;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-item i {
+    color: #0463ca;
+    font-size: 14px;
+    width: 14px;
+    text-align: center;
+}
+
+.contact-item span {
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.contact-item a {
+    color: #0463ca;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Add a little time indicator below messages (optional) */
+.message-time {
+    font-size: 9px;
+    opacity: 0.7;
+    margin-top: 2px;
+    display: block;
+}
+
+/* Add a subtle transition effect */
+.user-message,
+.bot-message {
+    transition: all 0.2s ease;
+}
+
+/* Redesigned related links styling */
+.related-links {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    width: 85%;
+    background: white;
+}
+
+.related-links-header {
+    background-color: #0463ca;
+    color: white;
+    padding: 6px 10px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.related-links-header::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z'/%3E%3Cpath d='M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 6px;
+}
+
+.related-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.related-links li {
+    margin: 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.related-links li:last-child {
+    border-bottom: none;
+}
+
+.related-links a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 8px 10px;
+    transition: all 0.2s;
+    position: relative;
+    padding-right: 24px;
+}
+
+.related-links a:hover {
+    background-color: #e6f0ff;
+    color: #0463ca;
+}
+
+.related-links a::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230463ca' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.related-links a:hover::after {
+    opacity: 1;
+}

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Paver Block Production Technology Explained | Jee Engineers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+        content="Discover the technology behind high-quality paver block production with Jee Engineers machines. Learn about vibro compaction, precise moulds, PLC control, and more."
+        name="description" />
+    <meta
+        content="paver block machine, paver production technology, vibro compaction, concrete pavers, interlocking pavers, paver moulds, PLC control, Jee Engineers, paver manufacturing"
+        name="keywords" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jeeengineers.com/paver-block-technology.html" />
+    <!-- FIXME: Update URL if different -->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://jeeengineers.com/paver-block-technology.html" />
+    <!-- FIXME: Update URL if different -->
+    <meta property="og:title" content="Paver Block Production Technology Explained | Jee Engineers" />
+    <meta property="og:description"
+        content="Explore the key technologies like vibro compaction, precision moulds, and automated controls that ensure high-quality paver block production in Jee Engineers machines." />
+    <meta property="og:image" content="https://jeeengineers.com/img/paver-tech-hero.png" />
+    <!-- FIXME: Replace with actual relevant hero image URL -->
+    <meta property="article:published_time" content="YYYY-MM-DD" />
+    <!-- FIXME: Replace YYYY-MM-DD with actual publication date -->
+    <meta property="article:author" content="Jee Engineers" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jeeengineers.com/paver-block-technology.html" />
+    <!-- FIXME: Update URL if different -->
+    <meta property="twitter:title" content="Paver Block Production Technology Explained | Jee Engineers" />
+    <meta property="twitter:description"
+        content="Explore the key technologies like vibro compaction, precision moulds, and automated controls that ensure high-quality paver block production in Jee Engineers machines." />
+    <meta property="twitter:image" content="https://jeeengineers.com/img/paver-tech-hero.png" />
+    <!-- FIXME: Replace with actual relevant hero image URL -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jeeengineers.com/paver-block-technology.html" // FIXME: Update URL if different
+        },
+        "headline": "The Technology Behind High-Quality Paver Block Production with Our Machines",
+        "image": [
+            "https://jeeengineers.com/img/paver-tech-hero.png",  // FIXME: Replace image
+            "https://jeeengineers.com/img/paver-tech-feature.png" // FIXME: Replace image
+         ],
+        "datePublished": "YYYY-MM-DD", // FIXME: Replace date
+        "author": {
+          "@type": "Organization",
+          "name": "Jee Engineers"
+        },
+         "publisher": {
+          "@type": "Organization",
+          "name": "Jee Engineers",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jeeengineers.com/logo.jpeg" // Ensure this is correct
+          }
+        },
+        "description": "A detailed look into the specific technologies employed in Jee Engineers machines for producing durable, aesthetically pleasing, and dimensionally accurate paver blocks, focusing on vibro compaction, moulds, and control systems."
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Search Stylesheet -->
+    <link href="css/search.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        aria-hidden="true">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
+                <a href="index.html" class="navbar-brand" aria-label="Jee Engineers Home">
+                    <h1 class="text-white">Jee<span class="text-dark"></span> Engineers</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-item nav-link active" aria-current="page">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="products.html" class="nav-item nav-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <button type="button" id="searchModalButton" class="btn text-white p-0 d-none d-lg-block"
+                        data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">
+                        Crafting Durable Pavers: The Technology Inside Our Machines
+                    </h1>
+                    <p class="text-white mb-4 animated slideInRight">Unveiling the Engineering that Ensures
+                        High-Quality,
+                        Consistent, and Aesthetically Pleasing Paver Block Production.</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="index.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="blog.html">Blog</a>
+                            </li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">
+                                Paver Block Technology
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/paver-tech-hero.png" <!-- FIXME: Replace image -->
+                    alt="High-quality paver blocks being produced by a Jee Engineers machine" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.9)">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title visually-hidden" id="searchModalLabel">Search</h5>
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column">
+                    <div class="input-group mb-4" style="max-width: 600px; margin: 0 auto;">
+                        <label for="searchInput" class="visually-hidden">Search</label>
+                        <input type="text" id="searchInput" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword" aria-label="Search term" />
+                        <button id="searchButton" class="btn btn-light px-4" type="button" aria-label="Submit search"><i
+                                class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="search-results-container flex-grow-1"
+                        style="max-width: 800px; margin: 0 auto; width: 100%;">
+                        <div class="search-results"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-dark feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">
+                        Paver Production Tech
+                    </div>
+                    <h1 class="text-white mb-4">
+                        Precision Engineering for Superior Paver Blocks
+                    </h1>
+                    <p class="text-light mb-4">
+                        Producing high-quality paver blocks demands more than just mixing concrete and pressing it into
+                        shape. It requires specific technologies working in concert to ensure durability, dimensional
+                        accuracy, consistent strength, and appealing aesthetics. Pavers face constant wear, weather
+                        exposure, and load bearing, making the manufacturing process critical.
+                    </p>
+                    <p class="text-light mb-4">
+                        At Jee Engineers, our paver block machines are engineered with advanced features specifically
+                        tailored for these demands. From the way the material is compacted to the precision of the
+                        moulds and the automation controlling the process, every element is optimized for superior paver
+                        production. Let's delve into the core technologies that make the difference.
+                    </p>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/paver-tech-feature.png" <!-- FIXME: Replace image -->
+                    alt="Diagram highlighting key technological components of a paver block machine" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- Blog Content Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 wow fadeIn" data-wow-delay="0.1s"> <!-- Wider column for content -->
+
+                    <h2 class="mb-4 text-center">The Technology Behind High-Quality Paver Block Production</h2>
+                    <p class="lead mb-5 text-center">
+                        Creating pavers that are strong, look great, and fit together perfectly requires specialized
+                        machine technology. Here’s a breakdown of the key elements in Jee Engineers' machines:
+                    </p>
+
+                    <!-- Vibro Compaction Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-wave-square me-2"></i>1. Advanced Vibro
+                            Compaction</h3>
+                        <p><strong>Why it's crucial for pavers:</strong> Paver mixes typically contain coarser
+                            aggregates than standard bricks. Simple pressing isn't enough to achieve optimal density and
+                            interlocking of these particles. Vibro compaction is essential.</p>
+                        <p><strong>How it works in our machines:</strong></p>
+                        <ul>
+                            <li><strong>High-Frequency Vibration:</strong> Our machines utilize precisely controlled,
+                                high-frequency vibrations applied to the mould and/or tamper head.</li>
+                            <li><strong>Particle Settlement:</strong> This vibration fluidizes the concrete mix
+                                momentarily, allowing aggregates to settle closely, minimizing voids and air pockets.
+                            </li>
+                            <li><strong>Combined Pressure:</strong> Vibration is often combined with moderate hydraulic
+                                pressure or the weight of the tamper head to ensure thorough compaction throughout the
+                                paver's depth.</li>
+                        </ul>
+                        <p><strong>The Result:</strong> Denser, stronger pavers with higher compressive strength, better
+                            resistance to freeze-thaw cycles, and reduced water absorption.</p>
+                    </div>
+
+                    <!-- Precise Moulds Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-ruler-combined me-2"></i>2. Precision-Engineered
+                            Moulds</h3>
+                        <p><strong>Why it's crucial for pavers:</strong> Pavers, especially interlocking types, must
+                            have exact dimensions to fit together seamlessly and create stable, even surfaces. Mould
+                            quality is paramount.</p>
+                        <p><strong>Features of our moulds:</strong></p>
+                        <ul>
+                            <li><strong>High-Grade Materials:</strong> Made from wear-resistant, hardened steel to
+                                withstand the abrasive concrete mix and maintain dimensional accuracy over long
+                                production runs.</li>
+                            <li><strong>CNC Machining:</strong> Manufactured using Computer Numerical Control (CNC)
+                                processes for extremely tight tolerances, ensuring consistent paver shapes and sizes.
+                            </li>
+                            <li><strong>Interlocking Designs:</strong> Capable of producing complex interlocking shapes
+                                (like I-shape, Zig-Zag, etc.) with precision.</li>
+                            <li><strong>Chamfered Edges:</strong> Moulds often incorporate designs for chamfered
+                                (beveled)
+                                edges, improving aesthetics and reducing chipping during handling and installation.</li>
+                        </ul>
+                        <p><strong>The Result:</strong> Dimensionally accurate pavers that interlock correctly, create
+                            visually appealing patterns, and are easier to install.</p>
+                    </div>
+
+                    <!-- Homogeneous Mixing Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-blender me-2"></i>3. Homogeneous Material Mixing
+                        </h3>
+                        <p><strong>Why it's crucial for pavers:</strong> Inconsistent mixing leads to variations in
+                            strength, color, and texture within a single paver and between batches. This is unacceptable
+                            for paving projects where uniformity is key.</p>
+                        <p><strong>Our approach:</strong></p>
+                        <ul>
+                            <li><strong>Efficient Pan Mixers:</strong> We typically pair our paver machines with robust
+                                pan mixers (often counter-current or planetary types).</li>
+                            <li><strong>Thorough Blending:</strong> These mixers ensure that cement, aggregates, sand,
+                                water, and color pigments (if used) are uniformly distributed throughout the batch.</li>
+                        </ul>
+                        <p><strong>The Result:</strong> Pavers with consistent color, uniform texture, and reliable
+                            strength across the entire surface and from batch to batch.</p>
+                    </div>
+
+                    <!-- PLC Control System Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-robot me-2"></i>4. Automated PLC Control</h3>
+                        <p><strong>Why it's crucial for pavers:</strong> Manual control can lead to variations in
+                            vibration time, pressing force, and cycle duration, impacting paver consistency. Automation
+                            is key for quality control.</p>
+                        <p><strong>Benefits of our PLC systems:</strong></p>
+                        <ul>
+                            <li><strong>Precise Sequencing:</strong> The Programmable Logic Controller (PLC) manages the
+                                entire production cycle with precise timing – material feeding, vibration duration,
+                                pressure application, and ejection.</li>
+                            <li><strong>Parameter Adjustment:</strong> Allows operators to easily set and adjust
+                                critical
+                                parameters via an HMI (Human-Machine Interface) to optimize production for different mix
+                                designs or paver types.</li>
+                            <li><strong>Consistency:</strong> Ensures every cycle is identical, leading to highly
+                                uniform
+                                paver quality in terms of density, strength, and dimensions.</li>
+                        </ul>
+                        <p><strong>The Result:</strong> Reliable, repeatable production of high-quality pavers with
+                            minimal
+                            operator-induced variability.</p>
+                    </div>
+
+                    <!-- Hydraulic System & Feeding Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-oil-can me-2"></i>5. Robust Hydraulics & Accurate
+                            Feeding</h3>
+                        <p><strong>Why they matter:</strong> Even with vibro compaction dominant, hydraulics play a role
+                            in applying consistent supplementary pressure and ensuring clean ejection. Accurate feeding
+                            ensures each mould cavity gets the right amount of material.</p>
+                        <p><strong>Our implementation:</strong></p>
+                        <ul>
+                            <li><strong>Reliable Hydraulics:</strong> Provide controlled force for tamper head movement,
+                                mould clamping (if applicable), and smooth ejection of the finished pavers without
+                                damage.</li>
+                            <li><strong>Precise Feed Systems:</strong> Ensure that the material feed box delivers a
+                                consistent volume of mix into the mould cavities cycle after cycle.</li>
+                        </ul>
+                        <p><strong>The Result:</strong> Consistent paver height and density, and reduced risk of damage
+                            during demoulding.</p>
+                    </div>
+
+                    <!-- Optional: Face Mix Technology -->
+                    <!-- Uncomment and adapt if your machines offer this
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-secondary"><i class="fas fa-layer-group me-2"></i>Optional: Face Mix Technology</h3>
+                        <p><strong>Concept:</strong> Some advanced paver machines utilize a two-stage filling process. A base mix (using coarser, cheaper aggregates) forms the main body of the paver, while a separate 'face mix' (using finer aggregates, higher cement content, and potentially more expensive pigments) forms the top layer (typically 5-10mm).</p>
+                        <p><strong>Benefits:</strong></p>
+                        <ul>
+                            <li>Enhanced surface durability and wear resistance.</li>
+                            <li>Richer, more vibrant colors on the visible surface.</li>
+                            <li>Smoother top texture.</li>
+                            <li>Potential cost savings by using less expensive materials for the bulk of the paver.</li>
+                        </ul>
+                        <p><em>Ask us if Face Mix capability is available or suitable for your desired paver production.</em></p>
+                    </div>
+                    -->
+
+                    <!-- Conclusion and CTA -->
+                    <div class="mt-5 pt-4 border-top">
+                        <h3 class="mt-4 mb-3 text-center">Integrated Technology for Optimal Pavers</h3>
+                        <p class="mb-4 text-center px-lg-5">
+                            High-quality paver block production is a result of these technologies working seamlessly
+                            together. From the intense, controlled vibration ensuring density, to the precision moulds
+                            defining shape, the uniform mix providing consistency, and the PLC orchestrating the entire
+                            process, Jee Engineers machines are built to deliver pavers that meet the highest standards
+                            of strength, durability, and aesthetics.
+                        </p>
+
+                        <div class="text-center mt-5 p-4 bg-primary-light rounded shadow-sm">
+                            <h4 class="mb-3 text-primary">Interested in High-Performance Paver Production?</h4>
+                            <p class="mb-4">Learn more about how Jee Engineers' paver block machines can elevate your
+                                production quality and efficiency. Contact our experts for detailed specifications and
+                                quotes.</p>
+                            <a href="contact.html" class="btn btn-primary btn-lg py-3 px-5">Get a Quote Today</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog Content End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">Jee Engineers</h1>
+                    </a>
+                    <p class="mb-0">
+                        Leading the way in innovative, high-quality solutions for the construction sector, helping
+                        clients achieve goals efficiently and sustainably.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p>
+                        <i class="fa fa-map-marker-alt me-3" aria-hidden="true"></i>Ahmedabad, Gujarat, India
+                    </p>
+                    <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i>+91 9327491268</p>
+                    <p><i class="bi bi-whatsapp me-3" aria-hidden="true"></i>+91 9054520708</p>
+                    <p><i class="fa fa-envelope me-3" aria-hidden="true"></i>jeeengineers@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
+                            aria-label="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers"
+                            aria-label="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/jeeengineers"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square me-3"
+                            href="https://www.reddit.com/user/CareAggravating5226" aria-label="Reddit">
+                            <i class="fab fa-reddit" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers"
+                            aria-label="Tumblr">
+                            <i class="fab fa-tumblr" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="terms-and-conditions.html">Terms & Condition</a>
+                </div>
+
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="blog.html">Blog</a>
+                    <a class="btn btn-link" href="faq.html">FAQs</a>
+                    <a class="btn btn-link" href="products.html">Products</a>
+                    <a class="btn btn-link" href="help.html">Help Center</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="https://jeeengineers.com/">www.jeeengineers.com</a>,
+                        All Right Reserved. <span id="currentYear"></span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="cookies.html">Cookies</a>
+                            <a href="help.html">Help</a>
+                            <a href="faq.html">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2" aria-label="Back to top"><i
+            class="bi bi-arrow-up" aria-hidden="true"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- Search Javascript -->
+    <script src="js/search.js"></script>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+        // Add a utility class for light primary background if not already in style.css
+        // Example: .bg-primary-light { background-color: #e8f0fe; /* Adjust color as needed */ }
+    </script>
+</body>
+
+</html>

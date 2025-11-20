@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Key Components of a Brick/Block Making Machine Explained | Jee Engineers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+        content="Understand the essential parts of a brick and block making machine: hydraulic system, moulds, pan mixer, conveyors, PLC panel. Learn how each component works with Jee Engineers."
+        name="description" />
+    <meta
+        content="brick making machine components, block machine parts, hydraulic system, moulds, pan mixer, conveyor belt, PLC panel, Jee Engineers, machine explanation"
+        name="keywords" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jeeengineers.com/key-machine-components-explained.html" />
+    <!-- FIXME: Update URL if different -->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://jeeengineers.com/key-machine-components-explained.html" />
+    <!-- FIXME: Update URL if different -->
+    <meta property="og:title" content="Key Components of a Brick/Block Making Machine Explained | Jee Engineers" />
+    <meta property="og:description"
+        content="Dive into the essential parts of brick/block machines like the hydraulic system, moulds, mixer, conveyors, and PLC panel, and understand their functions." />
+    <meta property="og:image" content="https://jeeengineers.com/img/machine-components-hero.png" />
+    <!-- FIXME: Replace with actual relevant hero image URL -->
+    <meta property="article:published_time" content="YYYY-MM-DD" />
+    <!-- FIXME: Replace YYYY-MM-DD with actual publication date -->
+    <meta property="article:author" content="Jee Engineers" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jeeengineers.com/key-machine-components-explained.html" />
+    <!-- FIXME: Update URL if different -->
+    <meta property="twitter:title" content="Key Components of a Brick/Block Making Machine Explained | Jee Engineers" />
+    <meta property="twitter:description"
+        content="Dive into the essential parts of brick/block machines like the hydraulic system, moulds, mixer, conveyors, and PLC panel, and understand their functions." />
+    <meta property="twitter:image" content="https://jeeengineers.com/img/machine-components-hero.png" />
+    <!-- FIXME: Replace with actual relevant hero image URL -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jeeengineers.com/key-machine-components-explained.html" // FIXME: Update URL if different
+        },
+        "headline": "Key Components of a Brick/Block Making Machine Explained",
+        "image": [
+            "https://jeeengineers.com/img/machine-components-hero.png",  // FIXME: Replace image
+            "https://jeeengineers.com/img/machine-components-feature.png" // FIXME: Replace image
+         ],
+        "datePublished": "YYYY-MM-DD", // FIXME: Replace date
+        "author": {
+          "@type": "Organization",
+          "name": "Jee Engineers"
+        },
+         "publisher": {
+          "@type": "Organization",
+          "name": "Jee Engineers",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jeeengineers.com/logo.jpeg" // Ensure this is correct
+          }
+        },
+        "description": "A detailed explanation of the crucial components that make up a brick or block making machine, including the hydraulic system, moulds, pan mixer, conveyor belts, and PLC control panel, and their respective functions."
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Search Stylesheet -->
+    <link href="css/search.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        aria-hidden="true">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
+                <a href="index.html" class="navbar-brand" aria-label="Jee Engineers Home">
+                    <h1 class="text-white">Jee<span class="text-dark"></span> Engineers</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-item nav-link active" aria-current="page">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="products.html" class="nav-item nav-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <button type="button" id="searchModalButton" class="btn text-white p-0 d-none d-lg-block"
+                        data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">
+                        Inside the Machine: Key Components Explained
+                    </h1>
+                    <p class="text-white mb-4 animated slideInRight">Understanding the Parts that Power Your Brick &
+                        Block Production</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="index.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="blog.html">Blog</a>
+                            </li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">
+                                Machine Components Explained
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/machine-components-hero.png" <!-- FIXME: Replace image -->
+                    alt="Exploded view or diagram showing key components of a brick making machine" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.9)">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title visually-hidden" id="searchModalLabel">Search</h5>
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column">
+                    <div class="input-group mb-4" style="max-width: 600px; margin: 0 auto;">
+                        <label for="searchInput" class="visually-hidden">Search</label>
+                        <input type="text" id="searchInput" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword" aria-label="Search term" />
+                        <button id="searchButton" class="btn btn-light px-4" type="button" aria-label="Submit search"><i
+                                class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="search-results-container flex-grow-1"
+                        style="max-width: 800px; margin: 0 auto; width: 100%;">
+                        <div class="search-results"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-dark feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">
+                        Machine Anatomy 101
+                    </div>
+                    <h1 class="text-white mb-4">
+                        Demystifying Your Brick & Block Making Machine
+                    </h1>
+                    <p class="text-light mb-4">
+                        A brick or block making machine is a sophisticated piece of engineering, comprising several
+                        interconnected systems working in harmony. Understanding the function of each key component is
+                        crucial for efficient operation, proper maintenance, and troubleshooting.
+                    </p>
+                    <p class="text-light mb-4">
+                        At Jee Engineers, we believe an informed operator is an effective operator. This guide breaks
+                        down the essential parts of our machines, explaining what they do and why they are vital for
+                        producing high-quality bricks and blocks consistently. Let's explore the heart and soul of
+                        these powerful production units.
+                    </p>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/machine-components-feature.png" <!-- FIXME: Replace image -->
+                    alt="Cutaway view highlighting different sections of a block making machine" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- Blog Content Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 wow fadeIn" data-wow-delay="0.1s"> <!-- Wider column for content -->
+
+                    <h2 class="mb-4 text-center">A Closer Look at Key Machine Components</h2>
+                    <p class="lead mb-5 text-center">
+                        From raw material mixing to the final product ejection, several critical components ensure the
+                        smooth operation of a brick/block making machine. Let's examine the most important ones:
+                    </p>
+
+                    <!-- Hydraulic System Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-cogs me-2"></i>1. Hydraulic System</h3>
+                        <p><strong>Function:</strong> The hydraulic system is the muscle of the machine. It uses fluid
+                            pressure (typically oil) generated by a pump and controlled by valves to power various
+                            movements, most importantly the main press cylinder that compacts the material in the mould.
+                            It also often powers mould lifting/lowering, material feeding gates, and ejection
+                            mechanisms.</p>
+                        <p><strong>Importance:</strong> It provides the immense, controllable force required for high
+                            compaction, ensuring the density and strength of the final product. The precision of the
+                            hydraulic system dictates the consistency of brick/block dimensions and quality.</p>
+                        <p><em>Components: Hydraulic Pump, Motor, Cylinders, Valves, Oil Tank, Hoses, Pressure Gauges.
+                            </em></p>
+                    </div>
+
+                    <!-- Moulds Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-cubes me-2"></i>2. Moulds (Dies)</h3>
+                        <p><strong>Function:</strong> The mould is the heart of the shaping process. It's a precisely
+                            engineered cavity (or set of cavities) into which the raw material mix is fed and then
+                            compacted. The internal dimensions and shape of the mould determine the final size and form
+                            of the brick, block, or paver.</p>
+                        <p><strong>Importance:</strong> The quality, accuracy, and durability of the mould directly
+                            impact the dimensional accuracy, surface finish, and overall quality of the products. Moulds
+                            are often interchangeable, allowing the machine to produce different types of products.</p>
+                        <p><em>Considerations: Material (hardened steel for longevity), Precision Machining, Design (for
+                                solid, hollow, interlocking blocks, etc.).</em></p>
+                    </div>
+
+                    <!-- Pan Mixer Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-sync-alt me-2"></i>3. Pan Mixer</h3>
+                        <p><strong>Function:</strong> Before compaction, raw materials (like fly ash, cement, sand,
+                            aggregate, water, additives) need to be thoroughly and uniformly mixed. The pan mixer uses
+                            rotating blades or paddles within a stationary or rotating pan to achieve a homogeneous
+                            blend.</p>
+                        <p><strong>Importance:</strong> A consistent, well-mixed batch is crucial for uniform strength,
+                            texture, and colour in the final products. Inadequate mixing leads to weak spots, variations
+                            in quality, and potential machine blockages.</p>
+                        <p><em>Types: Counter-current mixers, Planetary mixers are common for achieving high mix
+                                quality.</em></p>
+                    </div>
+
+                    <!-- Conveyor Belts Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-exchange-alt me-2"></i>4. Conveyor Belts</h3>
+                        <p><strong>Function:</strong> Conveyor belts automate the transport of materials throughout the
+                            production line. They typically move raw materials to the mixer, the mixed material from the
+                            mixer to the machine's feed hopper, and sometimes the finished products away from the
+                            machine to a stacking area.</p>
+                        <p><strong>Importance:</strong> Conveyors significantly increase efficiency, reduce manual
+                            labour, ensure a continuous flow of material, and contribute to a safer working environment.
+                            Their speed is often synchronized with the machine's cycle time.</p>
+                        <p><em>Types: Belt Conveyors, Screw Conveyors (for specific materials).</em></p>
+                    </div>
+
+                    <!-- PLC Panel Section -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-primary"><i class="fas fa-microchip me-2"></i>5. PLC Panel (Programmable
+                            Logic Controller)</h3>
+                        <p><strong>Function:</strong> The PLC panel is the brain of the operation. It's an industrial
+                            computer control system that automates and manages the entire machine sequence – from
+                            material feeding, mixing times, pressing cycles, vibration (if applicable), and ejection. It
+                            often includes a Human-Machine Interface (HMI) screen for monitoring and control.</p>
+                        <p><strong>Importance:</strong> The PLC ensures precise timing, sequence control, and
+                            repeatability, leading to consistent product quality and optimized production cycles. It
+                            allows for easy adjustments of parameters, fault diagnosis, and overall operational
+                            efficiency.</p>
+                        <p><em>Features: Touch Screen Interface, Parameter Settings, Production Counters, Alarm
+                                Systems.</em></p>
+                    </div>
+
+                    <!-- Other Components Section (Optional but good) -->
+                    <div class="mb-5 p-4 bg-white rounded shadow-sm">
+                        <h3 class="mb-3 text-secondary"><i class="fas fa-plus-circle me-2"></i>Other Important Parts
+                        </h3>
+                        <ul>
+                            <li><strong>Material Hopper:</strong> Stores the mixed material ready to be fed into the
+                                mould box.</li>
+                            <li><strong>Feeding System:</strong> Mechanisms (like a feed drawer or box) that accurately
+                                dose and distribute the mix into the mould.</li>
+                            <li><strong>Ejection System:</strong> Pushes the finished, compacted brick/block out of the
+                                mould onto a pallet or conveyor.</li>
+                            <li><strong>Vibration System (on Vibro Machines):</strong> Motors with eccentric weights
+                                that impart vibration to the mould/tamper head for compaction.</li>
+                            <li><strong>Pallet Feeder/Stacker (on automated lines):</strong> Systems to automatically
+                                handle the wooden or steel pallets used for curing and transport.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Conclusion and CTA -->
+                    <div class="mt-5 pt-4 border-top">
+                        <h3 class="mt-4 mb-3 text-center">Synergy in Action</h3>
+                        <p class="mb-4 text-center px-lg-5">
+                            Each component plays a vital role in the brick and block making process. The hydraulic
+                            system provides the power, the mould gives the shape, the mixer ensures material quality,
+                            conveyors maintain the flow, and the PLC orchestrates everything. Understanding how these
+                            parts function and interact helps ensure maximum productivity, longevity, and quality output
+                            from your Jee Engineers machine.
+                        </p>
+
+                        <div class="text-center mt-5 p-4 bg-primary-light rounded shadow-sm">
+                            <h4 class="mb-3 text-primary">Have Questions About Machine Components or Need Spares?</h4>
+                            <p class="mb-4">Our team is ready to provide detailed information about any component of our
+                                machines or assist you with maintenance and spare parts requirements.</p>
+                            <a href="contact.html" class="btn btn-primary btn-lg py-3 px-5">Contact Jee Engineers
+                                Today</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog Content End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">Jee Engineers</h1>
+                    </a>
+                    <p class="mb-0">
+                        Leading the way in innovative, high-quality solutions for the construction sector, helping
+                        clients achieve goals efficiently and sustainably.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p>
+                        <i class="fa fa-map-marker-alt me-3" aria-hidden="true"></i>Ahmedabad, Gujarat, India
+                    </p>
+                    <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i>+91 9327491268</p>
+                    <p><i class="bi bi-whatsapp me-3" aria-hidden="true"></i>+91 9054520708</p>
+                    <p><i class="fa fa-envelope me-3" aria-hidden="true"></i>jeeengineers@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
+                            aria-label="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers"
+                            aria-label="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/jeeengineers"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square me-3"
+                            href="https://www.reddit.com/user/CareAggravating5226" aria-label="Reddit">
+                            <i class="fab fa-reddit" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers"
+                            aria-label="Tumblr">
+                            <i class="fab fa-tumblr" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="terms-and-conditions.html">Terms & Condition</a>
+                </div>
+
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="blog.html">Blog</a>
+                    <a class="btn btn-link" href="faq.html">FAQs</a>
+                    <a class="btn btn-link" href="products.html">Products</a>
+                    <a class="btn btn-link" href="help.html">Help Center</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="https://jeeengineers.com/">www.jeeengineers.com</a>,
+                        All Right Reserved. <span id="currentYear"></span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="cookies.html">Cookies</a>
+                            <a href="help.html">Help</a>
+                            <a href="faq.html">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2" aria-label="Back to top"><i
+            class="bi bi-arrow-up" aria-hidden="true"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- Search Javascript -->
+    <script src="js/search.js"></script>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+        // Add a utility class for light primary background if not already in style.css
+        // Example: .bg-primary-light { background-color: #e8f0fe; /* Adjust color as needed */ }
+    </script>
+</body>
+
+</html>

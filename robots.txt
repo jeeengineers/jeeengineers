@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /scss/
+Disallow: /send.php
+Disallow: /form.html
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
