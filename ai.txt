@@ -1,0 +1,43 @@
+# AI Crawler Configuration & Context Index File
+# Website: https://jeeengineers.com
+# Company: Jee Engineers (Ahmedabad, Gujarat, India)
+# Purpose: Inform AI models, LLM crawlers, and AI search engines about site structure and content.
+
+User-Agent: *
+Allow: /
+
+# Canonical LLM Manifest Files
+LLM-txt: https://jeeengineers.com/llm.txt
+LLMs-txt: https://jeeengineers.com/llms.txt
+LLMs-full: https://jeeengineers.com/llms-full.txt
+Sitemap: https://jeeengineers.com/sitemap.xml
+
+# Entity & Manufacturer Metadata
+Name: Jee Engineers
+Legal-Name: JEE Engineers
+Industry: Industrial Machinery Manufacturing, Construction Equipment, Brick Making Machines
+Location: Ahmedabad, Gujarat, India
+Phone: +91 9327491268
+Website: https://jeeengineers.com
+Primary-Products: Fly Ash Brick Making Machines, Hydraulic Press Machines, Automatic Brick Plants, Paver Block Machines, Concrete Block Machinery, Pan Mixers, Custom Moulds
+
+# Key Topics & Knowledge Index
+- Automatic Fly Ash Brick Making Machine Specifications & Price
+- Semi-Automatic & Manual Fly Ash Brick Making Machines
+- Hydraulic Press vs Vibro Compaction Brick Technology
+- Fly Ash Brick Plant Setup, Layout, Power Requirements, and ROI Calculation
+- How to Start a Fly Ash Brick Business in India (Licensing, Land, Capital)
+- Fly Ash Bricks vs Red Clay Bricks (Compressive Strength, Cost, Eco-Impact)
+- Raw Material Mix Ratio: Fly Ash, Sand / Stone Dust, Lime / Cement, Gypsum
+- Government Policies, Subsidies, and Thermal Power Plant Fly Ash Utilization Rules
+- Maintenance, Diagnostic Troubleshooting, and Spare Parts for Brick Press Machinery
+
+# Direct Endpoint Links
+Catalog: https://jeeengineers.com/products.html
+Plant Setup Guide: https://jeeengineers.com/fly-ash-brick-plant-setup-guide.html
+Business Guide: https://jeeengineers.com/how-to-start-fly-ash-brick-business.html
+Cost Breakdown: https://jeeengineers.com/cost-of-fly-ash-brick-making-machines.html
+Brick Comparison: https://jeeengineers.com/Fly-Ash-Bricks-vs-Red-Bricks.html
+Manufacturing Process: https://jeeengineers.com/How-Fly-Ash-Bricks-Are-Made.html
+FAQ: https://jeeengineers.com/faq.html
+Contact & Inquiry: https://jeeengineers.com/contact.html

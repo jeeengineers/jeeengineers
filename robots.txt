@@ -5,5 +5,39 @@ Disallow: /send.php
 Disallow: /form.html
 Disallow: /404.html
 
+# AI Crawler Permissions
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 # Sitemap location
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://jeeengineers.com/sitemap.xml
+
+# AI content guide
+# https://jeeengineers.com/llms.txt
+
+# LLM & AI Context Files
+LLM-txt: https://jeeengineers.com/llm.txt
+LLMs-txt: https://jeeengineers.com/llms.txt
+LLMs-full: https://jeeengineers.com/llms-full.txt
+AI-txt: https://jeeengineers.com/ai.txt
