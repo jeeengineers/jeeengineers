@@ -43,7 +43,7 @@
           "telephone": "+91 9327491268",
           "contactType": "customer service"
         },
-        "logo": "https://jeeengineers.com/logo.jpeg",
+        "logo": "https://jeeengineers.com/img/Jee-Engineers_logo.png",
         "sameAs": [
           "https://www.facebook.com/jeeengineers",
           "https://x.com/jeeengineers",
@@ -84,7 +84,7 @@
   <!-- Search Stylesheet -->
   <link href="css/search.css" rel="stylesheet" />
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -115,9 +115,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
         <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-          <h1 class="text-white">
-            Jee<span class="text-dark"></span> Engineers
-          </h1>
+          <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" />
         </a>
         <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -455,7 +453,7 @@
         <div class="col-lg-5 wow fadeIn" data-wow-delay="0.5s">
           <div class="card border-0 shadow p-4">
             <h3 class="text-center mb-4">Request Pricing Information</h3>
-            <form>
+            <form id="pricingForm" action="/api/send-email" method="POST">
               <div class="mb-3">
                 <label for="name" class="visually-hidden">Your Name</label>
                 <input type="text" id="name" class="form-control border-0 bg-light py-3" placeholder="Your Name"
@@ -580,6 +578,8 @@
   <script src="js/main.js"></script>
   <!-- Search Javascript -->
   <script src="js/search.js"></script>
+  <!-- Contact Form Resend Handler -->
+  <script src="js/contact-form.js" defer></script>
 </body>
 
 </html>

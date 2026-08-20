@@ -19,8 +19,7 @@
   <meta name="description"
     content="Leading manufacturer of high-quality fly ash brick machines in Ahmedabad. Our eco-friendly machines deliver durability and efficiency for sustainable construction solutions." />
 
-  <meta property="og:title"
-    content="Jee Engineers, Ahmedabad - Manufacturer of Fly Ash Brick Making Machine and Concrete Block Making Machine." />
+  <meta property="og:title" content="Jee Engineers, Ahmedabad - Manufacturer of Fly Ash Brick Making Machine and Concrete Block Making Machine." />
   <meta property="og:description"
     content="Leading manufacturer of high-quality fly ash brick machines in Ahmedabad. Our eco-friendly machines deliver durability and efficiency for sustainable construction solutions." />
   <meta property="og:url" content="https://jeeengineers.com/" />
@@ -32,7 +31,7 @@
   <meta name="twitter:title"
     content="Jee Engineers, Ahmedabad - Manufacturer of Fly Ash Brick Making Machine and Concrete Block Making Machine." />
   <meta name="twitter:description"
-    content="Jee Engineers is a leading manufacturer of fly ash brick machines. Our machines are built to industry standards and come with exceptional support. Fly ash bricks are a more durable, stronger, and environmentally friendly alternative to traditional clay bricks." />
+    content="Leading manufacturer of high-quality fly ash brick machines in Ahmedabad. Our eco-friendly machines deliver durability and efficiency for sustainable construction solutions." />
   <meta name="twitter:image" content="https://jeeengineers.com/img/hero-img.png" />
 
   <!-- Canonical URL for SEO -->
@@ -54,7 +53,7 @@
       "@type": "LocalBusiness",
       "name": "JEE Engineers",
       "url": "https://jeeengineers.com",
-      "logo": "https://jeeengineers.com/logo.jpeg",
+      "logo": "https://jeeengineers.com/img/Jee-Engineers_logo.png",
       "description": "Leading manufacturer of high-quality fly ash brick machines in Ahmedabad. Our eco-friendly machines deliver durability and efficiency for sustainable construction solutions.",
       "address": {
         "@type": "PostalAddress",
@@ -200,7 +199,8 @@
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'" />
 
   <!-- Icon Font Stylesheet -->
@@ -219,6 +219,7 @@
   <!-- Search Stylesheet -->
   <link href="css/search.css" rel="stylesheet" />
   <link href="chatbot.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -236,7 +237,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
         <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-          <span class="navbar-brand-text text-white">Jee<span class="text-dark"></span> Engineers</span>
+          <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" width="180" height="60" />
         </a>
         <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -276,9 +277,9 @@
     <div class="container pt-5">
       <div class="row g-5 pt-5">
         <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-          <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">Jee Engineers</div>
-          <h1 class="display-4 text-white mb-4 animated slideInRight">Your Fly Ash Brick Machine Experts</h1>
-          <p class="text-white mb-4 animated slideInRight">
+          <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 animated slideInRight">Jee Engineers</div>
+          <h1 class="display-4 text-dark mb-4 animated slideInRight">Your Fly Ash Brick Machine Experts</h1>
+          <p class="text-secondary mb-4 animated slideInRight">
             At Jee Engineers, we're dedicated to providing high-quality and efficient fly ash brick machines that are
             designed to revolutionize the construction industry with eco-friendly building solutions.
           </p>
@@ -329,7 +330,7 @@
       <div class="row g-5 align-items-center">
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
           <div class="about-img">
-            <img class="img-fluid" src="img/about-img.jpg" alt="Jee Engineers facility in Ahmedabad" width="540"
+            <img class="img-fluid" src="img/about-img.png" alt="Jee Engineers facility in Ahmedabad" width="540"
               height="360" loading="lazy" />
           </div>
         </div>
@@ -451,47 +452,305 @@
   </section>
   <!-- Service End -->
 
+  <!-- Interactive ROI & Production Calculator Start -->
+  <section class="container-fluid py-5" id="roi-calculator">
+    <div class="container py-2">
+      <div class="card p-4 p-md-5 border-0 rounded-4 shadow-lg" style="background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(20px); border: 1px solid rgba(226, 232, 240, 0.9) !important; border-radius: 28px !important;">
+        
+        <div class="text-center max-width-700 mx-auto mb-4">
+          <div class="btn btn-sm border rounded-pill text-primary px-3 mb-2">Raw Material Mix & ROI Calculator</div>
+          <h2 class="text-dark mb-2">Calculate Your Exact Brick Cost & Monthly Profit</h2>
+          <p class="text-secondary small">Customized for your plant capacity (starting from 2,000 bricks/day) and your regional raw material purchase prices.</p>
+        </div>
+
+        <div class="row g-4 g-lg-5 align-items-start">
+          <!-- Left Controls Column: Mix Design & Capacity -->
+          <div class="col-lg-7">
+
+            <!-- Slider 1: Bricks per Day (Starts from 2,000 Bricks) -->
+            <div class="p-3 rounded-3 mb-4" style="background: rgba(2, 132, 199, 0.05); border: 1px solid rgba(2, 132, 199, 0.15);">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <label for="bricksRange" class="fw-bold text-dark mb-0"><i class="fas fa-industry text-primary me-2"></i> Daily Production Target:</label>
+                <span class="badge bg-primary px-3 py-2 fs-6 rounded-pill" id="bricksDisplay">10,000 Bricks / Day</span>
+              </div>
+              <input type="range" class="form-range" id="bricksRange" min="2000" max="50000" step="1000" value="10000" oninput="calculateROI()">
+              <div class="d-flex justify-content-between text-secondary small fw-medium">
+                <span>2,000 (Starter Plant)</span>
+                <span>25,000</span>
+                <span>50,000 Bricks/Day</span>
+              </div>
+            </div>
+
+            <!-- Working Days & Selling Price Controls -->
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <label for="daysSelect" class="form-label fw-bold text-dark small">Working Days / Month:</label>
+                <select class="form-select rounded-3 border-secondary-subtle" id="daysSelect" onchange="calculateROI()">
+                  <option value="25" selected>25 Days / Month</option>
+                  <option value="28">28 Days / Month</option>
+                  <option value="30">30 Days (Continuous)</option>
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <label for="sellingPriceInput" class="form-label fw-bold text-dark small">Selling Price per Brick (₹):</label>
+                <div class="input-group">
+                  <span class="input-group-text bg-light text-dark">₹</span>
+                  <input type="number" class="form-input form-control rounded-end" id="sellingPriceInput" value="5.50" step="0.10" min="3.00" max="10.00" oninput="calculateROI()">
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion / Section for Raw Material Mix Ratios & Unit Costs -->
+            <div class="border rounded-3 p-3" style="background: #FFFFFF;">
+              <h6 class="text-dark fw-bold mb-3 d-flex align-items-center justify-content-between">
+                <span><i class="fas fa-flask text-primary me-2"></i> Raw Material Mix Ratios & Unit Purchase Prices</span>
+                <span class="badge bg-light text-primary border small">Editable</span>
+              </h6>
+
+              <!-- Material 1: Fly Ash -->
+              <div class="row g-2 align-items-center mb-2 pb-2 border-bottom">
+                <div class="col-4">
+                  <span class="small fw-bold text-dark">Fly Ash</span>
+                </div>
+                <div class="col-4">
+                  <div class="input-group input-group-sm">
+                    <input type="number" class="form-control" id="flyAshRatio" value="60" min="40" max="80" oninput="calculateROI()">
+                    <span class="input-group-text">%</span>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-text">₹</span>
+                    <input type="number" class="form-control" id="flyAshPrice" value="600" step="50" oninput="calculateROI()" placeholder="Price/Ton">
+                    <span class="input-group-text small">/Ton</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Material 2: Cement / Lime -->
+              <div class="row g-2 align-items-center mb-2 pb-2 border-bottom">
+                <div class="col-4">
+                  <span class="small fw-bold text-dark">Cement / Lime</span>
+                </div>
+                <div class="col-4">
+                  <div class="input-group input-group-sm">
+                    <input type="number" class="form-control" id="cementRatio" value="10" min="5" max="20" oninput="calculateROI()">
+                    <span class="input-group-text">%</span>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-text">₹</span>
+                    <input type="number" class="form-control" id="cementPrice" value="350" step="10" oninput="calculateROI()" placeholder="Price/Bag">
+                    <span class="input-group-text small">/Bag</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Material 3: Stone Dust / Sand -->
+              <div class="row g-2 align-items-center mb-2 pb-2 border-bottom">
+                <div class="col-4">
+                  <span class="small fw-bold text-dark">Stone Dust / Sand</span>
+                </div>
+                <div class="col-4">
+                  <div class="input-group input-group-sm">
+                    <input type="number" class="form-control" id="sandRatio" value="30" min="10" max="50" oninput="calculateROI()">
+                    <span class="input-group-text">%</span>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-text">₹</span>
+                    <input type="number" class="form-control" id="sandPrice" value="450" step="50" oninput="calculateROI()" placeholder="Price/Ton">
+                    <span class="input-group-text small">/Ton</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Material 4: Labor & Power Overhead -->
+              <div class="row g-2 align-items-center">
+                <div class="col-8">
+                  <span class="small text-secondary"><i class="fas fa-bolt me-1"></i> Labor & Power Cost per Brick:</span>
+                </div>
+                <div class="col-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-text">₹</span>
+                    <input type="number" class="form-control" id="overheadCost" value="0.45" step="0.05" oninput="calculateROI()">
+                    <span class="input-group-text small">/Brick</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Right Calculation Results Column -->
+          <div class="col-lg-5">
+            <div class="p-4 p-md-5 rounded-4" style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color: #FFFFFF; border-radius: 24px;">
+              <h5 class="text-white mb-4 border-bottom border-secondary pb-3 d-flex align-items-center justify-content-between">
+                <span><i class="fas fa-chart-pie text-info me-2"></i> Plant ROI Summary</span>
+                <span class="badge bg-info text-dark font-normal small">Live Result</span>
+              </h5>
+              
+              <div class="row g-3 mb-3">
+                <div class="col-6">
+                  <div class="p-3 rounded-3" style="background: rgba(255, 255, 255, 0.07);">
+                    <small class="text-white-50 d-block mb-1">Mfg Cost / Brick</small>
+                    <span class="h5 text-warning fw-bold mb-0" id="costPerBrick">₹ 3.25</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-3 rounded-3" style="background: rgba(255, 255, 255, 0.07);">
+                    <small class="text-white-50 d-block mb-1">Profit / Brick</small>
+                    <span class="h5 text-success fw-bold mb-0" id="profitPerBrick">₹ 2.25</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Monthly Production & Consumption Box -->
+              <div class="p-3 rounded-3 mb-3" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);">
+                <div class="d-flex justify-content-between mb-2">
+                  <span class="text-white-50 small">Monthly Production:</span>
+                  <span class="text-white fw-bold small" id="monthlyBricks">250,000 Bricks</span>
+                </div>
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="text-white-50 small">Fly Ash Required:</span>
+                  <span class="text-info fw-bold small" id="flyAshReq">450 Tons</span>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <span class="text-white-50 small">Cement Required:</span>
+                  <span class="text-info fw-bold small" id="cementReq">1,500 Bags</span>
+                </div>
+              </div>
+
+              <!-- Net Profit Highlight Box -->
+              <div class="p-3 rounded-3 border border-info" style="background: rgba(2, 132, 199, 0.18);">
+                <small class="text-info text-uppercase fw-bold tracking-wider d-block mb-1">Estimated Net Monthly Profit</small>
+                <div class="d-flex align-items-baseline">
+                  <span class="display-6 text-white fw-bold me-2" id="monthlyProfit">₹ 5.62 Lakhs</span>
+                  <small class="text-white-50">/ Month</small>
+                </div>
+              </div>
+
+              <div class="mt-4 pt-2 d-flex flex-column align-items-stretch gap-2">
+                <a href="contact" class="btn btn-primary rounded-pill w-100 text-center py-2"><i class="fas fa-paper-plane me-2"></i> Get Plant Cost & Quote Proposal</a>
+                <small class="text-white-50 text-center small"><i class="fas fa-shield-alt me-1"></i> Tailored mix calculations provided by Jee Engineers.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Advanced ROI & Material Mix Calculation JavaScript -->
+  <script>
+    function calculateROI() {
+      // 1. Inputs
+      const bricksPerDay = parseInt(document.getElementById('bricksRange').value);
+      const daysPerMonth = parseInt(document.getElementById('daysSelect').value);
+      const sellingPrice = parseFloat(document.getElementById('sellingPriceInput').value) || 5.50;
+
+      const flyAshPct = parseFloat(document.getElementById('flyAshRatio').value) || 60;
+      const flyAshPricePerTon = parseFloat(document.getElementById('flyAshPrice').value) || 600;
+
+      const cementPct = parseFloat(document.getElementById('cementRatio').value) || 10;
+      const cementPricePerBag = parseFloat(document.getElementById('cementPrice').value) || 350; // 50kg bag = 7000/ton
+
+      const sandPct = parseFloat(document.getElementById('sandRatio').value) || 30;
+      const sandPricePerTon = parseFloat(document.getElementById('sandPrice').value) || 450;
+
+      const overheadPerBrick = parseFloat(document.getElementById('overheadCost').value) || 0.45;
+
+      // Update UI Slider text
+      document.getElementById('bricksDisplay').textContent = bricksPerDay.toLocaleString() + " Bricks / Day";
+
+      // 2. Weight & Material calculations (Average brick weight = 3.0 kg)
+      const brickWeightKg = 3.0;
+      const monthlyBricks = bricksPerDay * daysPerMonth;
+      const totalWeightKgPerBrick = brickWeightKg;
+
+      // Material weights per brick (in Kg)
+      const flyAshKgPerBrick = (totalWeightKgPerBrick * (flyAshPct / 100));
+      const cementKgPerBrick = (totalWeightKgPerBrick * (cementPct / 100));
+      const sandKgPerBrick = (totalWeightKgPerBrick * (sandPct / 100));
+
+      // Material costs per brick (in ₹)
+      const flyAshCostPerBrick = (flyAshKgPerBrick / 1000) * flyAshPricePerTon;
+      const cementCostPerBrick = (cementKgPerBrick / 50) * cementPricePerBag;
+      const sandCostPerBrick = (sandKgPerBrick / 1000) * sandPricePerTon;
+
+      const rawMaterialCostPerBrick = flyAshCostPerBrick + cementCostPerBrick + sandCostPerBrick;
+      const totalMfgCostPerBrick = rawMaterialCostPerBrick + overheadPerBrick;
+      const netProfitPerBrick = Math.max(0, sellingPrice - totalMfgCostPerBrick);
+
+      // Monthly requirements
+      const monthlyFlyAshTons = Math.round((flyAshKgPerBrick * monthlyBricks) / 1000);
+      const monthlyCementBags = Math.round((cementKgPerBrick * monthlyBricks) / 50);
+      const monthlyNetProfit = monthlyBricks * netProfitPerBrick;
+
+      // Update UI Outputs
+      document.getElementById('costPerBrick').textContent = "₹ " + totalMfgCostPerBrick.toFixed(2);
+      document.getElementById('profitPerBrick').textContent = "₹ " + netProfitPerBrick.toFixed(2);
+      document.getElementById('monthlyBricks').textContent = monthlyBricks.toLocaleString() + " Bricks";
+      document.getElementById('flyAshReq').textContent = monthlyFlyAshTons.toLocaleString() + " Tons";
+      document.getElementById('cementReq').textContent = monthlyCementBags.toLocaleString() + " Bags";
+
+      let profitStr = "₹ " + (monthlyNetProfit >= 100000 ? (monthlyNetProfit / 100000).toFixed(2) + " Lakhs" : (monthlyNetProfit / 1000).toFixed(0) + " K");
+      document.getElementById('monthlyProfit').textContent = profitStr;
+    }
+
+    // Initial calculation on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      if (document.getElementById('bricksRange')) {
+        calculateROI();
+      }
+    });
+  </script>
+  <!-- Interactive ROI & Production Calculator End -->
 
   <!-- Feature Start -->
   <div class="container-fluid bg-primary feature pt-5">
     <div class="container pt-5">
       <div class="row g-5">
         <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
-          <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">
+          <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">
             Why Choose Us
           </div>
-          <h2 class="text-white mb-4">
+          <h2 class="text-dark mb-4">
             We're Best in Industry with 10+ Years of Experience
           </h2>
-          <p class="text-light mb-4">
+          <p class="mb-4">
             Our machines are built to the highest industry standards, ensuring
             the production of durable and precision-engineered fly ash bricks.
           </p>
-          <div class="d-flex align-items-center text-white mb-3">
+          <div class="d-flex align-items-center text-dark mb-3">
             <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
               <i class="fa fa-check"></i>
             </div>
             <span>Quality Assurance</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
+          <div class="d-flex align-items-center text-dark mb-3">
             <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
               <i class="fa fa-check"></i>
             </div>
             <span>Eco-Friendly Solutions</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
+          <div class="d-flex align-items-center text-dark mb-3">
             <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
               <i class="fa fa-check"></i>
             </div>
             <span>Innovation at the Core</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
+          <div class="d-flex align-items-center text-dark mb-3">
             <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
               <i class="fa fa-check"></i>
             </div>
             <span>Exceptional Support</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
+          <div class="d-flex align-items-center text-dark mb-3">
             <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
               <i class="fa fa-check"></i>
             </div>
@@ -499,22 +758,24 @@
           </div>
           <div class="row g-4 pt-3">
             <div class="col-sm-6">
-              <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1)">
-                <i class="fa fa-users fa-3x text-white"></i>
+              <div class="d-flex rounded p-3"
+                style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(226, 232, 240, 0.8);">
+                <i class="fa fa-users fa-3x text-primary"></i>
                 <div class="ms-3">
-                  <h2 class="text-white mb-0" data-toggle="counter-up">
+                  <h2 class="text-dark mb-0" data-toggle="counter-up">
                     100
                   </h2>
-                  <p class="text-white mb-0">Happy Clients</p>
+                  <p class="text-secondary mb-0">Happy Clients</p>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1)">
-                <i class="fa fa-check fa-3x text-white"></i>
+              <div class="d-flex rounded p-3"
+                style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(226, 232, 240, 0.8);">
+                <i class="fa fa-check fa-3x text-primary"></i>
                 <div class="ms-3">
-                  <h2 class="text-white mb-0" data-toggle="counter-up">50</h2>
-                  <p class="text-white mb-0">Project Complete</p>
+                  <h2 class="text-dark mb-0" data-toggle="counter-up">50</h2>
+                  <p class="text-secondary mb-0">Project Complete</p>
                 </div>
               </div>
             </div>
@@ -529,6 +790,223 @@
     </div>
   </div>
   <!-- Feature End -->
+
+  <!-- Technical Specs Comparison Matrix Start -->
+  <section class="container-fluid py-5" id="specs-matrix">
+    <div class="container py-2">
+      <div class="text-center max-width-700 mx-auto mb-5">
+        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-2">Technical Specifications</div>
+        <h2 class="text-dark mb-2">Compare Machine Specs Side-by-Side</h2>
+        <p class="text-secondary small">Comprehensive engineering data, hydraulic pressure tonnage, motor power, and production capacities across our machine models.</p>
+      </div>
+
+      <!-- Specs Filter Tabs -->
+      <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+        <button class="btn btn-sm btn-primary rounded-pill px-4 active" onclick="filterSpecs('all', this)">All Models</button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill px-4" onclick="filterSpecs('flyash', this)">Fly Ash Machines</button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill px-4" onclick="filterSpecs('block', this)">Concrete Block Machines</button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill px-4" onclick="filterSpecs('aux', this)">Pan Mixers & Conveyors</button>
+      </div>
+
+      <!-- Comparison Matrix Grid -->
+      <div class="row g-4" id="specsGrid">
+        
+        <!-- Card 1: Automatic Fly Ash Machine -->
+        <div class="col-lg-4 col-md-6 spec-card" data-category="flyash">
+          <div class="card h-100 p-4 border-0 rounded-4 shadow-sm" style="background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(226, 232, 240, 0.9) !important; border-radius: 24px !important;">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <span class="badge bg-primary px-3 py-2 rounded-pill">Automatic PLC</span>
+              <span class="text-primary fw-bold small">Model: JEE-FA-15</span>
+            </div>
+            <h4 class="text-dark h5 mb-3">Automatic Fly Ash Brick Machine</h4>
+            <ul class="list-unstyled text-secondary small mb-4 flex-grow-1">
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Daily Output:</span>
+                <strong class="text-dark">12,000 – 18,000 Bricks</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Hydraulic Pressure:</span>
+                <strong class="text-dark">160 – 200 Tons</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Connected Power:</span>
+                <strong class="text-dark">32.5 HP (3 Phase)</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Cycle Time:</span>
+                <strong class="text-dark">15 – 18 Seconds</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Bricks / Stroke:</span>
+                <strong class="text-dark">8 to 12 Bricks / Stroke</strong>
+              </li>
+            </ul>
+            <a href="contact" class="btn btn-outline-primary rounded-pill w-100">Get Quote for JEE-FA-15</a>
+          </div>
+        </div>
+
+        <!-- Card 2: Semi-Automatic Hydraulic Machine -->
+        <div class="col-lg-4 col-md-6 spec-card" data-category="flyash">
+          <div class="card h-100 p-4 border-0 rounded-4 shadow-sm" style="background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(226, 232, 240, 0.9) !important; border-radius: 24px !important;">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <span class="badge bg-info text-dark px-3 py-2 rounded-pill">Semi-Automatic</span>
+              <span class="text-primary fw-bold small">Model: JEE-HYD-08</span>
+            </div>
+            <h4 class="text-dark h5 mb-3">Hydraulic Fly Ash Brick Machine</h4>
+            <ul class="list-unstyled text-secondary small mb-4 flex-grow-1">
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Daily Output:</span>
+                <strong class="text-dark">6,000 – 10,000 Bricks</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Hydraulic Pressure:</span>
+                <strong class="text-dark">100 – 120 Tons</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Connected Power:</span>
+                <strong class="text-dark">18.5 HP (3 Phase)</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Cycle Time:</span>
+                <strong class="text-dark">20 – 22 Seconds</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Bricks / Stroke:</span>
+                <strong class="text-dark">6 Bricks / Stroke</strong>
+              </li>
+            </ul>
+            <a href="contact" class="btn btn-outline-primary rounded-pill w-100">Get Quote for JEE-HYD-08</a>
+          </div>
+        </div>
+
+        <!-- Card 3: Concrete Block Making Machine -->
+        <div class="col-lg-4 col-md-6 spec-card" data-category="block">
+          <div class="card h-100 p-4 border-0 rounded-4 shadow-sm" style="background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(226, 232, 240, 0.9) !important; border-radius: 24px !important;">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <span class="badge bg-primary px-3 py-2 rounded-pill">Heavy Duty</span>
+              <span class="text-primary fw-bold small">Model: JEE-CBM-06</span>
+            </div>
+            <h4 class="text-dark h5 mb-3">Concrete Block Making Machine</h4>
+            <ul class="list-unstyled text-secondary small mb-4 flex-grow-1">
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Daily Output:</span>
+                <strong class="text-dark">3,500 – 6,000 Blocks</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Vibration Motor:</span>
+                <strong class="text-dark">Dual High Frequency</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Connected Power:</span>
+                <strong class="text-dark">15 HP (3 Phase)</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Block Types:</span>
+                <strong class="text-dark">Solid & Hollow Blocks</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Blocks / Stroke:</span>
+                <strong class="text-dark">4 Blocks (400x200x200 mm)</strong>
+              </li>
+            </ul>
+            <a href="contact" class="btn btn-outline-primary rounded-pill w-100">Get Quote for JEE-CBM-06</a>
+          </div>
+        </div>
+
+        <!-- Card 4: Heavy Duty Pan Mixer -->
+        <div class="col-lg-4 col-md-6 spec-card" data-category="aux">
+          <div class="card h-100 p-4 border-0 rounded-4 shadow-sm" style="background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(226, 232, 240, 0.9) !important; border-radius: 24px !important;">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <span class="badge bg-secondary text-white px-3 py-2 rounded-pill">Mixing Unit</span>
+              <span class="text-primary fw-bold small">Model: JEE-PM-500</span>
+            </div>
+            <h4 class="text-dark h5 mb-3">Heavy Duty Pan Mixer</h4>
+            <ul class="list-unstyled text-secondary small mb-4 flex-grow-1">
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Batch Capacity:</span>
+                <strong class="text-dark">500 Kg / Batch</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Mixing Blades:</span>
+                <strong class="text-dark">Ni-Hard Alloy Steel</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Connected Power:</span>
+                <strong class="text-dark">7.5 to 10 HP Motor</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Bottom Plate:</span>
+                <strong class="text-dark">10 mm Wear Resistant</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Discharge:</span>
+                <strong class="text-dark">Bottom Door Pneumatic</strong>
+              </li>
+            </ul>
+            <a href="contact" class="btn btn-outline-primary rounded-pill w-100">Get Quote for JEE-PM-500</a>
+          </div>
+        </div>
+
+        <!-- Card 5: Belt Conveyor System -->
+        <div class="col-lg-4 col-md-6 spec-card" data-category="aux">
+          <div class="card h-100 p-4 border-0 rounded-4 shadow-sm" style="background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(226, 232, 240, 0.9) !important; border-radius: 24px !important;">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <span class="badge bg-secondary text-white px-3 py-2 rounded-pill">Material Transport</span>
+              <span class="text-primary fw-bold small">Model: JEE-BC-25</span>
+            </div>
+            <h4 class="text-dark h5 mb-3">Automated Belt Conveyor</h4>
+            <ul class="list-unstyled text-secondary small mb-4 flex-grow-1">
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Conveyor Length:</span>
+                <strong class="text-dark">20 to 30 Feet</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Belt Width:</span>
+                <strong class="text-dark">500 mm Nylon Rubber</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Connected Power:</span>
+                <strong class="text-dark">3.0 HP Geared Motor</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Structure:</span>
+                <strong class="text-dark">Heavy Channel Frame</strong>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Speed:</span>
+                <strong class="text-dark">Variable Speed Drive</strong>
+              </li>
+            </ul>
+            <a href="contact" class="btn btn-outline-primary rounded-pill w-100">Get Quote for JEE-BC-25</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs Matrix Filter JS -->
+  <script>
+    function filterSpecs(category, btnElement) {
+      const buttons = document.querySelectorAll('#specs-matrix .btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('btn-primary', 'active');
+        btn.classList.add('btn-outline-primary');
+      });
+      btnElement.classList.remove('btn-outline-primary');
+      btnElement.classList.add('btn-primary', 'active');
+
+      const cards = document.querySelectorAll('.spec-card');
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+  <!-- Technical Specs Comparison Matrix End -->
 
   <!-- FAQs Start - improved with better accessibility and schema markup -->
   <section class="container-fluid py-5" id="faqs">
@@ -701,12 +1179,12 @@
   <!-- FAQs End -->
 
   <!-- Footer Start -->
-  <div class="container-fluid bg-dark text-white-50 footer pt-5">
+  <div class="container-fluid footer pt-5">
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
           <a href="index" class="d-inline-block mb-3">
-            <p class="h3 text-white">Jee Engineers</p>
+            <p class="h3 text-dark">Jee Engineers</p>
           </a>
           <p class="mb-0">
             To lead the way in providing innovative and high-quality solutions
@@ -715,16 +1193,16 @@
           </p>
         </div>
         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-          <h5 class="text-white mb-4">Get In Touch</h5>
+          <h5 class="text-dark mb-4">Get In Touch</h5>
           <p>
             <i class="fa fa-map-marker-alt me-3"></i>Ahmedabad, Gujarat, India
           </p>
-          <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+919327491268" class="text-white-50">+91 9327491268</a>
+          <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+919327491268" class="text-dark">+91 9327491268</a>
           </p>
-          <p><i class="bi bi-whatsapp me-3"></i><a href="https://wa.me/919054520708" class="text-white-50"
-              target="_blank" rel="noopener">+91 9054520708</a></p>
+          <p><i class="bi bi-whatsapp me-3"></i><a href="https://wa.me/919054520708" class="text-dark" target="_blank"
+              rel="noopener">+91 9054520708</a></p>
           <p><i class="fa fa-envelope me-3"></i><a href="mailto:jeeengineers@gmail.com"
-              class="text-white-50">jeeengineers@gmail.com</a></p>
+              class="text-dark">jeeengineers@gmail.com</a></p>
           <div class="d-flex pt-2">
             <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
               target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -739,7 +1217,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-          <h5 class="text-white mb-4">Popular Link</h5>
+          <h5 class="text-dark mb-4">Popular Link</h5>
           <a class="btn btn-link" href="about">About Us</a>
           <a class="btn btn-link" href="contact">Contact Us</a>
           <a class="btn btn-link" href="privacy">Privacy Policy</a>
@@ -747,7 +1225,7 @@
         </div>
 
         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-          <h5 class="text-white mb-4">Quick Links</h5>
+          <h5 class="text-dark mb-4">Quick Links</h5>
           <a class="btn btn-link" href="blog">Blog</a>
           <a class="btn btn-link" href="faq">FAQs</a>
           <a class="btn btn-link" href="products">Products</a>
@@ -781,18 +1259,18 @@
   <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="lib/wow/wow.min.js" defer></script>
+  <script src="lib/easing/easing.min.js" defer></script>
+  <script src="lib/waypoints/waypoints.min.js" defer></script>
+  <script src="lib/counterup/counterup.min.js" defer></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
   <!-- Template Javascript -->
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
   <!-- Search Javascript -->
-  <script src="js/search.js"></script>
+  <script src="js/search.js" defer></script>
   <script>
     document.getElementById("currentYear").textContent = new Date().getFullYear();
   </script>
@@ -817,7 +1295,7 @@
   </div>
 
   <!-- Chatbot JavaScript -->
-  <script src="chatbot.js"></script>
+  <script src="chatbot.js" defer></script>
 </body>
 
 </html>

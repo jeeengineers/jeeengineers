@@ -49,7 +49,7 @@
       "@type": "LocalBusiness",
       "name": "JEE Engineers",
       "url": "https://jeeengineers.com",
-      "logo": "https://jeeengineers.com/logo.jpeg",
+      "logo": "https://jeeengineers.com/img/Jee-Engineers_logo.png",
       "description": "Leading manufacturer of high-quality fly ash brick machines in Ahmedabad. Our eco-friendly machines deliver durability and efficiency for sustainable construction solutions.",
       "foundingDate": "2022",
       "founder": {
@@ -179,7 +179,8 @@
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'" />
 
   <!-- Icon Font Stylesheet -->
@@ -216,7 +217,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
         <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-          <span class="navbar-brand-text text-white">Jee<span class="text-dark"></span> Engineers</span>
+          <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" width="180" height="60" />
         </a>
         <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -256,21 +257,21 @@
     <div class="container pt-5">
       <div class="row g-5 pt-5">
         <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-          <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">About Jee Engineers
-          </div>
-          <h1 class="display-4 text-white mb-4 animated slideInRight">Building a Greener Future with Innovation</h1>
-          <p class="text-white mb-4 animated slideInRight">
+          <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 animated slideInRight">About Jee Engineers</div>
+          <h1 class="display-4 text-dark mb-4 animated slideInRight">Building a Greener Future with Innovation</h1>
+          <p class="text-secondary mb-4 animated slideInRight">
             At Jee Engineers, we're committed to providing eco-friendly solutions for the construction industry. Our
             state-of-the-art fly ash brick machines are designed to meet the highest standards of quality and
             sustainability.
           </p>
-          <a href="products" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Learn
-            More</a>
-          <a href="contact"
-            class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+          <div class="d-flex flex-column flex-sm-row gap-2 justify-content-center justify-content-lg-start">
+            <a href="products" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-sm-3 animated slideInRight">Learn More</a>
+            <a href="contact" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+          </div>
         </div>
         <div class="col-lg-6 align-self-end text-center text-lg-end">
-          <img class="img-fluid" src="img/hero-img.png" alt="Fly Ash Brick Making Machine - Jee Engineers About Us" width="600" height="400" />
+          <img class="img-fluid" src="img/hero-img.png" alt="Fly Ash Brick Making Machine - Jee Engineers About Us"
+            width="600" height="400" />
         </div>
       </div>
     </div>
@@ -308,42 +309,64 @@
     <div class="container py-5">
       <div class="row g-5 align-items-center">
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-          <div class="about-img">
-            <img class="img-fluid" src="img/about-img.jpg" alt="Jee Engineers Manufacturing Plant in Ahmedabad" width="540" height="360" loading="lazy" />
+          <div class="about-img text-center">
+            <img class="img-fluid rounded-4 shadow-lg" src="img/about-img.png" alt="Jee Engineers Manufacturing Plant in Ahmedabad"
+              width="580" height="400" loading="lazy" style="border: 1px solid rgba(226, 232, 240, 0.9);" />
           </div>
         </div>
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Who We Are</div>
-          <h2 class="mb-4">Pioneering Sustainable Construction Solutions</h2>
-          <p class="mb-4">
-            Founded by <strong>Jayesh Panchal</strong> in 2022, Jee Engineers brings together nearly two decades of deep industry expertise. Having worked in the brick machinery manufacturing sector since 2006, Mr. Panchal established Jee Engineers to deliver state-of-the-art, high-compaction fly ash brick making machines engineered for durability and peak productivity.
+          <h2 class="text-dark mb-4">Pioneering Sustainable Construction Solutions</h2>
+          <p class="text-secondary mb-4">
+            Founded by <strong>Jayesh Panchal</strong> in 2022, Jee Engineers brings together nearly two decades of deep
+            industry expertise. Having worked in the brick machinery manufacturing sector since 2006, Mr. Panchal
+            established Jee Engineers in Ahmedabad, Gujarat, to deliver heavy-duty, high-compaction fly ash brick making machines
+            engineered for maximum durability, minimal power consumption, and peak daily productivity.
           </p>
-          <p class="mb-4">
-            With over 18 years of hands-on technical experience, our leadership has helped 100+ clients launch successful brick manufacturing plants across India. Our commitment to heavy-duty engineering, eco-friendly innovation, and full turnkey support sets us apart in the industry.
+          <p class="text-secondary mb-4">
+            With over 18 years of hands-on technical experience in hydraulic press automation and structural fabrication, our leadership has helped 500+ clients launch
+            profitable brick manufacturing plants across India. Our commitment to precision engineering, eco-friendly
+            waste utilization, and complete 24/7 turnkey field support sets us apart as an industry leader.
           </p>
           <div class="row g-3">
             <div class="col-sm-6">
-              <h6 class="mb-3"><i class="fa fa-check text-primary me-2" aria-hidden="true"></i>Quality Assurance</h6>
-              <h6 class="mb-0"><i class="fa fa-check text-primary me-2" aria-hidden="true"></i>Eco-Friendly Products
-              </h6>
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-check-circle text-primary fs-5 me-2"></i>
+                <span class="fw-bold text-dark">ISO Compliant Manufacturing</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa fa-check-circle text-primary fs-5 me-2"></i>
+                <span class="fw-bold text-dark">Eco-Friendly Fly Ash Utilization</span>
+              </div>
             </div>
             <div class="col-sm-6">
-              <h6 class="mb-3"><i class="fa fa-check text-primary me-2" aria-hidden="true"></i>Innovation-Driven</h6>
-              <h6 class="mb-0"><i class="fa fa-check text-primary me-2" aria-hidden="true"></i>Fair Pricing</h6>
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-check-circle text-primary fs-5 me-2"></i>
+                <span class="fw-bold text-dark">PLC Touch-Screen Automation</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa fa-check-circle text-primary fs-5 me-2"></i>
+                <span class="fw-bold text-dark">Pan-India Installation & Training</span>
+              </div>
             </div>
           </div>
-          <div class="d-flex align-items-center mt-4">
+          <div class="d-flex align-items-center mt-4 flex-wrap gap-2">
             <a class="btn btn-primary rounded-pill px-4 me-3" href="contact">Contact Us</a>
-            <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
-              target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-            <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers" target="_blank"
-              rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-            <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/jeeengineers"
-              target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-            <a class="btn btn-outline-primary btn-square me-3" href="https://www.reddit.com/user/CareAggravating5226"
-              target="_blank" rel="noopener noreferrer" aria-label="Reddit"><i class="fab fa-reddit" aria-hidden="true"></i></a>
-            <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers" target="_blank"
-              rel="noopener noreferrer" aria-label="Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i></a>
+            <div class="social-links d-flex gap-2">
+              <a class="btn btn-outline-primary btn-square" href="https://www.facebook.com/jeeengineers"
+                target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"
+                  aria-hidden="true"></i></a>
+              <a class="btn btn-outline-primary btn-square" href="https://x.com/jeeengineers" target="_blank"
+                rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/jeeengineers"
+                target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"
+                  aria-hidden="true"></i></a>
+              <a class="btn btn-outline-primary btn-square" href="https://www.reddit.com/user/CareAggravating5226"
+                target="_blank" rel="noopener noreferrer" aria-label="Reddit"><i class="fab fa-reddit"
+                  aria-hidden="true"></i></a>
+              <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers" target="_blank"
+                rel="noopener noreferrer" aria-label="Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -351,41 +374,91 @@
   </div>
   <!-- About End -->
 
-  <!-- Timeline Start -->
-  <div class="container-fluid py-5 bg-white">
+  <!-- Core Engineering Values Start -->
+  <div class="container-fluid py-5 bg-light">
     <div class="container py-5">
-      <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our History</div>
-        <h2 class="mb-4">Journey of Excellence & Growth</h2>
-        <p class="mb-5">From hands-on industry mastery in 2006 to establishing Jee Engineers as a trusted manufacturer in 2022.</p>
+      <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Core Engineering Principles</div>
+        <h2 class="text-dark mb-4">Built on Durability, Precision & Eco-Innovation</h2>
+        <p class="text-secondary mb-5">Our four core engineering pillars drive the design, manufacturing, and long-term reliability of every machine that leaves our factory floor.</p>
       </div>
       <div class="row g-4">
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
-          <div class="p-4 border rounded text-center h-100 bg-light position-relative">
-            <span class="badge bg-primary text-white mb-3 px-3 py-2 rounded-pill fs-6">2006</span>
-            <h3 class="h5 mb-2">Industry Beginnings</h3>
-            <p class="mb-0 small text-muted">Founder Jayesh Panchal started working in the brick machinery manufacturing sector, mastering hydraulic press systems.</p>
+          <div class="mission-card p-4 text-center h-100 bg-white">
+            <div class="icon-box-primary mx-auto mb-4">
+              <i class="fa fa-shield-alt fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h5 text-dark fw-bold mb-3">Heavy-Duty Durability</h3>
+            <p class="text-secondary small mb-0">Fabricated with thick high-tensile steel plates, reinforced columns, and branded hydraulic valves to withstand 24/7 heavy commercial operation for 20+ years.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-          <div class="p-4 border rounded text-center h-100 bg-light position-relative">
-            <span class="badge bg-primary text-white mb-3 px-3 py-2 rounded-pill fs-6">2015</span>
-            <h3 class="h5 mb-2">Automation Innovation</h3>
-            <p class="mb-0 small text-muted">Pioneered advanced semi-automatic and PLC-driven hydraulic compaction technologies for higher brick density.</p>
+          <div class="mission-card p-4 text-center h-100 bg-white">
+            <div class="icon-box-primary mx-auto mb-4">
+              <i class="fa fa-bolt fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h5 text-dark fw-bold mb-3">Peak Energy Efficiency</h3>
+            <p class="text-secondary small mb-0">Engineered with custom hydraulic power packs and high-power-factor motors that optimize cycle times and cut electricity consumption per brick by up to 30%.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
-          <div class="p-4 border rounded text-center h-100 bg-light position-relative">
-            <span class="badge bg-primary text-white mb-3 px-3 py-2 rounded-pill fs-6">2022</span>
-            <h3 class="h5 mb-2">Jee Engineers Founded</h3>
-            <p class="mb-0 small text-muted">Formally established Jee Engineers in Ahmedabad as a dedicated manufacturer of fly ash & concrete block machinery.</p>
+          <div class="mission-card p-4 text-center h-100 bg-white">
+            <div class="icon-box-primary mx-auto mb-4">
+              <i class="fa fa-leaf fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h5 text-dark fw-bold mb-3">Eco-Green Innovation</h3>
+            <p class="text-secondary small mb-0">Designed specifically for maximum industrial waste utilization—converting thermal power station fly ash, lime sludge, and slag into high-strength eco bricks.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
-          <div class="p-4 border rounded text-center h-100 bg-light position-relative">
-            <span class="badge bg-primary text-white mb-3 px-3 py-2 rounded-pill fs-6">Present</span>
-            <h3 class="h5 mb-2">100+ Turnkey Projects</h3>
-            <p class="mb-0 small text-muted">Over 100 happy clients and 50+ successful commercial plant setups across Gujarat and nationwide.</p>
+          <div class="mission-card p-4 text-center h-100 bg-white">
+            <div class="icon-box-primary mx-auto mb-4">
+              <i class="fa fa-headset fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h5 text-dark fw-bold mb-3">24/7 Field Support</h3>
+            <p class="text-secondary small mb-0">Complete turnkey plant partnership including foundation engineering drawings, on-site commissioning, operator training, and lifetime spare parts backup.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Core Engineering Values End -->
+
+  <!-- Timeline Start -->
+  <div class="container-fluid py-5">
+    <div class="container py-5">
+      <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 650px;">
+        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Milestone Journey</div>
+        <h2 class="text-dark mb-4">Nearly Two Decades of Growth & Technology</h2>
+        <p class="text-secondary mb-5">From hands-on machine design mastery in 2006 to delivering over 500+ commercial brick plants across India.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+          <div class="timeline-card p-4 text-center h-100 position-relative">
+            <span class="badge-year mb-3">2006</span>
+            <h3 class="h5 text-dark fw-bold mb-2">Industry Roots & R&D</h3>
+            <p class="text-secondary small mb-0">Founder Jayesh Panchal entered the brick machinery sector, gaining deep hands-on expertise in hydraulic pressure pack design and raw material mix proportions.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+          <div class="timeline-card p-4 text-center h-100 position-relative">
+            <span class="badge-year mb-3">2015</span>
+            <h3 class="h5 text-dark fw-bold mb-2">PLC Automation Surge</h3>
+            <p class="text-secondary small mb-0">Pioneered advanced semi-automatic and PLC-automated hydraulic compaction presses, achieving higher brick compressive strength and faster cycle speeds.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="timeline-card p-4 text-center h-100 position-relative">
+            <span class="badge-year mb-3">2022</span>
+            <h3 class="h5 text-dark fw-bold mb-2">Jee Engineers Incorporated</h3>
+            <p class="text-secondary small mb-0">Formally established Jee Engineers with a state-of-the-art manufacturing facility in Ahmedabad, Gujarat, focused exclusively on eco-friendly brick & block plants.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
+          <div class="timeline-card p-4 text-center h-100 position-relative">
+            <span class="badge-year mb-3">Present</span>
+            <h3 class="h5 text-dark fw-bold mb-2">500+ Plant Deployments</h3>
+            <p class="text-secondary small mb-0">Expanded nationwide with over 500+ successful brick machine installations and 100+ happy plant owners operating profitable commercial plants.</p>
           </div>
         </div>
       </div>
@@ -398,36 +471,39 @@
     <div class="container py-5">
       <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
         <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Core Machinery</div>
-        <h2 class="mb-4">Featured Manufacturing Equipment</h2>
-        <p class="mb-5">Engineered for high production capacity, low maintenance, and maximum return on investment.</p>
+        <h2 class="text-dark mb-4">Featured Manufacturing Equipment</h2>
+        <p class="text-secondary mb-5">Engineered for high production capacity, low maintenance, and maximum return on investment.</p>
       </div>
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
-          <div class="card border-0 shadow-sm rounded h-100 overflow-hidden">
-            <img class="img-fluid" src="img/hero-img.png" alt="Automatic Fly Ash Brick Making Machine" width="400" height="250" loading="lazy" />
+          <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden">
+            <img class="img-fluid" src="img/hero-img.png" alt="Automatic Fly Ash Brick Making Machine" width="400"
+              height="250" loading="lazy" />
             <div class="card-body p-4 text-center">
-              <h3 class="h5 card-title mb-2">Automatic Fly Ash Brick Machine</h3>
-              <p class="card-text text-muted small mb-3">Fully automated PLC controlled press delivering high-volume output up to 10,000+ bricks/day.</p>
+              <h3 class="h5 card-title text-dark mb-2">Automatic Fly Ash Brick Machine</h3>
+              <p class="card-text text-secondary small mb-3">Fully automated PLC controlled press delivering high-volume output up to 10,000+ bricks/day.</p>
               <a href="fly-ash-bricks-machine" class="btn btn-outline-primary rounded-pill px-4 btn-sm">Explore Details</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-          <div class="card border-0 shadow-sm rounded h-100 overflow-hidden">
-            <img class="img-fluid" src="img/about-img.jpg" alt="Semi Automatic Fly Ash Brick Machine" width="400" height="250" loading="lazy" />
+          <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden">
+            <img class="img-fluid" src="img/about-img.png" alt="Semi Automatic Fly Ash Brick Machine" width="400"
+              height="250" loading="lazy" />
             <div class="card-body p-4 text-center">
-              <h3 class="h5 card-title mb-2">Semi-Automatic Brick Machine</h3>
-              <p class="card-text text-muted small mb-3">Cost-effective hydraulic pressing solution ideal for startup manufacturers and regional plants.</p>
+              <h3 class="h5 card-title text-dark mb-2">Semi-Automatic Brick Machine</h3>
+              <p class="card-text text-secondary small mb-3">Cost-effective hydraulic pressing solution ideal for startup manufacturers and regional plants.</p>
               <a href="fly-ash-bricks-machine2" class="btn btn-outline-primary rounded-pill px-4 btn-sm">Explore Details</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 wow fadeIn" data-wow-delay="0.5s">
-          <div class="card border-0 shadow-sm rounded h-100 overflow-hidden">
-            <img class="img-fluid" src="img/feature.png" alt="Concrete Block & Paver Machine" width="400" height="250" loading="lazy" />
+          <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden">
+            <img class="img-fluid" src="img/feature.png" alt="Concrete Block & Paver Machine" width="400" height="250"
+              loading="lazy" />
             <div class="card-body p-4 text-center">
-              <h3 class="h5 card-title mb-2">Concrete Block & Paver Machine</h3>
-              <p class="card-text text-muted small mb-3">Versatile multi-mould machine for producing hollow blocks, solid blocks, and paver tiles.</p>
+              <h3 class="h5 card-title text-dark mb-2">Concrete Block & Paver Machine</h3>
+              <p class="card-text text-secondary small mb-3">Versatile multi-mould machine for producing hollow blocks, solid blocks, and paver tiles.</p>
               <a href="fly-ash-bricks-machine-3" class="btn btn-outline-primary rounded-pill px-4 btn-sm">Explore Details</a>
             </div>
           </div>
@@ -437,107 +513,79 @@
   </div>
   <!-- Products Showcase End -->
 
-  <!-- Mission & Vision Start -->
-  <div class="container-fluid bg-light py-5">
-    <div class="container py-5">
-      <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Core Foundation</div>
-        <h2 class="mb-4">Mission, Vision & Core Values</h2>
-        <p class="mb-5">Guiding principles driving our engineering excellence and commitment to sustainable construction technology.</p>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
-          <div class="bg-white rounded p-4 text-center h-100 shadow-sm border-top border-4 border-primary">
-            <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-              <i class="fa fa-bullseye fa-2x" aria-hidden="true"></i>
-            </div>
-            <h3 class="h5 mb-3">Our Mission</h3>
-            <p class="mb-0">To empower construction businesses across India with heavy-duty, energy-efficient fly ash brick machines that minimize waste and maximize production profitability.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-          <div class="bg-white rounded p-4 text-center h-100 shadow-sm border-top border-4 border-primary">
-            <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-              <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
-            </div>
-            <h3 class="h5 mb-3">Our Vision</h3>
-            <p class="mb-0">To lead the global transition toward sustainable green building materials by continuously advancing hydraulic press and brick automation technologies.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12 wow fadeIn" data-wow-delay="0.5s">
-          <div class="bg-white rounded p-4 text-center h-100 shadow-sm border-top border-4 border-primary">
-            <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-              <i class="fa fa-gem fa-2x" aria-hidden="true"></i>
-            </div>
-            <h3 class="h5 mb-3">Core Values</h3>
-            <p class="mb-0">Uncompromising quality control, customer-centric engineering, environmental stewardship, and continuous technological innovation.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Mission & Vision End -->
-
   <!-- Feature Start -->
   <div class="container-fluid bg-primary feature pt-5">
     <div class="container pt-5">
       <div class="row g-5">
         <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
-          <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Why Choose Us</div>
-          <h2 class="text-white mb-4">We're Best in Industry with 10+ Years of Experience</h2>
-          <p class="text-light mb-4">
-            Our machines are built to the highest industry standards, ensuring the production of durable and
-            precision-engineered fly ash bricks.
+          <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">
+            Why Choose Us
+          </div>
+          <h2 class="text-dark mb-4">
+            We're Best in Industry with 10+ Years of Experience
+          </h2>
+          <p class="mb-4">
+            Our machines are built to the highest industry standards, ensuring
+            the production of durable and precision-engineered fly ash bricks.
           </p>
-          <div class="d-flex align-items-center text-white mb-3">
-            <div class="btn-sm-square bg-white text-primary rounded-circle me-3"><i class="fa fa-check"
-                aria-hidden="true"></i></div>
+          <div class="d-flex align-items-center text-dark mb-3">
+            <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+              <i class="fa fa-check"></i>
+            </div>
             <span>Quality Assurance</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
-            <div class="btn-sm-square bg-white text-primary rounded-circle me-3"><i class="fa fa-check"
-                aria-hidden="true"></i></div>
-            <span>Eco-Friendly Approach</span>
+          <div class="d-flex align-items-center text-dark mb-3">
+            <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+              <i class="fa fa-check"></i>
+            </div>
+            <span>Eco-Friendly Solutions</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
-            <div class="btn-sm-square bg-white text-primary rounded-circle me-3"><i class="fa fa-check"
-                aria-hidden="true"></i></div>
+          <div class="d-flex align-items-center text-dark mb-3">
+            <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+              <i class="fa fa-check"></i>
+            </div>
             <span>Innovation at the Core</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
-            <div class="btn-sm-square bg-white text-primary rounded-circle me-3"><i class="fa fa-check"
-                aria-hidden="true"></i></div>
+          <div class="d-flex align-items-center text-dark mb-3">
+            <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+              <i class="fa fa-check"></i>
+            </div>
             <span>Exceptional Support</span>
           </div>
-          <div class="d-flex align-items-center text-white mb-3">
-            <div class="btn-sm-square bg-white text-primary rounded-circle me-3"><i class="fa fa-check"
-                aria-hidden="true"></i></div>
+          <div class="d-flex align-items-center text-dark mb-3">
+            <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+              <i class="fa fa-check"></i>
+            </div>
             <span>Proven Track Record</span>
           </div>
           <div class="row g-4 pt-3">
             <div class="col-sm-6">
-              <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1)">
-                <i class="fa fa-users fa-3x text-white" aria-hidden="true"></i>
+              <div class="d-flex rounded p-3"
+                style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(226, 232, 240, 0.8);">
+                <i class="fa fa-users fa-3x text-primary"></i>
                 <div class="ms-3">
-                  <p class="h2 text-white mb-0" data-toggle="counter-up">100</p>
-                  <p class="text-white mb-0">Happy Clients</p>
+                  <h2 class="text-dark mb-0" data-toggle="counter-up">
+                    100
+                  </h2>
+                  <p class="text-secondary mb-0">Happy Clients</p>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1)">
-                <i class="fa fa-check fa-3x text-white" aria-hidden="true"></i>
+              <div class="d-flex rounded p-3"
+                style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(226, 232, 240, 0.8);">
+                <i class="fa fa-check fa-3x text-primary"></i>
                 <div class="ms-3">
-                  <p class="h2 text-white mb-0" data-toggle="counter-up">50</p>
-                  <p class="text-white mb-0">Projects Completed</p>
+                  <h2 class="text-dark mb-0" data-toggle="counter-up">50</h2>
+                  <p class="text-secondary mb-0">Projects Completed</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-          <img class="img-fluid" src="img/feature.png" alt="Fly Ash Brick Machine Features and Technology" style="padding-bottom: 85px"
-            width="550" height="400" loading="lazy" />
+          <img class="img-fluid" src="img/feature.png" alt="Fly Ash Brick Machine Features and Technology"
+            style="padding-bottom: 85px" width="550" height="400" loading="lazy" />
         </div>
       </div>
     </div>
@@ -549,36 +597,44 @@
     <div class="container py-5">
       <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
         <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Engineering Capabilities</div>
-        <h2 class="mb-4">Manufacturing Power & Technical Infrastructure</h2>
-        <p class="mb-5">Our state-of-the-art manufacturing facility in Ahmedabad is equipped with advanced machinery and testing equipment to ensure robust, high-performance brick making machines.</p>
+        <h2 class="text-dark mb-4">Manufacturing Power & Technical Infrastructure</h2>
+        <p class="text-secondary mb-5">Our state-of-the-art manufacturing facility in Ahmedabad is equipped with advanced machinery and testing equipment to ensure robust, high-performance brick making machines.</p>
       </div>
       <div class="row g-4">
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
-          <div class="p-4 text-center border rounded h-100 bg-light">
-            <i class="fa fa-cogs fa-3x text-primary mb-3" aria-hidden="true"></i>
+          <div class="infra-card p-4 text-center h-100">
+            <div class="icon-box-gradient mx-auto mb-3">
+              <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+            </div>
             <h3 class="h5 mb-2">Heavy Fabrication</h3>
-            <p class="mb-0 small text-muted">Precision CNC cutting and heavy steel structure welding built for decades of continuous operation.</p>
+            <p class="mb-0 small">Precision CNC cutting, heavy steel chassis milling, and robotic welding built for continuous operation.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-          <div class="p-4 text-center border rounded h-100 bg-light">
-            <i class="fa fa-microchip fa-3x text-primary mb-3" aria-hidden="true"></i>
-            <h3 class="h5 mb-2">PLC & Automation</h3>
-            <p class="mb-0 small text-muted">Smart panel integration with reliable electrical components for hassle-free automated cycles.</p>
+          <div class="infra-card p-4 text-center h-100">
+            <div class="icon-box-gradient mx-auto mb-3">
+              <i class="fa fa-microchip fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h5 mb-2">PLC & Automation Lab</h3>
+            <p class="mb-0 small">Smart panel programming with Siemens & Schneider components for 1-touch automated press cycles.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
-          <div class="p-4 text-center border rounded h-100 bg-light">
-            <i class="fa fa-compress-arrows-alt fa-3x text-primary mb-3" aria-hidden="true"></i>
-            <h3 class="h5 mb-2">Hydraulic R&D</h3>
-            <p class="mb-0 small text-muted">Custom hydraulic power pack designs delivering maximum compaction pressure with minimal energy consumption.</p>
+          <div class="infra-card p-4 text-center h-100">
+            <div class="icon-box-gradient mx-auto mb-3">
+              <i class="fa fa-compress-arrows-alt fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h5 mb-2">Hydraulic R&D Testing</h3>
+            <p class="mb-0 small">Custom power pack R&D testing oil flow stability and multi-ton compaction pressure under live load.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
-          <div class="p-4 text-center border rounded h-100 bg-light">
-            <i class="fa fa-shield-alt fa-3x text-primary mb-3" aria-hidden="true"></i>
-            <h3 class="h5 mb-2">Quality Testing</h3>
-            <p class="mb-0 small text-muted">Strict multi-stage quality control checks and full load test runs before final delivery.</p>
+          <div class="infra-card p-4 text-center h-100">
+            <div class="icon-box-gradient mx-auto mb-3">
+              <i class="fa fa-shield-alt fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h5 mb-2">Pre-Shipment Testing</h3>
+            <p class="mb-0 small">Rigorous 48-hour continuous trial runs and multi-stage pressure checks before factory dispatch.</p>
           </div>
         </div>
       </div>
@@ -587,48 +643,56 @@
   <!-- Infrastructure End -->
 
   <!-- Quality & Assurance Start -->
-  <div class="container-fluid py-5 bg-white">
+  <div class="container-fluid py-5 bg-light">
     <div class="container py-5">
       <div class="row g-4 align-items-center">
         <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
           <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Quality Commitment</div>
-          <h2 class="mb-4">Certified Quality & Turnkey Support</h2>
-          <p class="mb-4">We adhere to rigorous quality management protocols from raw material inspection to final load testing, ensuring your brick plant operates without downtime.</p>
+          <h2 class="text-dark mb-4">Certified Quality & Turnkey Support</h2>
+          <p class="text-secondary mb-4">We adhere to rigorous quality management protocols from raw material inspection to final load testing, ensuring your brick plant operates without downtime.</p>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong>ISO Compliant Manufacturing Standards</strong></li>
-            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong>1-Year Warranty & Parts Guarantee</strong></li>
-            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong>On-Site Operator Training & Installation</strong></li>
-            <li class="mb-0"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong>Pan-India Delivery & Service Assistance</strong></li>
+            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong class="text-dark">ISO Compliant Manufacturing Standards</strong></li>
+            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong class="text-dark">1-Year Full Warranty & Spare Parts Guarantee</strong></li>
+            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong class="text-dark">On-Site Plant Setup, Commissioning & Operator Training</strong></li>
+            <li class="mb-0"><i class="fa fa-check-circle text-primary me-2" aria-hidden="true"></i><strong class="text-dark">Pan-India Delivery & Lifetime Service Assistance</strong></li>
           </ul>
         </div>
         <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
           <div class="row g-3">
             <div class="col-sm-6">
-              <div class="bg-light p-4 rounded text-center border">
-                <i class="fa fa-certificate fa-2x text-primary mb-2" aria-hidden="true"></i>
+              <div class="quality-card p-4 text-center">
+                <div class="icon-box-gradient mx-auto mb-2">
+                  <i class="fa fa-certificate fa-2x" aria-hidden="true"></i>
+                </div>
                 <h3 class="h6 mb-1">Standardized Engineering</h3>
-                <p class="small text-muted mb-0">High-tensile steel plates & brand hydraulic valves.</p>
+                <p class="small mb-0">High-tensile steel plates & brand hydraulic valves.</p>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="bg-light p-4 rounded text-center border">
-                <i class="fa fa-tools fa-2x text-primary mb-2" aria-hidden="true"></i>
+              <div class="quality-card p-4 text-center">
+                <div class="icon-box-gradient mx-auto mb-2">
+                  <i class="fa fa-tools fa-2x" aria-hidden="true"></i>
+                </div>
                 <h3 class="h6 mb-1">On-Site Commissioning</h3>
-                <p class="small text-muted mb-0">Engineers assist with installation and mix design.</p>
+                <p class="small mb-0">Engineers assist with installation and mix design.</p>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="bg-light p-4 rounded text-center border">
-                <i class="fa fa-headset fa-2x text-primary mb-2" aria-hidden="true"></i>
+              <div class="quality-card p-4 text-center">
+                <div class="icon-box-gradient mx-auto mb-2">
+                  <i class="fa fa-headset fa-2x" aria-hidden="true"></i>
+                </div>
                 <h3 class="h6 mb-1">24/7 Technical Support</h3>
-                <p class="small text-muted mb-0">Rapid response hotline for operational troubleshooting.</p>
+                <p class="small mb-0">Rapid response hotline for operational troubleshooting.</p>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="bg-light p-4 rounded text-center border">
-                <i class="fa fa-leaf fa-2x text-primary mb-2" aria-hidden="true"></i>
+              <div class="quality-card p-4 text-center">
+                <div class="icon-box-gradient mx-auto mb-2">
+                  <i class="fa fa-leaf fa-2x" aria-hidden="true"></i>
+                </div>
                 <h3 class="h6 mb-1">Eco-Green Solution</h3>
-                <p class="small text-muted mb-0">Maximal utilization of thermal power station fly ash.</p>
+                <p class="small mb-0">Maximal utilization of thermal power station fly ash.</p>
               </div>
             </div>
           </div>
@@ -644,56 +708,74 @@
       <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
         <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Frequently Asked Questions</div>
         <h2 class="mb-4">Everything You Need to Know About Jee Engineers</h2>
-        <p class="mb-5">Got questions about our manufacturing unit, leadership, or machinery setup? Find quick answers below.</p>
+        <p class="mb-5">Got questions about our manufacturing unit, leadership, or machinery setup? Find quick answers
+          below.</p>
       </div>
       <div class="row g-4 justify-content-center">
         <div class="col-lg-10 wow fadeIn" data-wow-delay="0.1s">
           <div class="accordion" id="aboutFaqAccordion">
             <div class="accordion-item border-0 mb-3 rounded shadow-sm">
               <h3 class="accordion-header" id="headingOne">
-                <button class="accordion-button rounded font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button rounded font-weight-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Who owns Jee Engineers and how long have you been in business?
                 </button>
               </h3>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#aboutFaqAccordion">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#aboutFaqAccordion">
                 <div class="accordion-body text-muted">
-                  Jee Engineers is owned by <strong>Jayesh Panchal</strong>. Mr. Panchal has been working in the brick machinery industry since 2006 (18+ years of experience) and formally established Jee Engineers in 2022 in Ahmedabad, Gujarat.
+                  Jee Engineers is owned by <strong>Jayesh Panchal</strong>. Mr. Panchal has been working in the brick
+                  machinery industry since 2006 (18+ years of experience) and formally established Jee Engineers in 2022
+                  in Ahmedabad, Gujarat.
                 </div>
               </div>
             </div>
             <div class="accordion-item border-0 mb-3 rounded shadow-sm">
               <h3 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed rounded font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed rounded font-weight-bold" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
                   Where is Jee Engineers located?
                 </button>
               </h3>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#aboutFaqAccordion">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#aboutFaqAccordion">
                 <div class="accordion-body text-muted">
-                  Our primary manufacturing unit and office are located in Ahmedabad, Gujarat, India. We supply and deliver brick making machinery nationwide.
+                  Our primary manufacturing unit and office are located in Ahmedabad, Gujarat, India. We supply and
+                  deliver brick making machinery nationwide.
                 </div>
               </div>
             </div>
             <div class="accordion-item border-0 mb-3 rounded shadow-sm">
               <h3 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed rounded font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed rounded font-weight-bold" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
                   Do you provide installation and operator training at our site?
                 </button>
               </h3>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#aboutFaqAccordion">
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#aboutFaqAccordion">
                 <div class="accordion-body text-muted">
-                  Yes, we provide full turnkey support including on-site machine installation, electrical integration, mix proportion guidance, and hands-on staff training.
+                  Yes, we provide full turnkey support including on-site machine installation, electrical integration,
+                  mix proportion guidance, and hands-on staff training.
                 </div>
               </div>
             </div>
             <div class="accordion-item border-0 rounded shadow-sm">
               <h3 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed rounded font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <button class="accordion-button collapsed rounded font-weight-bold" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                  aria-controls="collapseFour">
                   Can machine moulds be customized for different brick or block sizes?
                 </button>
               </h3>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#aboutFaqAccordion">
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#aboutFaqAccordion">
                 <div class="accordion-body text-muted">
-                  Absolutely! We manufacture customized interchangeable moulds for standard fly ash bricks, hollow concrete blocks, solid blocks, and interlocking paver tiles according to your local market specifications.
+                  Absolutely! We manufacture customized interchangeable moulds for standard fly ash bricks, hollow
+                  concrete blocks, solid blocks, and interlocking paver tiles according to your local market
+                  specifications.
                 </div>
               </div>
             </div>
@@ -705,17 +787,19 @@
   <!-- FAQ End -->
 
   <!-- CTA Banner Start -->
-  <div class="container-fluid bg-primary text-white py-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-4">
-      <div class="row align-items-center">
-        <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
-          <div class="btn btn-sm border rounded-pill text-white px-3 mb-2">Start Your Business Today</div>
-          <h2 class="text-white mb-2">Ready to Setup Your Fly Ash Brick Manufacturing Plant?</h2>
-          <p class="text-light mb-0">Get expert advice, custom plant layouts, and a competitive price quotation tailored to your production goals.</p>
-        </div>
-        <div class="col-lg-4 text-center text-lg-end">
-          <a href="contact" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-2 animated slideInRight">Get Free Quotation</a>
-          <a href="tel:+919327491268" class="btn btn-outline-light py-sm-3 px-sm-4 rounded-pill mt-2 mt-sm-0"><i class="fa fa-phone-alt me-2" aria-hidden="true"></i>Call Now</a>
+  <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-2">
+      <div class="card p-4 p-md-5 border-0 rounded-4 shadow-lg" style="background: linear-gradient(135deg, rgba(2, 132, 199, 0.08) 0%, rgba(37, 99, 235, 0.12) 100%); border: 1px solid rgba(2, 132, 199, 0.2) !important; border-radius: 28px !important;">
+        <div class="row align-items-center">
+          <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+            <div class="btn btn-sm border rounded-pill text-primary px-3 mb-2">Start Your Business Today</div>
+            <h2 class="text-dark mb-2">Ready to Setup Your Fly Ash Brick Manufacturing Plant?</h2>
+            <p class="text-secondary mb-0">Get expert advice, custom plant layouts, and a competitive price quotation tailored to your production goals.</p>
+          </div>
+          <div class="col-lg-4 d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-end align-items-center">
+            <a href="contact" class="btn btn-primary py-3 px-4 px-sm-5 rounded-pill text-nowrap animated slideInRight">Get Free Quotation</a>
+            <a href="tel:+919327491268" class="btn btn-outline-primary py-3 px-4 rounded-pill text-nowrap animated slideInRight"><i class="fa fa-phone-alt me-2" aria-hidden="true"></i>Call Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -741,18 +825,24 @@
           <p>
             <i class="fa fa-map-marker-alt me-3" aria-hidden="true"></i>Ahmedabad, Gujarat, India
           </p>
-          <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i><a href="tel:+919327491268" class="text-white-50">+91 9327491268</a></p>
-          <p><i class="bi bi-whatsapp me-3" aria-hidden="true"></i><a href="https://wa.me/919054520708" class="text-white-50" target="_blank" rel="noopener noreferrer">+91 9054520708</a></p>
-          <p><i class="fa fa-envelope me-3" aria-hidden="true"></i><a href="mailto:jeeengineers@gmail.com" class="text-white-50">jeeengineers@gmail.com</a></p>
+          <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i><a href="tel:+919327491268"
+              class="text-white-50">+91 9327491268</a></p>
+          <p><i class="bi bi-whatsapp me-3" aria-hidden="true"></i><a href="https://wa.me/919054520708"
+              class="text-white-50" target="_blank" rel="noopener noreferrer">+91 9054520708</a></p>
+          <p><i class="fa fa-envelope me-3" aria-hidden="true"></i><a href="mailto:jeeengineers@gmail.com"
+              class="text-white-50">jeeengineers@gmail.com</a></p>
           <div class="d-flex pt-2">
             <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
-              target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"
+                aria-hidden="true"></i></a>
             <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers" target="_blank"
               rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
             <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/jeeengineers"
-              target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"
+                aria-hidden="true"></i></a>
             <a class="btn btn-outline-primary btn-square me-3" href="https://www.reddit.com/user/CareAggravating5226"
-              target="_blank" rel="noopener noreferrer" aria-label="Reddit"><i class="fab fa-reddit" aria-hidden="true"></i></a>
+              target="_blank" rel="noopener noreferrer" aria-label="Reddit"><i class="fab fa-reddit"
+                aria-hidden="true"></i></a>
             <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers" target="_blank"
               rel="noopener noreferrer" aria-label="Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i></a>
           </div>

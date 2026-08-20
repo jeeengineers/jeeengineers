@@ -40,7 +40,7 @@
           "telephone": "+91 9327491268",
           "contactType": "customer service"
         },
-        "logo": "https://jeeengineers.com/logo.jpeg",
+        "logo": "https://jeeengineers.com/img/Jee-Engineers_logo.png",
         "sameAs": [
           "https://www.facebook.com/jeeengineers",
           "https://www.linkedin.com/company/jeeengineers",
@@ -59,7 +59,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
         rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
@@ -75,6 +76,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="chatbot.css" rel="stylesheet" />
+
     <!-- Search Stylesheet -->
     <link href="css/search.css" rel="stylesheet" />
 
@@ -88,6 +91,18 @@
           "position": 1,
           "name": "Home",
           "item": "https://jeeengineers.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://jeeengineers.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Maintenance Tips for Brick Making Machines",
+          "item": "https://jeeengineers.com/maintenance-tips-brick-making-machines"
         }
       ]
     }
@@ -110,7 +125,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
                 <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-                    <h1 class="text-white">Jee<span class="text-dark"></span> Engineers</h1>
+                    <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" />
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -146,29 +161,38 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <div class="container-fluid pt-5 bg-primary hero-header">
+    <div class="container-fluid pt-5 hero-header">
         <div class="container pt-5">
-            <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">
+            <div class="row g-5 pt-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 bg-white shadow-sm">
+                        <i class="fas fa-tools me-2"></i>Maintenance Guide
+                    </div>
+                    <h1 class="display-4 text-dark fw-bold mb-4 animated slideInRight">
                         Maintenance Tips for Brick Making Machines
                     </h1>
+                    <p class="text-secondary fs-5 mb-4 animated slideInRight">
+                        Essential maintenance practices to extend machine lifespan, maximize efficiency, and prevent
+                        costly operational downtime.
+                    </p>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
                             <li class="breadcrumb-item">
-                                <a class="text-white" href="index">Home</a>
+                                <a class="text-primary fw-semibold" href="index">Home</a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a class="text-white" href="blog">Blog</a>
+                                <a class="text-primary fw-semibold" href="blog">Blog</a>
                             </li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">
-                                Maintenance Tips for Brick Making Machines
+                            <li class="breadcrumb-item text-dark fw-semibold active" aria-current="page">
+                                Maintenance Tips
                             </li>
                         </ol>
                     </nav>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px" />
+                <div class="col-lg-6 text-center text-lg-end">
+                    <img class="img-fluid hero-img animated zoomIn"
+                        src="img/Maintenance-Tips-for-Brick-Making-Machines.png"
+                        alt="Maintenance Tips for Brick Making Machines" width="600" height="400" />
                 </div>
             </div>
         </div>
@@ -203,84 +227,116 @@
     <!-- Full Screen Search End -->
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-dark feature pt-5">
-        <div class="container pt-5">
-            <div class="row g-5">
-                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">
-                        maintenance
+    <div class="container-fluid py-5" style="background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 bg-white shadow-sm">
+                        <i class="fas fa-wrench me-2"></i>Maintenance
                     </div>
-                    <h1 class="text-white mb-4">
+                    <h2 class="text-dark fw-bold mb-4">
                         Keep Your Machines in Top Condition
-                    </h1>
-                    <p class="text-light mb-4">
+                    </h2>
+                    <p class="text-secondary fs-5 mb-4">
                         Brick-making machines are essential for producing high-quality bricks efficiently. However, like
                         any other machinery, they require regular maintenance to ensure optimal performance and
                         longevity. In this article, we'll share maintenance tips for brick-making machines to help you
                         keep your equipment in top condition and avoid costly downtime.
                     </p>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/fly-ash_bricks4.png" alt="Brick Making Machine" />
+                <div class="col-lg-6 text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid rounded-4 shadow-lg border border-light-subtle"
+                        src="img/Maintenance-Tips-for-Brick-Making-Machines.png" alt="Brick Making Machine Maintenance"
+                        style="border-radius: 24px !important;" />
                 </div>
             </div>
         </div>
     </div>
     <!-- Feature End -->
 
-    <div class="container-xxl py-5">
-        <div class="container py-5">
+    <div class="container-fluid py-5">
+        <div class="container py-4">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
-                    <h3 class="col-sm-12">Why is Maintenance Important?</h3>
-                    <div class="row mb-5">
-                        <div class="col-md-3 col-sm-6 mb-3">
-                            <div class="d-flex align-items-center border rounded p-3 h-100">
-                                <i class="bi bi-gear-fill text-primary me-3 fs-3"></i>
-                                <span><strong>Improves Efficiency:</strong> Ensures smooth operation and consistent
-                                    brick quality</span>
+                    <h3 class="text-dark fw-bold mb-4">Why is Maintenance Important?</h3>
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
+                                <div class="card-body d-flex align-items-center p-2">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"><i
+                                            class="bi bi-gear-fill"></i></div>
+                                    <div>
+                                        <span class="text-dark fw-bold d-block mb-1">Improves Efficiency</span>
+                                        <small class="text-secondary">Ensures smooth operation and consistent brick
+                                            quality</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 mb-3">
-                            <div class="d-flex align-items-center border rounded p-3 h-100">
-                                <i class="bi bi-clock-history text-primary me-3 fs-3"></i>
-                                <span><strong>Extends Lifespan:</strong> Reduces wear and tear, prolonging the machine's
-                                    life</span>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
+                                <div class="card-body d-flex align-items-center p-2">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"><i
+                                            class="bi bi-clock-history"></i></div>
+                                    <div>
+                                        <span class="text-dark fw-bold d-block mb-1">Extends Lifespan</span>
+                                        <small class="text-secondary">Reduces wear and tear, prolonging the machine's
+                                            life</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 mb-3">
-                            <div class="d-flex align-items-center border rounded p-3 h-100">
-                                <i class="bi bi-tools text-primary me-3 fs-3"></i>
-                                <span><strong>Prevents Breakdowns:</strong> Identifies and fixes issues before they
-                                    become major problems</span>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
+                                <div class="card-body d-flex align-items-center p-2">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"><i
+                                            class="bi bi-tools"></i></div>
+                                    <div>
+                                        <span class="text-dark fw-bold d-block mb-1">Prevents Breakdowns</span>
+                                        <small class="text-secondary">Identifies and fixes issues before they become
+                                            major problems</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 mb-3">
-                            <div class="d-flex align-items-center border rounded p-3 h-100">
-                                <i class="fas fa-money-bill-wave text-primary me-3 fs-3"></i>
-                                <span><strong>Saves Costs:</strong> Reduces repair expenses and production losses</span>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
+                                <div class="card-body d-flex align-items-center p-2">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"><i
+                                            class="fas fa-money-bill-wave"></i></div>
+                                    <div>
+                                        <span class="text-dark fw-bold d-block mb-1">Saves Costs</span>
+                                        <small class="text-secondary">Reduces repair expenses and production
+                                            losses</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <h3 class="col-sm-12 mt-5">Maintenance Tips for Brick Making Machines</h3>
-                    <p class="mb-4">Follow these essential maintenance tips to keep your brick making machines running
-                        smoothly:</p>
+                    <h3 class="text-dark fw-bold mb-3 mt-5">Maintenance Tips for Brick Making Machines</h3>
+                    <p class="text-secondary mb-4">Follow these essential maintenance tips to keep your brick making
+                        machines running smoothly:</p>
 
-                    <div class="row g-4 mb-5">
+                    <div class="row g-4 mb-4">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-bucket-fill text-primary me-2"></i> Regular
-                                        Cleaning</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Dust, debris, and hardened material can clog the machine
-                                        and affect its performance.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-bucket-fill text-primary me-2"></i>Regular Cleaning</h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Dust, debris, and hardened material can
+                                        clog the machine and affect its performance.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Clean the hopper, molds, and conveyor belts after each production cycle</li>
                                         <li>Use compressed air or brushes to remove dust from hard-to-reach areas</li>
                                         <li>Ensure the mixing unit is free from residual material</li>
@@ -289,18 +345,20 @@
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-droplet-fill text-primary me-2"></i>
-                                        Lubrication of Moving Parts</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Proper lubrication reduces friction and prevents wear and
-                                        tear.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-droplet-fill text-primary me-2"></i>Lubrication of Moving Parts
+                                    </h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Proper lubrication reduces friction and
+                                        prevents wear and tear.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Identify all moving parts, such as pistons, rollers, and bearings</li>
                                         <li>Use the recommended lubricants as per the manufacturer's guidelines</li>
                                         <li>Lubricate the parts at regular intervals, especially after heavy use</li>
@@ -310,20 +368,22 @@
                         </div>
                     </div>
 
-                    <div class="row g-4 mb-5">
+                    <div class="row g-4 mb-4">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-droplet-half text-primary me-2"></i> Inspect
-                                        Hydraulic Systems</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Hydraulic systems are critical for applying pressure
-                                        during brick formation.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-droplet-half text-primary me-2"></i>Inspect Hydraulic Systems
+                                    </h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Hydraulic systems are critical for
+                                        applying pressure during brick formation.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Check hydraulic oil levels regularly and top up if necessary</li>
                                         <li>Inspect hoses and seals for leaks or damage</li>
                                         <li>Replace hydraulic oil as per the manufacturer's recommended schedule</li>
@@ -332,18 +392,20 @@
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-lightning-charge-fill text-primary me-2"></i>
-                                        Check Electrical Components</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Electrical faults can lead to machine malfunctions or
-                                        safety hazards.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-lightning-charge-fill text-primary me-2"></i>Check Electrical
+                                        Components</h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Electrical faults can lead to machine
+                                        malfunctions or safety hazards.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Inspect wiring, switches, and control panels for signs of wear or damage
                                         </li>
                                         <li>Tighten loose connections and replace damaged components</li>
@@ -354,20 +416,22 @@
                         </div>
                     </div>
 
-                    <div class="row g-4 mb-5">
+                    <div class="row g-4 mb-4">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-grid-3x3-gap-fill text-primary me-2"></i>
-                                        Monitor Mold Condition</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Damaged or worn-out molds can affect brick quality and
-                                        dimensions.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-grid-3x3-gap-fill text-primary me-2"></i>Monitor Mold Condition
+                                    </h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Damaged or worn-out molds can affect
+                                        brick quality and dimensions.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Regularly inspect molds for cracks, warping, or wear</li>
                                         <li>Clean molds thoroughly after each use to prevent material buildup</li>
                                         <li>Replace molds if they show signs of significant wear</li>
@@ -376,18 +440,19 @@
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.6s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-wrench text-primary me-2"></i> Tighten Bolts
-                                        and Fasteners</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Vibrations during operation can loosen bolts and
-                                        fasteners, leading to misalignment or damage.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-wrench text-primary me-2"></i>Tighten Bolts and Fasteners</h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Vibrations during operation can loosen
+                                        bolts and fasteners, leading to misalignment or damage.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Periodically check and tighten all bolts, nuts, and fasteners</li>
                                         <li>Use a torque wrench to ensure proper tightening without over-tightening</li>
                                     </ul>
@@ -396,20 +461,21 @@
                         </div>
                     </div>
 
-                    <div class="row g-4 mb-5">
+                    <div class="row g-4 mb-4">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-sliders text-primary me-2"></i> Calibrate the
-                                        Machine</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Proper calibration ensures consistent brick size, shape,
-                                        and density.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-sliders text-primary me-2"></i>Calibrate the Machine</h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Proper calibration ensures consistent
+                                        brick size, shape, and density.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Follow the manufacturer's instructions to calibrate the machine</li>
                                         <li>Check and adjust pressure settings, mold alignment, and mixing ratios as
                                             needed</li>
@@ -418,18 +484,19 @@
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.8s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-people-fill text-primary me-2"></i> Train
-                                        Operators</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Skilled operators can identify and address issues early,
-                                        reducing the risk of major breakdowns.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-people-fill text-primary me-2"></i>Train Operators</h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Skilled operators can identify and
+                                        address issues early, reducing the risk of major breakdowns.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Provide regular training on machine operation and maintenance</li>
                                         <li>Encourage operators to report any unusual noises, vibrations, or performance
                                             issues</li>
@@ -441,18 +508,20 @@
 
                     <div class="row g-4 mb-5">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.9s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-calendar-check text-primary me-2"></i>
-                                        Schedule Professional Servicing</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> Professional servicing ensures thorough inspection and
-                                        maintenance of complex components.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-calendar-check text-primary me-2"></i>Schedule Professional
+                                        Servicing</h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> Professional servicing ensures thorough
+                                        inspection and maintenance of complex components.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Schedule annual or bi-annual servicing with certified technicians</li>
                                         <li>Follow the manufacturer's recommended service intervals</li>
                                     </ul>
@@ -460,18 +529,19 @@
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="1.0s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 h-100 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-journal-text text-primary me-2"></i> Keep a
-                                        Maintenance Log</h5>
-                                    <p class="card-text">
-                                        <strong>Why:</strong> A maintenance log helps track servicing schedules and
-                                        identify recurring issues.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="bi bi-journal-text text-primary me-2"></i>Keep a Maintenance Log</h5>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">Why:</strong> A maintenance log helps track servicing
+                                        schedules and identify recurring issues.
                                     </p>
-                                    <p class="card-text">
-                                        <strong>How:</strong>
+                                    <p class="card-text text-secondary mb-2">
+                                        <strong class="text-dark">How:</strong>
                                     </p>
-                                    <ul>
+                                    <ul class="text-secondary mb-0 ps-3">
                                         <li>Record all maintenance activities, including cleaning, lubrication, and
                                             repairs</li>
                                         <li>Note any observations or issues for future reference</li>
@@ -481,33 +551,38 @@
                         </div>
                     </div>
 
-                    <h3 class="col-sm-12 mt-5">Common Signs Your Machine Needs Maintenance</h3>
+                    <h3 class="text-dark fw-bold mb-4 mt-5">Common Signs Your Machine Needs Maintenance</h3>
                     <div class="row mb-5">
                         <div class="col-lg-12">
-                            <div class="signs-list bg-light p-4 rounded">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 border border-light-subtle"
+                                style="background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%); border-radius: 20px !important;">
                                 <div class="row g-4">
                                     <div class="col-md-6">
                                         <div class="d-flex align-items-center mb-3">
                                             <i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-4"></i>
-                                            <span>Unusual noises or vibrations during operation</span>
+                                            <span class="text-dark fw-medium">Unusual noises or vibrations during
+                                                operation</span>
                                         </div>
                                         <div class="d-flex align-items-center mb-3">
                                             <i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-4"></i>
-                                            <span>Reduced brick quality or inconsistent dimensions</span>
+                                            <span class="text-dark fw-medium">Reduced brick quality or inconsistent
+                                                dimensions</span>
                                         </div>
                                         <div class="d-flex align-items-center">
                                             <i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-4"></i>
-                                            <span>Hydraulic oil leaks or low oil levels</span>
+                                            <span class="text-dark fw-medium">Hydraulic oil leaks or low oil
+                                                levels</span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="d-flex align-items-center mb-3">
                                             <i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-4"></i>
-                                            <span>Overheating of the machine or motor</span>
+                                            <span class="text-dark fw-medium">Overheating of the machine or motor</span>
                                         </div>
                                         <div class="d-flex align-items-center">
                                             <i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-4"></i>
-                                            <span>Frequent breakdowns or production delays</span>
+                                            <span class="text-dark fw-medium">Frequent breakdowns or production
+                                                delays</span>
                                         </div>
                                     </div>
                                 </div>
@@ -515,63 +590,90 @@
                         </div>
                     </div>
 
-                    <h3 class="col-sm-12">Why Choose Jeeengieers.com for Brick Making Machines?</h3>
-                    <div class="row mb-5">
+                    <h3 class="text-dark fw-bold mb-4">Why Choose Jeeengieers.com for Brick Making Machines?</h3>
+                    <div class="row g-4 mb-5 align-items-center">
                         <div class="col-lg-6">
-                            <p class="mb-4">
-                                At <strong>Jeeengieers.com</strong>, we provide:
+                            <p class="text-secondary mb-4">
+                                At <strong class="text-dark">Jeeengieers.com</strong>, we provide:
                             </p>
-                            <ul class="list-group mb-4">
-                                <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>
-                                    <strong>High-Quality Machines:</strong> Built to last and designed for easy
-                                    maintenance
+                            <ul class="list-group list-group-flush border-0">
+                                <li class="list-group-item bg-transparent border-0 px-0 py-2">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    <strong class="text-dark">High-Quality Machines:</strong> Built to last and designed
+                                    for easy maintenance
                                 </li>
-                                <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>
-                                    <strong>Comprehensive Support:</strong> Training, servicing, and spare parts to keep
-                                    your machines running smoothly
+                                <li class="list-group-item bg-transparent border-0 px-0 py-2">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    <strong class="text-dark">Comprehensive Support:</strong> Training, servicing, and
+                                    spare parts to keep your machines running smoothly
                                 </li>
-                                <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>
-                                    <strong>Custom Solutions:</strong> Machines tailored to your specific production
-                                    needs
+                                <li class="list-group-item bg-transparent border-0 px-0 py-2">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    <strong class="text-dark">Custom Solutions:</strong> Machines tailored to your
+                                    specific production needs
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
-                            <div class="position-relative overflow-hidden h-100" style="min-height: 300px;">
-                                <img class="position-absolute w-100 h-100"
-                                    src="img/fly-ash-bricks-machine-working-principle.jpg"
-                                    alt="Jee Engineers Brick Making Machine" style="object-fit: cover;">
-                            </div>
+                            <img class="img-fluid rounded-4 shadow-sm border"
+                                src="img/fly-ash-bricks-machine-working-principle.png"
+                                alt="Jee Engineers Brick Making Machine" style="border-radius: 20px !important;" />
                         </div>
                     </div>
 
-                    <h3 class="col-sm-12">Conclusion</h3>
-                    <p class="mb-4">
-                        Regular maintenance is key to ensuring the efficiency, longevity, and reliability of your
-                        brick-making machines. By following these tips, you can minimize downtime, reduce repair costs,
-                        and maintain consistent brick quality. At <strong>Jeeengieers.com</strong>, we're committed to
-                        helping you get the most out of your equipment with our high-quality machines and expert
-                        support.
-                    </p>
-
-                    <div class="row mt-5">
-                        <div class="col-12 text-center">
-                            <a href="contact" class="btn btn-primary py-3 px-5 animated slideInRight">Contact Us
-                                For More Information</a>
-                        </div>
+                    <div class="card p-4 p-md-5 border-0 rounded-4 shadow-sm mb-5"
+                        style="background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%); border-radius: 24px !important;">
+                        <h3 class="text-dark fw-bold mb-3">Conclusion</h3>
+                        <p class="text-secondary mb-0">
+                            Regular maintenance is key to ensuring the efficiency, longevity, and reliability of your
+                            brick-making machines. By following these tips, you can minimize downtime, reduce repair
+                            costs,
+                            and maintain consistent brick quality. At <strong
+                                class="text-dark">Jeeengieers.com</strong>, we're committed to
+                            helping you get the most out of your equipment with our high-quality machines and expert
+                            support.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- CTA Banner Start -->
+    <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-2">
+            <div class="card p-4 p-md-5 border-0 rounded-4 shadow-lg"
+                style="background: linear-gradient(135deg, rgba(2, 132, 199, 0.08) 0%, rgba(37, 99, 235, 0.12) 100%); border: 1px solid rgba(2, 132, 199, 0.2) !important; border-radius: 28px !important;">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+                        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-2 bg-white">Maintenance & Spare
+                            Support</div>
+                        <h2 class="text-dark mb-2">Need Preventive Servicing or Machine Repairs?</h2>
+                        <p class="text-secondary mb-0">Contact Jee Engineers for expert technical support, spare part
+                            replacement, and on-site machine calibration in Ahmedabad.</p>
+                    </div>
+                    <div
+                        class="col-lg-4 d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-end align-items-center">
+                        <a href="contact" class="btn btn-primary py-3 px-4 px-sm-5 rounded-pill text-nowrap"
+                            style="background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%); border: none;">Book
+                            Servicing</a>
+                        <a href="tel:+919327491268"
+                            class="btn btn-outline-primary py-3 px-4 rounded-pill text-nowrap"><i
+                                class="fa fa-phone-alt me-2"></i>Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Banner End -->
+
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container-fluid footer pt-5">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <a href="index" class="d-inline-block mb-3">
-                        <h1 class="text-white">Jee Engineers</h1>
+                        <p class="h3 text-dark">Jee Engineers</p>
                     </a>
                     <p class="mb-0">
                         To lead the way in providing innovative and high-quality solutions
@@ -580,32 +682,41 @@
                     </p>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <h5 class="text-white mb-4">Get In Touch</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>Ahmedabad, Gujarat, India</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+91 9327491268</p>
-                    <p><i class="bi bi-whatsapp me-3"></i>+91 9054520708</p>
-                    <p><i class="fa fa-envelope me-3"></i>jeeengineers@gmail.com</p>
+                    <h5 class="text-dark mb-4">Get In Touch</h5>
+                    <p>
+                        <i class="fa fa-map-marker-alt me-3"></i>Ahmedabad, Gujarat, India
+                    </p>
+                    <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+919327491268" class="text-dark">+91
+                            9327491268</a>
+                    </p>
+                    <p><i class="bi bi-whatsapp me-3"></i><a href="https://wa.me/919054520708" class="text-dark"
+                            target="_blank" rel="noopener">+91 9054520708</a></p>
+                    <p><i class="fa fa-envelope me-3"></i><a href="mailto:jeeengineers@gmail.com"
+                            class="text-dark">jeeengineers@gmail.com</a></p>
                     <div class="d-flex pt-2">
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3"
-                            href="https://www.facebook.com/jeeengineers"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3"
-                            href="https://www.reddit.com/user/CareAggravating5226"><i class="fab fa-reddit"></i></a>
-                        <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers"><i
-                                class="fab fa-tumblr"></i></a>
+                            href="https://www.reddit.com/user/CareAggravating5226" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-reddit"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-tumblr"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <h5 class="text-dark mb-4">Popular Link</h5>
                     <a class="btn btn-link" href="about">About Us</a>
                     <a class="btn btn-link" href="contact">Contact Us</a>
                     <a class="btn btn-link" href="privacy">Privacy Policy</a>
                     <a class="btn btn-link" href="terms-and-conditions">Terms & Condition</a>
                 </div>
+
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <h5 class="text-dark mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="blog">Blog</a>
                     <a class="btn btn-link" href="faq">FAQs</a>
                     <a class="btn btn-link" href="products">Products</a>
@@ -637,30 +748,47 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2" style="bottom: 85px; right: 25px;"><i
+            class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="lib/wow/wow.min.js" defer></script>
+    <script src="lib/easing/easing.min.js" defer></script>
+    <script src="lib/waypoints/waypoints.min.js" defer></script>
+    <script src="lib/counterup/counterup.min.js" defer></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
     <!-- Search Javascript -->
-    <script src="js/search.js"></script>
+    <script src="js/search.js" defer></script>
     <script>
         document.getElementById("currentYear").textContent = new Date().getFullYear();
-
-        // Initialize search functionality
-        document.addEventListener('DOMContentLoaded', function () {
-            const search = new StaticSiteSearch();
-            search.init();
-        });
     </script>
+
+    <!-- Chatbot HTML -->
+    <div id="chatbot-container" class="chatbot-closed">
+        <div class="chatbot-header">
+            <span>Jee Engineers Assistant</span>
+            <button id="chatbot-toggle" class="btn-chat-toggle" type="button">
+                <i class="bi bi-chat-dots-fill"></i>
+            </button>
+        </div>
+        <div class="chatbot-body">
+            <div id="chatbot-messages">
+                <!-- Initial messages will be added by JavaScript -->
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user-input" placeholder="Type your question here...">
+                <button id="send-button" type="button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbot JavaScript -->
+    <script src="chatbot.js" defer></script>
 </body>
 
 </html>

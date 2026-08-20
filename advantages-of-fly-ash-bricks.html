@@ -46,7 +46,7 @@
           "telephone": "+91 9327491268",
           "contactType": "customer service"
         },
-        "logo": "https://jeeengineers.com/logo.jpeg",
+        "logo": "https://jeeengineers.com/img/Jee-Engineers_logo.png",
         "sameAs": [
           "https://www.facebook.com/jeeengineers",
           "https://www.linkedin.com/company/jeeengineers",
@@ -71,7 +71,7 @@
           "name": "JEE Engineers",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jeeengineers.com/logo.jpeg"
+            "url": "https://jeeengineers.com/img/Jee-Engineers_logo.png"
           }
         },
         "datePublished": "2024-03-20",
@@ -133,7 +133,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
         rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
@@ -149,6 +150,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="chatbot.css" rel="stylesheet" />
+
     <!-- Search Stylesheet -->
     <link href="css/search.css" rel="stylesheet" />
 
@@ -162,6 +165,18 @@
           "position": 1,
           "name": "Home",
           "item": "https://jeeengineers.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://jeeengineers.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Advantages of Fly Ash Bricks",
+          "item": "https://jeeengineers.com/advantages-of-fly-ash-bricks"
         }
       ]
     }
@@ -178,12 +193,12 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Navbar Start - improved with aria labels and better semantic structure -->
+    <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
                 <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-                    <h1 class="text-white">Jee<span class="text-dark"></span> Engineers</h1>
+                    <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" />
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -219,29 +234,36 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <div class="container-fluid pt-5 bg-primary hero-header">
+    <div class="container-fluid pt-5 hero-header">
         <div class="container pt-5">
-            <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">
+            <div class="row g-5 pt-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 bg-white shadow-sm">
+                        <i class="fas fa-leaf me-2"></i>Sustainability Guide
+                    </div>
+                    <h1 class="display-4 text-dark fw-bold mb-4 animated slideInRight">
                         Advantages of Fly Ash Bricks
                     </h1>
+                    <p class="text-secondary fs-5 mb-4 animated slideInRight">
+                        Discover why fly ash bricks are superior to traditional red clay bricks in strength, thermal
+                        insulation, cost savings, and environmental protection.
+                    </p>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
                             <li class="breadcrumb-item">
-                                <a class="text-white" href="index">Home</a>
+                                <a class="text-primary fw-semibold" href="index">Home</a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a class="text-white" href="blog">Blogs</a>
+                                <a class="text-primary fw-semibold" href="blog">Blogs</a>
                             </li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">
+                            <li class="breadcrumb-item text-dark fw-semibold active" aria-current="page">
                                 Advantages of Fly Ash Bricks
                             </li>
                         </ol>
                     </nav>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/hero-img.png"
+                <div class="col-lg-6 text-center text-lg-end">
+                    <img class="img-fluid hero-img animated zoomIn" src="img/Advantages-of-Fly-Ash-Bricks​‌.png"
                         alt="Fly Ash Bricks Manufacturing Process and Applications" width="600" height="400" />
                 </div>
             </div>
@@ -277,17 +299,17 @@
     <!-- Search Modal End -->
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-dark feature pt-5">
-        <div class="container pt-5">
-            <div class="row g-5">
-                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">
+    <div class="container-fluid py-5" style="background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 bg-white shadow-sm">
                         <i class="fas fa-leaf me-2"></i>Eco-Friendly Solution
                     </div>
-                    <h1 class="text-white mb-4">
+                    <h2 class="text-dark fw-bold mb-4">
                         Why Fly Ash Bricks Outperform Traditional Clay Bricks
-                    </h1>
-                    <p class="text-light mb-4">
+                    </h2>
+                    <p class="text-secondary fs-5 mb-4">
                         Fly ash bricks are revolutionizing the construction industry with their eco-friendly properties,
                         superior strength, and cost-effectiveness. These innovative building materials offer numerous
                         advantages over traditional clay bricks, making them the preferred choice for modern,
@@ -295,20 +317,21 @@
                     </p>
                     <div class="d-flex align-items-center mt-4">
                         <div class="flex-shrink-0">
-                            <div class="bg-primary rounded-circle p-3"
-                                style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                <i class="fas fa-check text-white fa-2x"></i>
+                            <div class="btn-sm-square bg-primary text-white rounded-circle"
+                                style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-check text-white fa-lg"></i>
                             </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                            <h5 class="text-white mb-1">Sustainable Building Material</h5>
-                            <p class="text-light mb-0">Made from industrial waste, reducing environmental impact</p>
+                            <h5 class="text-dark fw-bold mb-1">Sustainable Building Material</h5>
+                            <p class="text-secondary mb-0">Made from industrial waste, reducing environmental impact</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <img class="img-fluid rounded-3 shadow-lg" src="img/fly-ash_bricks4.png"
-                        alt="Fly Ash Bricks - Sustainable Building Material" width="600" height="400" />
+                <div class="col-lg-6 text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid rounded-4 shadow-lg border border-light-subtle"
+                        src="img/Advantages-of-Fly-Ash-Bricks​‌.png"
+                        alt="Fly Ash Bricks - Sustainable Building Material" style="border-radius: 24px !important;" />
                 </div>
             </div>
         </div>
@@ -316,31 +339,29 @@
     <!-- Feature End -->
 
     <!-- Main Content Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
+    <div class="container-fluid py-5">
+        <div class="container py-4">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
                     <!-- What Are Fly Ash Bricks Section -->
-                    <div class="card border-0 shadow-sm mb-5">
-                        <div class="card-body p-5">
-                            <h3 class="mb-4">What Are Fly Ash Bricks?</h3>
-                            <div class="row align-items-center">
-                                <div class="col-md-8">
-                                    <p class="mb-4">
-                                        Fly ash bricks are made from fly ash, a byproduct of coal combustion, along with
-                                        lime, gypsum,
-                                        and water. They are known for their durability, lightweight nature, and
-                                        environmental benefits.
-                                        Unlike traditional clay bricks, fly ash bricks are cured at ambient
-                                        temperatures, making them
-                                        energy-efficient and sustainable.
-                                    </p>
-                                </div>
-                                <div class="col-md-4 text-center">
-                                    <div class="bg-primary rounded-circle shadow"
-                                        style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
-                                        <i class="fas fa-cube text-white fa-2x"></i>
-                                    </div>
+                    <div class="card p-4 p-md-5 border-0 rounded-4 shadow-sm mb-5"
+                        style="background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%); border-radius: 24px !important;">
+                        <h3 class="text-dark fw-bold mb-4">What Are Fly Ash Bricks?</h3>
+                        <div class="row align-items-center">
+                            <div class="col-md-8">
+                                <p class="text-secondary fs-5 mb-0">
+                                    Fly ash bricks are made from fly ash, a byproduct of coal combustion, along with
+                                    lime, gypsum, and water. They are known for their durability, lightweight nature,
+                                    and
+                                    environmental benefits. Unlike traditional clay bricks, fly ash bricks are cured at
+                                    ambient
+                                    temperatures, making them energy-efficient and sustainable.
+                                </p>
+                            </div>
+                            <div class="col-md-4 text-center mt-4 mt-md-0">
+                                <div class="btn-lg-square bg-primary text-white rounded-circle shadow mx-auto"
+                                    style="width: 90px; height: 90px; display: inline-flex; align-items: center; justify-content: center;">
+                                    <i class="fas fa-cube text-white fa-2x"></i>
                                 </div>
                             </div>
                         </div>
@@ -348,20 +369,23 @@
 
                     <!-- Advantages Section -->
                     <div id="advantages" class="mb-5">
-                        <h3 class="mb-4">Advantages of Fly Ash Bricks</h3>
+                        <h3 class="text-dark fw-bold mb-4">Advantages of Fly Ash Bricks</h3>
                         <div class="row g-4">
                             <!-- Eco-Friendly Card -->
                             <div class="col-md-6 col-lg-4">
-                                <div class="card h-100 border-0 shadow-sm hover-shadow">
-                                    <div class="card-body p-4">
-                                        <div class="bg-primary rounded-circle shadow mb-3"
-                                            style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-leaf text-white fa-2x"></i>
+                                <div class="card h-100 border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                    style="border-radius: 20px !important;">
+                                    <div class="card-body p-3">
+                                        <div class="btn-sm-square bg-primary text-white rounded-circle mb-3"
+                                            style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                            <i class="fas fa-leaf text-white fa-lg"></i>
                                         </div>
-                                        <h4 class="card-title mb-3">Eco-Friendly</h4>
-                                        <p class="card-text mb-0"><strong>Fly Ash Bricks:</strong> Made from industrial
+                                        <h4 class="card-title text-dark fw-bold mb-3">Eco-Friendly</h4>
+                                        <p class="card-text text-secondary mb-2"><strong class="text-dark">Fly Ash
+                                                Bricks:</strong> Made from industrial
                                             waste, reducing landfill usage and environmental pollution.</p>
-                                        <p class="card-text"><strong>Clay Bricks:</strong> Require mining of natural
+                                        <p class="card-text text-secondary mb-0"><strong class="text-dark">Clay
+                                                Bricks:</strong> Require mining of natural
                                             clay, leading to soil erosion and environmental degradation.</p>
                                     </div>
                                 </div>
@@ -369,16 +393,19 @@
 
                             <!-- Cost-Effective Card -->
                             <div class="col-md-6 col-lg-4">
-                                <div class="card h-100 border-0 shadow-sm hover-shadow">
-                                    <div class="card-body p-4">
-                                        <div class="bg-primary rounded-circle shadow mb-3"
-                                            style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-coins text-white fa-2x"></i>
+                                <div class="card h-100 border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                    style="border-radius: 20px !important;">
+                                    <div class="card-body p-3">
+                                        <div class="btn-sm-square bg-primary text-white rounded-circle mb-3"
+                                            style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                            <i class="fas fa-coins text-white fa-lg"></i>
                                         </div>
-                                        <h4 class="card-title mb-3">Cost-Effective</h4>
-                                        <p class="card-text mb-0"><strong>Fly Ash Bricks:</strong> Lower production
+                                        <h4 class="card-title text-dark fw-bold mb-3">Cost-Effective</h4>
+                                        <p class="card-text text-secondary mb-2"><strong class="text-dark">Fly Ash
+                                                Bricks:</strong> Lower production
                                             costs due to waste materials and less energy consumption.</p>
-                                        <p class="card-text"><strong>Clay Bricks:</strong> Higher production costs due
+                                        <p class="card-text text-secondary mb-0"><strong class="text-dark">Clay
+                                                Bricks:</strong> Higher production costs due
                                             to clay extraction and high-temperature kiln firing.</p>
                                     </div>
                                 </div>
@@ -386,16 +413,19 @@
 
                             <!-- Lightweight Card -->
                             <div class="col-md-6 col-lg-4">
-                                <div class="card h-100 border-0 shadow-sm hover-shadow">
-                                    <div class="card-body p-4">
-                                        <div class="bg-primary rounded-circle p-3 d-inline-block mb-3"
-                                            style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-weight text-white fa-2x"></i>
+                                <div class="card h-100 border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                    style="border-radius: 20px !important;">
+                                    <div class="card-body p-3">
+                                        <div class="btn-sm-square bg-primary text-white rounded-circle mb-3"
+                                            style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                            <i class="fas fa-weight text-white fa-lg"></i>
                                         </div>
-                                        <h4 class="card-title mb-3">Lightweight</h4>
-                                        <p class="card-text mb-0"><strong>Fly Ash Bricks:</strong> Lighter in weight,
+                                        <h4 class="card-title text-dark fw-bold mb-3">Lightweight</h4>
+                                        <p class="card-text text-secondary mb-2"><strong class="text-dark">Fly Ash
+                                                Bricks:</strong> Lighter in weight,
                                             making them easier to handle and transport.</p>
-                                        <p class="card-text"><strong>Clay Bricks:</strong> Heavier, increasing
+                                        <p class="card-text text-secondary mb-0"><strong class="text-dark">Clay
+                                                Bricks:</strong> Heavier, increasing
                                             transportation and labor costs.</p>
                                     </div>
                                 </div>
@@ -403,16 +433,19 @@
 
                             <!-- High Strength Card -->
                             <div class="col-md-6 col-lg-4">
-                                <div class="card h-100 border-0 shadow-sm hover-shadow">
-                                    <div class="card-body p-4">
-                                        <div class="bg-primary rounded-circle p-3 d-inline-block mb-3"
-                                            style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-fist-raised text-white fa-2x"></i>
+                                <div class="card h-100 border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                    style="border-radius: 20px !important;">
+                                    <div class="card-body p-3">
+                                        <div class="btn-sm-square bg-primary text-white rounded-circle mb-3"
+                                            style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                            <i class="fas fa-fist-raised text-white fa-lg"></i>
                                         </div>
-                                        <h4 class="card-title mb-3">High Compressive Strength</h4>
-                                        <p class="card-text mb-0"><strong>Fly Ash Bricks:</strong> Excellent compressive
+                                        <h4 class="card-title text-dark fw-bold mb-3">High Compressive Strength</h4>
+                                        <p class="card-text text-secondary mb-2"><strong class="text-dark">Fly Ash
+                                                Bricks:</strong> Excellent compressive
                                             strength (7.5-10 MPa), making them durable and long-lasting.</p>
-                                        <p class="card-text"><strong>Clay Bricks:</strong> Lower compressive strength
+                                        <p class="card-text text-secondary mb-0"><strong class="text-dark">Clay
+                                                Bricks:</strong> Lower compressive strength
                                             (3.5-5 MPa), making them less durable.</p>
                                     </div>
                                 </div>
@@ -420,16 +453,19 @@
 
                             <!-- Thermal Insulation Card -->
                             <div class="col-md-6 col-lg-4">
-                                <div class="card h-100 border-0 shadow-sm hover-shadow">
-                                    <div class="card-body p-4">
-                                        <div class="bg-primary rounded-circle p-3 d-inline-block mb-3"
-                                            style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-temperature-high text-white fa-2x"></i>
+                                <div class="card h-100 border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                    style="border-radius: 20px !important;">
+                                    <div class="card-body p-3">
+                                        <div class="btn-sm-square bg-primary text-white rounded-circle mb-3"
+                                            style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                            <i class="fas fa-temperature-high text-white fa-lg"></i>
                                         </div>
-                                        <h4 class="card-title mb-3">Thermal Insulation</h4>
-                                        <p class="card-text mb-0"><strong>Fly Ash Bricks:</strong> Better thermal
+                                        <h4 class="card-title text-dark fw-bold mb-3">Thermal Insulation</h4>
+                                        <p class="card-text text-secondary mb-2"><strong class="text-dark">Fly Ash
+                                                Bricks:</strong> Better thermal
                                             insulation properties, reducing energy consumption.</p>
-                                        <p class="card-text"><strong>Clay Bricks:</strong> Poor insulation, leading to
+                                        <p class="card-text text-secondary mb-0"><strong class="text-dark">Clay
+                                                Bricks:</strong> Poor insulation, leading to
                                             higher energy costs.</p>
                                     </div>
                                 </div>
@@ -437,16 +473,19 @@
 
                             <!-- Uniform Size Card -->
                             <div class="col-md-6 col-lg-4">
-                                <div class="card h-100 border-0 shadow-sm hover-shadow">
-                                    <div class="card-body p-4">
-                                        <div class="bg-primary rounded-circle p-3 d-inline-block mb-3"
-                                            style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-ruler-combined text-white fa-2x"></i>
+                                <div class="card h-100 border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                    style="border-radius: 20px !important;">
+                                    <div class="card-body p-3">
+                                        <div class="btn-sm-square bg-primary text-white rounded-circle mb-3"
+                                            style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                            <i class="fas fa-ruler-combined text-white fa-lg"></i>
                                         </div>
-                                        <h4 class="card-title mb-3">Uniform Shape and Size</h4>
-                                        <p class="card-text mb-0"><strong>Fly Ash Bricks:</strong> Precise manufacturing
+                                        <h4 class="card-title text-dark fw-bold mb-3">Uniform Shape and Size</h4>
+                                        <p class="card-text text-secondary mb-2"><strong class="text-dark">Fly Ash
+                                                Bricks:</strong> Precise manufacturing
                                             process ensures uniform shape and size.</p>
-                                        <p class="card-text"><strong>Clay Bricks:</strong> Irregular shapes and sizes,
+                                        <p class="card-text text-secondary mb-0"><strong class="text-dark">Clay
+                                                Bricks:</strong> Irregular shapes and sizes,
                                             leading to higher mortar consumption.</p>
                                     </div>
                                 </div>
@@ -456,136 +495,163 @@
 
                     <!-- Comparison Section -->
                     <div id="comparison" class="mb-5">
-                        <h3 class="mb-4">Comparison Table: Fly Ash Bricks vs Clay Bricks</h3>
-                        <div class="table-responsive">
-                            <table class="table table-hover table-bordered">
-                                <thead class="bg-primary text-white">
-                                    <tr>
-                                        <th>Parameter</th>
-                                        <th>Fly Ash Bricks</th>
-                                        <th>Clay Bricks</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Raw Material</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>Industrial waste (fly ash)
-                                        </td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>Natural clay</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Production Cost</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>Lower</td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>Higher</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Weight</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>Lightweight</td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>Heavy</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Compressive Strength</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>7.5-10 MPa</td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>3.5-5 MPa</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Thermal Insulation</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>Excellent</td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>Poor</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Water Absorption</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>6-12%</td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>15-25%</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Fire Resistance</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>High</td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>Moderate</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Environmental Impact</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>Eco-friendly, reduces waste
-                                        </td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>Depletes natural resources</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Construction Speed</strong></td>
-                                        <td><i class="fas fa-check text-success me-2"></i>Faster</td>
-                                        <td><i class="fas fa-times text-danger me-2"></i>Slower</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <h3 class="text-dark fw-bold mb-4">Comparison Table: Fly Ash Bricks vs Clay Bricks</h3>
+                        <div class="card border-0 shadow-sm rounded-4 overflow-hidden border border-light-subtle"
+                            style="border-radius: 20px !important;">
+                            <div class="table-responsive">
+                                <table class="table table-hover align-middle mb-0">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th class="py-3 px-4 text-dark fw-bold">Parameter</th>
+                                            <th class="py-3 px-4 text-dark fw-bold">Fly Ash Bricks</th>
+                                            <th class="py-3 px-4 text-dark fw-bold">Clay Bricks</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Raw Material</strong></td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>Industrial waste (fly
+                                                ash)</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>Natural clay</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Production Cost</strong>
+                                            </td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>Lower</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>Higher</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Weight</strong></td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>Lightweight</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>Heavy</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Compressive
+                                                    Strength</strong></td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>7.5-10 MPa</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>3.5-5 MPa</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Thermal Insulation</strong>
+                                            </td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>Excellent</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>Poor</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Water Absorption</strong>
+                                            </td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>6-12%</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>15-25%</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Fire Resistance</strong>
+                                            </td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>High</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>Moderate</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Environmental
+                                                    Impact</strong></td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>Eco-friendly, reduces
+                                                waste</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>Depletes natural resources
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4"><strong class="text-dark">Construction Speed</strong>
+                                            </td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-check text-success me-2"></i>Faster</td>
+                                            <td class="py-3 px-4 text-secondary"><i
+                                                    class="fas fa-times text-danger me-2"></i>Slower</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Applications Section -->
-                    <div class="card border-0 shadow-sm mb-5">
-                        <div class="card-body p-5">
-                            <h3 class="mb-4">Applications of Fly Ash Bricks</h3>
-                            <div class="row g-4">
-                                <div class="col-md-6">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="bg-primary rounded-circle p-2 me-3"
-                                            style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-home text-white"></i>
-                                        </div>
-                                        <h5 class="mb-0">Residential Buildings</h5>
+                    <div class="card border-0 shadow-sm rounded-4 p-4 p-md-5 mb-5 border border-light-subtle"
+                        style="border-radius: 24px !important;">
+                        <h3 class="text-dark fw-bold mb-4">Applications of Fly Ash Bricks</h3>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"
+                                        style="width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-home text-white"></i>
                                     </div>
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="bg-primary rounded-circle p-2 me-3"
-                                            style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-building text-white"></i>
-                                        </div>
-                                        <h5 class="mb-0">Commercial Structures</h5>
-                                    </div>
+                                    <h5 class="text-dark fw-bold mb-0">Residential Buildings</h5>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="bg-primary rounded-circle p-2 me-3"
-                                            style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-road text-white"></i>
-                                        </div>
-                                        <h5 class="mb-0">Infrastructure Projects</h5>
+                                <div class="d-flex align-items-center mb-3 mb-md-0">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"
+                                        style="width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-building text-white"></i>
                                     </div>
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="bg-primary rounded-circle p-2 me-3"
-                                            style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fas fa-industry text-white"></i>
-                                        </div>
-                                        <h5 class="mb-0">Industrial Structures</h5>
+                                    <h5 class="text-dark fw-bold mb-0">Commercial Structures</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"
+                                        style="width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-road text-white"></i>
                                     </div>
+                                    <h5 class="text-dark fw-bold mb-0">Infrastructure Projects</h5>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-sm-square bg-primary text-white rounded-circle me-3"
+                                        style="width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-industry text-white"></i>
+                                    </div>
+                                    <h5 class="text-dark fw-bold mb-0">Industrial Structures</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Conclusion Section -->
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body p-5">
-                            <h3 class="mb-4">Why Choose Fly Ash Bricks?</h3>
-                            <p class="mb-4">
-                                Fly ash bricks are not only environmentally friendly but also offer superior performance
-                                compared to traditional clay bricks. They are ideal for modern construction projects
-                                that
-                                prioritize sustainability, efficiency, and cost-effectiveness.
-                            </p>
+                    <div class="card p-4 p-md-5 border-0 rounded-4 shadow-sm mb-5"
+                        style="background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%); border-radius: 24px !important;">
+                        <h3 class="text-dark fw-bold mb-4">Why Choose Fly Ash Bricks?</h3>
+                        <p class="text-secondary fs-5 mb-4">
+                            Fly ash bricks are not only environmentally friendly but also offer superior performance
+                            compared to traditional clay bricks. They are ideal for modern construction projects that
+                            prioritize sustainability, efficiency, and cost-effectiveness.
+                        </p>
+                        <div
+                            class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 pt-3 border-top">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <div class="bg-primary rounded-circle p-3"
-                                        style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                                        <i class="fas fa-handshake text-white fa-2x"></i>
-                                    </div>
+                                <div class="btn-sm-square bg-primary text-white rounded-circle me-3"
+                                    style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;">
+                                    <i class="fas fa-handshake text-white fa-lg"></i>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5 class="mb-1">Ready to Get Started?</h5>
-                                    <p class="mb-0">Contact us today to learn more about our fly ash brick-making
-                                        machines</p>
-                                </div>
-                                <div class="flex-shrink-0">
-                                    <a href="contact" class="btn btn-primary rounded-pill px-4">Contact Us</a>
+                                <div>
+                                    <h5 class="text-dark fw-bold mb-1">Ready to Get Started?</h5>
+                                    <p class="text-secondary mb-0">Contact us today to learn more about our fly ash
+                                        brick-making machines</p>
                                 </div>
                             </div>
+                            <a href="contact" class="btn btn-primary py-3 px-4 rounded-pill text-nowrap mt-3 mt-md-0"
+                                style="background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%); border: none;">Contact
+                                Us</a>
                         </div>
                     </div>
                 </div>
@@ -594,13 +660,41 @@
     </div>
     <!-- Main Content End -->
 
+    <!-- CTA Banner Start -->
+    <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-2">
+            <div class="card p-4 p-md-5 border-0 rounded-4 shadow-lg"
+                style="background: linear-gradient(135deg, rgba(2, 132, 199, 0.08) 0%, rgba(37, 99, 235, 0.12) 100%); border: 1px solid rgba(2, 132, 199, 0.2) !important; border-radius: 28px !important;">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+                        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-2 bg-white">Fly Ash Brick
+                            Production</div>
+                        <h2 class="text-dark mb-2">Interested in Setting Up a Fly Ash Brick Plant?</h2>
+                        <p class="text-secondary mb-0">Contact Jee Engineers for complete plant design, automated brick
+                            machines, installation, and technical setup support.</p>
+                    </div>
+                    <div
+                        class="col-lg-4 d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-end align-items-center">
+                        <a href="contact" class="btn btn-primary py-3 px-4 px-sm-5 rounded-pill text-nowrap"
+                            style="background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%); border: none;">Get
+                            Machine Quote</a>
+                        <a href="tel:+919327491268"
+                            class="btn btn-outline-primary py-3 px-4 rounded-pill text-nowrap"><i
+                                class="fa fa-phone-alt me-2"></i>Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Banner End -->
+
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container-fluid footer pt-5">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <a href="index" class="d-inline-block mb-3">
-                        <h1 class="text-white">Jee Engineers</h1>
+                        <p class="h3 text-dark">Jee Engineers</p>
                     </a>
                     <p class="mb-0">
                         To lead the way in providing innovative and high-quality solutions
@@ -609,28 +703,33 @@
                     </p>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <h5 class="text-dark mb-4">Get In Touch</h5>
                     <p>
                         <i class="fa fa-map-marker-alt me-3"></i>Ahmedabad, Gujarat, India
                     </p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+91 9327491268</p>
-                    <p><i class="bi bi-whatsapp me-3"></i>+91 9054520708</p>
-                    <p><i class="fa fa-envelope me-3"></i>jeeengineers@gmail.com</p>
+                    <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+919327491268" class="text-dark">+91
+                            9327491268</a>
+                    </p>
+                    <p><i class="bi bi-whatsapp me-3"></i><a href="https://wa.me/919054520708" class="text-dark"
+                            target="_blank" rel="noopener">+91 9054520708</a></p>
+                    <p><i class="fa fa-envelope me-3"></i><a href="mailto:jeeengineers@gmail.com"
+                            class="text-dark">jeeengineers@gmail.com</a></p>
                     <div class="d-flex pt-2">
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3"
-                            href="https://www.facebook.com/jeeengineers"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3"
-                            href="https://www.instagram.com/jeeengineers"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3"
-                            href="https://www.reddit.com/user/CareAggravating5226"><i class="fab fa-reddit"></i></a>
-                        <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers"><i
-                                class="fab fa-tumblr"></i></a>
+                            href="https://www.reddit.com/user/CareAggravating5226" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-reddit"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-tumblr"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <h5 class="text-dark mb-4">Popular Link</h5>
                     <a class="btn btn-link" href="about">About Us</a>
                     <a class="btn btn-link" href="contact">Contact Us</a>
                     <a class="btn btn-link" href="privacy">Privacy Policy</a>
@@ -638,7 +737,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <h5 class="text-dark mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="blog">Blog</a>
                     <a class="btn btn-link" href="faq">FAQs</a>
                     <a class="btn btn-link" href="products">Products</a>
@@ -670,31 +769,47 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2" style="bottom: 85px; right: 25px;"><i
+            class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="lib/wow/wow.min.js" defer></script>
+    <script src="lib/easing/easing.min.js" defer></script>
+    <script src="lib/waypoints/waypoints.min.js" defer></script>
+    <script src="lib/counterup/counterup.min.js" defer></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
     <!-- Search Javascript -->
-    <script src="js/search.js"></script>
+    <script src="js/search.js" defer></script>
     <script>
         document.getElementById("currentYear").textContent = new Date().getFullYear();
     </script>
-    <!-- Initialize Search -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const search = new StaticSiteSearch();
-            search.init();
-        });
-    </script>
+
+    <!-- Chatbot HTML -->
+    <div id="chatbot-container" class="chatbot-closed">
+        <div class="chatbot-header">
+            <span>Jee Engineers Assistant</span>
+            <button id="chatbot-toggle" class="btn-chat-toggle" type="button">
+                <i class="bi bi-chat-dots-fill"></i>
+            </button>
+        </div>
+        <div class="chatbot-body">
+            <div id="chatbot-messages">
+                <!-- Initial messages will be added by JavaScript -->
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user-input" placeholder="Type your question here...">
+                <button id="send-button" type="button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbot JavaScript -->
+    <script src="chatbot.js" defer></script>
 </body>
 
 </html>

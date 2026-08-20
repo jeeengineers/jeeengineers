@@ -44,7 +44,7 @@
           "telephone": "+91 9327491268",
           "contactType": "customer service"
         },
-        "logo": "https://jeeengineers.com/logo.jpeg",
+        "logo": "https://jeeengineers.com/img/Jee-Engineers_logo.png",
         "sameAs": [
           "https://www.facebook.com/jeeengineers",
           "https://www.linkedin.com/company/jeeengineers",
@@ -63,7 +63,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
         rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
@@ -79,6 +80,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="chatbot.css" rel="stylesheet" />
 
     <script type="application/ld+json">
     {
@@ -90,6 +92,18 @@
           "position": 1,
           "name": "Home",
           "item": "https://jeeengineers.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://jeeengineers.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "The Future of Sustainable Construction",
+          "item": "https://jeeengineers.com/the-future-of-sustainable-contruction"
         }
       ]
     }
@@ -112,7 +126,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
                 <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-                    <h1 class="text-white">Jee<span class="text-dark"></span> Engineers</h1>
+                    <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" />
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -148,29 +162,37 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <div class="container-fluid pt-5 bg-primary hero-header">
+    <div class="container-fluid pt-5 hero-header">
         <div class="container pt-5">
-            <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">
+            <div class="row g-5 pt-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 bg-white shadow-sm">
+                        <i class="fas fa-leaf me-2"></i>Sustainable Construction
+                    </div>
+                    <h1 class="display-4 text-dark fw-bold mb-4 animated slideInRight">
                         The Future of Sustainable Construction
                     </h1>
+                    <p class="text-secondary fs-5 mb-4 animated slideInRight">
+                        Discover how fly ash bricks are leading green building practices, reducing carbon emissions, and
+                        lowering construction costs.
+                    </p>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
                             <li class="breadcrumb-item">
-                                <a class="text-white" href="index">Home</a>
+                                <a class="text-primary fw-semibold" href="index">Home</a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a class="text-white" href="blog">Blog</a>
+                                <a class="text-primary fw-semibold" href="blog">Blog</a>
                             </li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">
-                                The Future of Sustainable Construction
+                            <li class="breadcrumb-item text-dark fw-semibold active" aria-current="page">
+                                Sustainable Construction
                             </li>
                         </ol>
                     </nav>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/hero-img.png" alt="Sustainable construction with fly ash bricks" />
+                <div class="col-lg-6 text-center text-lg-end">
+                    <img class="img-fluid hero-img animated zoomIn" src="img/How-Fly-Ash-Bricks-Are-Leading-the-Way.png"
+                        alt="Sustainable construction with fly ash bricks" width="600" height="400" />
                 </div>
             </div>
         </div>
@@ -205,192 +227,208 @@
     <!-- Full Screen Search End -->
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-dark feature pt-5">
-        <div class="container pt-5">
-            <div class="row g-5">
-                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">
-                        Sustainable Construction
+    <div class="container-fluid py-5" style="background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 bg-white shadow-sm">
+                        <i class="fas fa-leaf me-2"></i>Sustainable Construction
                     </div>
-                    <h1 class="text-white mb-4">
+                    <h2 class="text-dark fw-bold mb-4">
                         How Fly Ash Bricks Are Leading the Way
-                    </h1>
-                    <p class="text-light mb-4">
+                    </h2>
+                    <p class="text-secondary fs-5 mb-4">
                         As the world moves towards sustainable development, the construction industry is undergoing a
                         significant transformation. Traditional building materials are being replaced by eco-friendly
                         alternatives, and fly ash bricks are at the forefront of this change.
                     </p>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/fly-ash_bricks4.png"
-                        alt="Stack of eco-friendly fly ash bricks used in sustainable construction" />
+                <div class="col-lg-6 text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid rounded-4 shadow-lg border border-light-subtle"
+                        src="img/How-Fly-Ash-Bricks-Are-Leading-the-Way.png"
+                        alt="Stack of eco-friendly fly ash bricks used in sustainable construction"
+                        style="border-radius: 24px !important;" />
                 </div>
             </div>
         </div>
     </div>
     <!-- Feature End -->
 
-    <div class="container-xxl py-5">
-        <div class="container py-5">
+    <div class="container-fluid py-5">
+        <div class="container py-4">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
-                    <h3 class="col-sm-12">What Are Fly Ash Bricks?</h3>
-                    <p class="mb-4">
-                        Fly ash bricks are building materials made from <strong>fly ash</strong>, a byproduct of coal
-                        combustion, along with lime, gypsum, and water. They have gained popularity due to their
-                        numerous advantages over traditional clay bricks.
+                    <h3 class="text-dark fw-bold mb-3">What Are Fly Ash Bricks?</h3>
+                    <p class="text-secondary mb-4">
+                        Fly ash bricks are building materials made from <strong class="text-dark">fly ash</strong>, a
+                        byproduct of coal
+                        combustion, along with lime, gypsum, and water. They have gained immense popularity due to their
+                        numerous structural and environmental advantages over traditional clay bricks.
                     </p>
 
-                    <div class="row mb-5">
+                    <div class="row g-4 mb-5">
                         <div class="col-md-6">
-                            <div class="card mb-3">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 mb-4 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="fa fa-recycle text-primary me-2"
-                                            aria-hidden="true"></i>
-                                        Eco-Friendliness</h5>
-                                    <p class="card-text">Utilize industrial waste, reducing environmental impact and
-                                        helping manage coal power plant byproducts.</p>
+                                    <h5 class="card-title text-dark fw-bold mb-2"><i
+                                            class="fa fa-recycle text-primary me-2"></i>Eco-Friendliness</h5>
+                                    <p class="card-text text-secondary mb-0">Utilizes industrial fly ash waste,
+                                        significantly reducing environmental landfill impact and protecting fertile
+                                        topsoil.</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="fa fa-shield-alt text-primary me-2"
-                                            aria-hidden="true"></i>
-                                        Durability</h5>
-                                    <p class="card-text">Offer high compressive strength and exceptional longevity,
-                                        making them suitable for various construction applications.</p>
+                                    <h5 class="card-title text-dark fw-bold mb-2"><i
+                                            class="fa fa-shield-alt text-primary me-2"></i>Durability & Strength</h5>
+                                    <p class="card-text text-secondary mb-0">Offers high compressive strength (up to
+                                        10-12 N/mm²) and exceptional longevity for all commercial building walls.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="card mb-3">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 mb-4 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="fa fa-coins text-primary me-2"
-                                            aria-hidden="true"></i>
-                                        Cost-Effectiveness</h5>
-                                    <p class="card-text">Provide lower production costs compared to traditional clay
-                                        bricks, offering significant savings for construction projects.</p>
+                                    <h5 class="card-title text-dark fw-bold mb-2"><i
+                                            class="fa fa-coins text-primary me-2"></i>Cost-Effectiveness</h5>
+                                    <p class="card-text text-secondary mb-0">Provides lower production costs and uniform
+                                        dimensions, resulting in less mortar consumption during masonry work.</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title"><i class="fa fa-temperature-low text-primary me-2"
-                                            aria-hidden="true"></i>
-                                        Thermal Insulation</h5>
-                                    <p class="card-text">Feature better insulation properties, reducing energy
-                                        consumption in buildings and contributing to overall sustainability.</p>
+                                    <h5 class="card-title text-dark fw-bold mb-2"><i
+                                            class="fa fa-temperature-low text-primary me-2"></i>Thermal Insulation</h5>
+                                    <p class="card-text text-secondary mb-0">Features superior thermal insulation
+                                        properties, reducing HVAC energy consumption in residential and commercial
+                                        buildings.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <h3 class="col-sm-12 mt-5">The Need for Sustainable Construction</h3>
-                    <p class="mb-4">The construction industry is one of the largest contributors to environmental
-                        degradation, with significant impacts on our planet:</p>
+                    <h3 class="text-dark fw-bold mt-5 mb-3">The Need for Sustainable Construction</h3>
+                    <p class="text-secondary mb-4">The construction industry is one of the largest contributors to
+                        environmental degradation, making sustainable building practices imperative:</p>
 
-                    <div class="table-responsive mb-5">
-                        <table class="table table-bordered table-striped">
-                            <thead class="bg-primary text-white">
+                    <div class="table-responsive mb-5 rounded-4 shadow-sm border">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-light">
                                 <tr>
-                                    <th>Environmental Impact</th>
-                                    <th>Statistics</th>
-                                    <th>Consequences</th>
+                                    <th class="text-dark fw-bold py-3">Environmental Impact</th>
+                                    <th class="text-dark fw-bold py-3">Global Statistics</th>
+                                    <th class="text-dark fw-bold py-3">Key Consequences</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><strong>Energy Consumption</strong></td>
-                                    <td>40% of global energy consumption</td>
-                                    <td>Depletion of non-renewable resources, increased carbon emissions</td>
+                                    <td class="text-dark fw-medium"><strong>Energy Consumption</strong></td>
+                                    <td><span class="badge"
+                                            style="background-color: #0284C7 !important; color: #FFFFFF !important;">40%
+                                            of global energy</span></td>
+                                    <td class="text-secondary">Depletion of non-renewable fossil fuel resources and
+                                        elevated carbon emissions</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Greenhouse Gas Emissions</strong></td>
-                                    <td>30% of greenhouse gas emissions</td>
-                                    <td>Climate change, global warming, adverse environmental effects</td>
+                                    <td class="text-dark fw-medium"><strong>Greenhouse Gas Emissions</strong></td>
+                                    <td><span class="badge"
+                                            style="background-color: #0284C7 !important; color: #FFFFFF !important;">30%
+                                            of greenhouse gases</span></td>
+                                    <td class="text-secondary">Accelerated climate change, rising urban heat island
+                                        effects, and severe environmental impact</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Resource Depletion</strong></td>
-                                    <td>Massive depletion of natural resources</td>
-                                    <td>Soil erosion, habitat destruction, biodiversity loss</td>
+                                    <td class="text-dark fw-medium"><strong>Resource Depletion</strong></td>
+                                    <td><span class="badge"
+                                            style="background-color: #0284C7 !important; color: #FFFFFF !important;">Billions
+                                            of tons of topsoil</span></td>
+                                    <td class="text-secondary">Topsoil erosion, deforestation, habitat destruction, and
+                                        loss of agricultural land</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <p class="mb-4">To combat these issues, the industry is shifting towards <strong>sustainable
-                            construction practices</strong>, and fly ash bricks are playing a pivotal role in this
-                        transition.</p>
 
-                    <h3 class="col-sm-12 mt-5">How Fly Ash Bricks Are Leading the Way</h3>
+                    <p class="text-secondary mb-5">To combat these critical issues, developers and governments are
+                        rapidly adopting <strong class="text-dark">sustainable construction practices</strong>, where
+                        fly ash bricks serve as an essential cornerstone.</p>
 
-                    <div class="row g-4 mb-5">
+                    <h3 class="text-dark fw-bold mt-5 mb-4">How Fly Ash Bricks Are Leading the Way</h3>
+
+                    <div class="row g-4 mb-4">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title">1. Eco-Friendly Production</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Fly ash bricks are made from <strong>industrial waste</strong>, reducing
-                                            landfill usage and pollution.</li>
-                                        <li>They eliminate the need for clay, preserving natural resources and
-                                            preventing soil erosion.</li>
-                                        <li>Each ton of fly ash used in brick production prevents equivalent amount of
-                                            carbon dioxide emissions.</li>
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="fas fa-leaf text-primary me-2"></i>1. Eco-Friendly Production</h5>
+                                    <ul class="text-secondary mb-0 ps-3">
+                                        <li class="mb-2">Fly ash bricks are made from <strong
+                                                class="text-dark">industrial byproduct waste</strong>, reducing landfill
+                                            usage and environmental pollution.</li>
+                                        <li class="mb-2">They eliminate the need for clay, preserving natural topsoil
+                                            and preventing land erosion.</li>
+                                        <li>Every ton of fly ash repurposed in brick manufacturing prevents carbon
+                                            dioxide emissions.</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title">2. Energy Efficiency</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Fly ash bricks are cured at <strong>ambient temperatures</strong>, unlike
-                                            clay bricks that require high-temperature kiln firing.</li>
-                                        <li>This reduces energy consumption and carbon emissions during production.</li>
-                                        <li>The energy saved in manufacturing contributes significantly to reducing the
-                                            carbon footprint of construction projects.</li>
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="fas fa-bolt text-primary me-2"></i>2. Energy Efficiency</h5>
+                                    <ul class="text-secondary mb-0 ps-3">
+                                        <li class="mb-2">Fly ash bricks are cured at <strong class="text-dark">ambient
+                                                temperature hydration</strong>, unlike clay bricks requiring
+                                            energy-intensive high-temperature kilns.</li>
+                                        <li class="mb-2">This dramatically lowers fossil fuel consumption and production
+                                            emissions.</li>
+                                        <li>Reduces the overall embodied energy footprint of building projects.</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row g-4 mb-5">
+                    <div class="row g-4 mb-4">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title">3. Reduced Carbon Footprint</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>By utilizing fly ash, these bricks help reduce the carbon footprint of
-                                            coal-fired power plants.</li>
-                                        <li>They contribute to <strong>carbon neutrality</strong> by repurposing waste
-                                            into valuable building materials.</li>
-                                        <li>The lifecycle assessment of fly ash bricks shows significantly lower
-                                            environmental impact compared to conventional bricks.</li>
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="fas fa-globe text-primary me-2"></i>3. Reduced Carbon Footprint</h5>
+                                    <ul class="text-secondary mb-0 ps-3">
+                                        <li class="mb-2">Repurposes ash output from thermal power plants into long-term
+                                            building infrastructure.</li>
+                                        <li class="mb-2">Contributes directly to <strong class="text-dark">net-zero
+                                                carbon goals</strong> by eliminating coal-firing.</li>
+                                        <li>Lifecycle assessments show up to 70% lower environmental impact than burnt
+                                            clay bricks.</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title">4. Superior Performance</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Fly ash bricks have <strong>higher compressive strength</strong> and
-                                            <strong>lower water absorption</strong> compared to clay bricks.
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="fas fa-cubes text-primary me-2"></i>4. Superior Structural
+                                        Performance</h5>
+                                    <ul class="text-secondary mb-0 ps-3">
+                                        <li class="mb-2">High compressive strength (up to 10–12 N/mm²) with minimal
+                                            water absorption (< 12%).</li>
+                                        <li class="mb-2">Superior sound dampening and thermal insulation properties.
                                         </li>
-                                        <li>They offer better <strong>thermal and sound insulation</strong>, enhancing
-                                            the comfort and energy efficiency of buildings.</li>
-                                        <li>Their uniform size and shape result in less mortar usage and stronger
-                                            structural integrity.</li>
+                                        <li>Uniform dimensions reduce plaster mortar usage by up to 25–30%.</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -398,140 +436,123 @@
 
                     <div class="row g-4 mb-5">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title">5. Cost-Effective Construction</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Fly ash bricks are <strong>lighter in weight</strong>, reducing
-                                            transportation and labor costs.</li>
-                                        <li>Their uniform size and shape minimize mortar usage, further lowering
-                                            construction expenses.</li>
-                                        <li>The longer lifespan and reduced maintenance needs provide additional
-                                            long-term cost benefits.</li>
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="fas fa-chart-line text-primary me-2"></i>5. Cost-Effective
+                                        Construction</h5>
+                                    <ul class="text-secondary mb-0 ps-3">
+                                        <li class="mb-2">Lighter unit weight reduces structural dead load and transit
+                                            freight cost.</li>
+                                        <li class="mb-2">Sharper edge definition reduces labor hours and joint mortar
+                                            requirements.</li>
+                                        <li>High longevity minimizes long-term building maintenance expenses.</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="card h-100">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-3 border border-light-subtle"
+                                style="border-radius: 20px !important;">
                                 <div class="card-body">
-                                    <h5 class="card-title">6. Government Support</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Many governments worldwide are promoting the use of fly ash bricks through
-                                            <strong>incentives and regulations</strong>.
-                                        </li>
-                                        <li>For example, India's Ministry of Environment mandates the use of fly ash in
-                                            construction projects near thermal power plants.</li>
-                                        <li>Policy support has accelerated adoption and innovation in fly ash brick
-                                            technology.</li>
+                                    <h5 class="card-title text-dark fw-bold mb-3"><i
+                                            class="fas fa-award text-primary me-2"></i>6. Government Mandates & Support
+                                    </h5>
+                                    <ul class="text-secondary mb-0 ps-3">
+                                        <li class="mb-2">Mandated by government bodies (e.g. India MoEFCC directives
+                                            within 300km of thermal plants).</li>
+                                        <li class="mb-2">Eligible for green building certification credits (LEED, IGBC,
+                                            GRIHA).</li>
+                                        <li>Financial subsidies available for setting up automatic fly ash brick
+                                            manufacturing units.</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <h3 class="col-sm-12">Applications of Fly Ash Bricks in Sustainable Construction</h3>
-                    <div class="row mb-5">
+                    <h3 class="text-dark fw-bold mb-4">Applications in Sustainable Construction</h3>
+                    <div class="row g-4 mb-5 align-items-center">
                         <div class="col-lg-6">
-                            <p class="mb-4">
-                                Fly ash bricks have versatile applications across various construction sectors,
-                                demonstrating their adaptability and effectiveness:
-                            </p>
-                            <ul class="list-group mb-4">
-                                <li class="list-group-item"><i class="fa fa-building text-primary me-2"
-                                        aria-hidden="true"></i>
-                                    <strong>Residential and Commercial Buildings:</strong> For walls, partitions, and
-                                    facades, providing durable and energy-efficient structures.
+                            <ul class="list-group list-group-flush border-0">
+                                <li class="list-group-item bg-transparent border-0 px-0 py-2">
+                                    <i class="fa fa-building text-primary me-3"></i><strong
+                                        class="text-dark">Residential & High-Rise Buildings:</strong> Load-bearing and
+                                    partition walls.
                                 </li>
-                                <li class="list-group-item"><i class="fa fa-cubes text-primary me-2"
-                                        aria-hidden="true"></i>
-                                    <strong>Infrastructure Projects:</strong> Used in roads, bridges, and dams, offering
-                                    strength and longevity in critical infrastructure.
+                                <li class="list-group-item bg-transparent border-0 px-0 py-2">
+                                    <i class="fa fa-cubes text-primary me-3"></i><strong
+                                        class="text-dark">Infrastructure Projects:</strong> Retaining walls, canal
+                                    lining, and boundary fencing.
                                 </li>
-                                <li class="list-group-item"><i class="fa fa-leaf text-primary me-2"
-                                        aria-hidden="true"></i>
-                                    <strong>Green Building Projects:</strong> Essential components in LEED-certified and
-                                    energy-efficient structures, contributing to sustainability goals.
+                                <li class="list-group-item bg-transparent border-0 px-0 py-2">
+                                    <i class="fa fa-leaf text-primary me-3"></i><strong class="text-dark">IGBC / LEED
+                                        Green Buildings:</strong> High-rating eco-certified projects.
                                 </li>
-                                <li class="list-group-item"><i class="fa fa-industry text-primary me-2"
-                                        aria-hidden="true"></i>
-                                    <strong>Industrial Structures:</strong> Ideal for warehouses, factories, and storage
-                                    facilities where durability and cost-effectiveness are priorities.
+                                <li class="list-group-item bg-transparent border-0 px-0 py-2">
+                                    <i class="fa fa-industry text-primary me-3"></i><strong class="text-dark">Industrial
+                                        Warehouses:</strong> Fire-resistant wall enclosures and factory compounds.
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
-                            <div class="position-relative overflow-hidden h-100" style="min-height: 300px;">
-                                <img class="position-absolute w-100 h-100"
-                                    src="img/fly-ash-bricks-machine-working-principle.jpg"
-                                    alt="Fly Ash Bricks Applications" style="object-fit: cover;">
-                            </div>
+                            <img class="img-fluid rounded-4 shadow-sm border"
+                                src="img/fly-ash-bricks-machine-working-principle.png" alt="Fly Ash Brick Applications"
+                                style="border-radius: 20px !important;" />
                         </div>
                     </div>
 
-                    <h3 class="col-sm-12">The Future of Fly Ash Bricks</h3>
-                    <div class="row mb-5">
-                        <div class="col-lg-12">
-                            <p class="mb-4">The demand for fly ash bricks is expected to grow significantly due to
-                                several key factors:</p>
-                            <div class="accordion" id="futureAccordion">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            1. Increasing Awareness
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#futureAccordion">
-                                        <div class="accordion-body">
-                                            Builders and consumers are becoming more conscious of sustainable practices
-                                            and environmental impacts of construction materials, driving demand for
-                                            eco-friendly alternatives like fly ash bricks.
-                                        </div>
-                                    </div>
+                    <h3 class="text-dark fw-bold mb-4">The Future Outlook of Fly Ash Bricks</h3>
+                    <div class="accordion mb-5 shadow-sm rounded-4 overflow-hidden border" id="futureAccordion"
+                        style="border-radius: 20px !important;">
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold text-dark" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    1. Rapid Industrial Adoption & Awareness
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#futureAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Builders and structural engineers are increasingly favoring fly ash bricks for
+                                    consistent quality, sharp corners, higher compressive strength, and environmental
+                                    compliance.
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            2. Technological Advancements
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#futureAccordion">
-                                        <div class="accordion-body">
-                                            Innovations in brick-making machines and production processes are making fly
-                                            ash bricks more accessible, affordable, and higher in quality, accelerating
-                                            their adoption in the construction industry.
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    2. Automation & Hydraulic Machine Innovations
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#futureAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Fully automatic hydraulic brick making machines (such as Jee Engineers JEE 4HV)
+                                    provide high compaction pressure, consistent density, and outputs exceeding 10,000
+                                    bricks/shift.
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                            3. Government Policies
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#futureAccordion">
-                                        <div class="accordion-body">
-                                            Government initiatives and regulations worldwide are increasingly promoting
-                                            the use
-                                            of sustainable building materials, including fly ash bricks. These policies
-                                            aim to
-                                            reduce environmental impact and encourage the reuse of industrial waste in
-                                            construction.
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    3. Circular Economy & Carbon Credit Incentives
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#futureAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Global climate policies and carbon offset frameworks reward manufacturers utilizing
+                                    industrial waste, accelerating green building adoption nationwide.
                                 </div>
                             </div>
                         </div>
@@ -539,16 +560,43 @@
                 </div>
             </div>
         </div>
-
     </div>
 
+    <!-- CTA Banner Start -->
+    <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-2">
+            <div class="card p-4 p-md-5 border-0 rounded-4 shadow-lg"
+                style="background: linear-gradient(135deg, rgba(2, 132, 199, 0.08) 0%, rgba(37, 99, 235, 0.12) 100%); border: 1px solid rgba(2, 132, 199, 0.2) !important; border-radius: 28px !important;">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+                        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-2 bg-white">Turnkey Plant
+                            Solutions</div>
+                        <h2 class="text-dark mb-2">Ready to Start Fly Ash Brick Manufacturing?</h2>
+                        <p class="text-secondary mb-0">Consult with Jee Engineers for automatic brick making machines,
+                            custom plant layouts, and raw material mix R&D in Ahmedabad.</p>
+                    </div>
+                    <div
+                        class="col-lg-4 d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-end align-items-center">
+                        <a href="contact" class="btn btn-primary py-3 px-4 px-sm-5 rounded-pill text-nowrap"
+                            style="background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%); border: none;">Request
+                            Free Quote</a>
+                        <a href="tel:+919327491268"
+                            class="btn btn-outline-primary py-3 px-4 rounded-pill text-nowrap"><i
+                                class="fa fa-phone-alt me-2"></i>Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Banner End -->
+
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container-fluid footer pt-5">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <a href="index" class="d-inline-block mb-3">
-                        <h1 class="text-white">Jee Engineers</h1>
+                        <p class="h3 text-dark">Jee Engineers</p>
                     </a>
                     <p class="mb-0">
                         To lead the way in providing innovative and high-quality solutions
@@ -557,38 +605,33 @@
                     </p>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <h5 class="text-dark mb-4">Get In Touch</h5>
                     <p>
-                        <i class="fa fa-map-marker-alt me-3" aria-hidden="true"></i>Ahmedabad, Gujarat, India
+                        <i class="fa fa-map-marker-alt me-3"></i>Ahmedabad, Gujarat, India
                     </p>
-                    <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i>+91 9327491268</p>
-                    <p><i class="bi bi-whatsapp me-3" aria-hidden="true"></i>+91 9054520708</p>
-                    <p><i class="fa fa-envelope me-3" aria-hidden="true"></i>jeeengineers@gmail.com</p>
+                    <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+919327491268" class="text-dark">+91
+                            9327491268</a>
+                    </p>
+                    <p><i class="bi bi-whatsapp me-3"></i><a href="https://wa.me/919054520708" class="text-dark"
+                            target="_blank" rel="noopener">+91 9054520708</a></p>
+                    <p><i class="fa fa-envelope me-3"></i><a href="mailto:jeeengineers@gmail.com"
+                            class="text-dark">jeeengineers@gmail.com</a></p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/jeeengineers"
-                            aria-label="Facebook">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        </a>
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/jeeengineers"
-                            aria-label="Twitter">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                        </a>
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/jeeengineers"
-                            aria-label="Instagram">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                        </a>
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3"
-                            href="https://www.reddit.com/user/CareAggravating5226" aria-label="Reddit">
-                            <i class="fab fa-reddit" aria-hidden="true"></i>
-                        </a>
+                            href="https://www.reddit.com/user/CareAggravating5226" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-reddit"></i></a>
                         <a class="btn btn-outline-primary btn-square" href="https://www.tumblr.com/jeeengineers"
-                            aria-label="Tumblr">
-                            <i class="fab fa-tumblr" aria-hidden="true"></i>
-                        </a>
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-tumblr"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <h5 class="text-dark mb-4">Popular Link</h5>
                     <a class="btn btn-link" href="about">About Us</a>
                     <a class="btn btn-link" href="contact">Contact Us</a>
                     <a class="btn btn-link" href="privacy">Privacy Policy</a>
@@ -596,7 +639,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <h5 class="text-dark mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="blog">Blog</a>
                     <a class="btn btn-link" href="faq">FAQs</a>
                     <a class="btn btn-link" href="products">Products</a>
@@ -628,25 +671,47 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2" aria-label="Back to top"><i
-            class="bi bi-arrow-up" aria-hidden="true"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2" style="bottom: 85px; right: 25px;"><i
+            class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="lib/wow/wow.min.js" defer></script>
+    <script src="lib/easing/easing.min.js" defer></script>
+    <script src="lib/waypoints/waypoints.min.js" defer></script>
+    <script src="lib/counterup/counterup.min.js" defer></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
     <!-- Search Javascript -->
-    <script src="js/search.js"></script>
+    <script src="js/search.js" defer></script>
     <script>
         document.getElementById("currentYear").textContent = new Date().getFullYear();
     </script>
+
+    <!-- Chatbot HTML -->
+    <div id="chatbot-container" class="chatbot-closed">
+        <div class="chatbot-header">
+            <span>Jee Engineers Assistant</span>
+            <button id="chatbot-toggle" class="btn-chat-toggle" type="button">
+                <i class="bi bi-chat-dots-fill"></i>
+            </button>
+        </div>
+        <div class="chatbot-body">
+            <div id="chatbot-messages">
+                <!-- Initial messages will be added by JavaScript -->
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user-input" placeholder="Type your question here...">
+                <button id="send-button" type="button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbot JavaScript -->
+    <script src="chatbot.js" defer></script>
 </body>
 
 </html>
