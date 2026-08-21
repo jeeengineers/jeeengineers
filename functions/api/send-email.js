@@ -37,7 +37,7 @@ export async function onRequestPost(context) {
     }
 
     const resendApiKey = env.RESEND_API_KEY;
-    const adminEmail = env.ADMIN_EMAIL || 'info.jeeengineers@gmail.com';
+    const adminEmail = env.ADMIN_EMAIL || 'jeeengineers@gmail.com';
     // Use custom domain sender or fallback to Resend's default onboarding sender for initial testing
     const fromEmail = env.FROM_EMAIL || 'Jee Engineers <onboarding@resend.dev>';
 
@@ -261,7 +261,7 @@ export async function onRequestPost(context) {
                   <strong>Jee Engineers</strong> • Kathwada GIDC, Ahmedabad, Gujarat, India
                 </div>
                 <div>
-                  Phone: <a href="tel:+919327491268">+91 9327491268</a> | Email: <a href="mailto:info.jeeengineers@gmail.com">info.jeeengineers@gmail.com</a>
+                  Phone: <a href="tel:+919327491268">+91 9327491268</a> | Email: <a href="mailto:jeeengineers@gmail.com">jeeengineers@gmail.com</a>
                 </div>
                 <div style="margin-top: 6px;">
                   Website: <a href="https://jeeengineers.com">www.jeeengineers.com</a>

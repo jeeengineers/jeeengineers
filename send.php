@@ -11,13 +11,13 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'info.jeeengineers@gmail.com'; // Your Gmail address
+    $mail->Username   = 'jeeengineers@gmail.com'; // Your Gmail address
     $mail->Password   = 'Nikunj@123'; // Use App Password from Google
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
     // Email content
-    $mail->setFrom('info.jeeengineers@gmail.com', 'Info Jee Engineers');
+    $mail->setFrom('jeeengineers@gmail.com', 'Info Jee Engineers');
     $mail->addAddress('jeeengineers@gmail.com', 'Jee Engineers');
     $mail->Subject = 'New Inquiry from Contact Form';
 

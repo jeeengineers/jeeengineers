@@ -514,6 +514,45 @@ li {
     flex-shrink: 0 !important;
 }
 
+/* Navbar Search Trigger Icon Button */
+.btn-search-trigger {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    background: rgba(2, 132, 199, 0.12) !important;
+    border: 1px solid rgba(2, 132, 199, 0.3) !important;
+    color: #0284C7 !important;
+    -webkit-text-fill-color: #0284C7 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    cursor: pointer !important;
+}
+
+.btn-search-trigger i {
+    color: #0284C7 !important;
+    -webkit-text-fill-color: #0284C7 !important;
+    font-size: 1.05rem !important;
+}
+
+.btn-search-trigger:hover,
+.btn-search-trigger:focus {
+    background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%) !important;
+    border-color: transparent !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    transform: scale(1.08) !important;
+    box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35) !important;
+}
+
+.btn-search-trigger:hover i,
+.btn-search-trigger:focus i {
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+
 .btn-square.bg-primary i,
 .btn-sm-square.bg-primary i,
 .btn-lg-square.bg-primary i,
