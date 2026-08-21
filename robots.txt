@@ -37,7 +37,7 @@ Allow: /
 Sitemap: https://jeeengineers.com/sitemap.xml
 
 # LLM & AI Context Files
-LLM-txt: https://jeeengineers.com/llm.txt
-LLMs-txt: https://jeeengineers.com/llms.txt
-LLMs-full: https://jeeengineers.com/llms-full.txt
-AI-txt: https://jeeengineers.com/ai.txt
+# LLM-txt: https://jeeengineers.com/llm.txt
+# LLMs-txt: https://jeeengineers.com/llms.txt
+# LLMs-full: https://jeeengineers.com/llms-full.txt
+# AI-txt: https://jeeengineers.com/ai.txt

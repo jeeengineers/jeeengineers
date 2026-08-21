@@ -369,8 +369,7 @@
             designed to revolutionize the construction industry with eco-friendly building solutions.
           </p>
           <div class="d-flex flex-column flex-sm-row gap-2 justify-content-center justify-content-lg-start">
-            <a href="about" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-sm-3 animated slideInRight">Read
-              More</a>
+            <a href="about" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-sm-3 animated slideInRight" aria-label="Read More About Jee Engineers Fly Ash Brick Machines">Read More About Us</a>
             <a href="contact" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact
               Us</a>
           </div>
@@ -448,7 +447,7 @@
             </div>
           </div>
           <div class="d-flex align-items-center mt-4 flex-wrap gap-2">
-            <a class="btn btn-primary rounded-pill px-4 me-3" href="about">Read More</a>
+            <a class="btn btn-primary rounded-pill px-4 me-3" href="about" aria-label="Read More About Jee Engineers Manufacturing Plant">Read More About Us</a>
             <div class="social-links d-flex gap-2">
               <a class="btn btn-outline-primary btn-square" href="https://www.facebook.com/jeeengineers"
                 aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"
@@ -616,6 +615,7 @@
                 </div>
                 <div class="col-4">
                   <div class="input-group input-group-sm">
+                    <label for="flyAshPrice" class="visually-hidden">Fly Ash Price per Ton</label>
                     <span class="input-group-text">₹</span>
                     <input type="number" class="form-control" id="flyAshPrice" value="600" step="50"
                       oninput="calculateROI()" placeholder="Price/Ton" aria-label="Fly Ash Purchase Price per Ton">
@@ -638,6 +638,7 @@
                 </div>
                 <div class="col-4">
                   <div class="input-group input-group-sm">
+                    <label for="cementPrice" class="visually-hidden">Cement Price per Bag</label>
                     <span class="input-group-text">₹</span>
                     <input type="number" class="form-control" id="cementPrice" value="350" step="10"
                       oninput="calculateROI()" placeholder="Price/Bag" aria-label="Cement Lime Purchase Price per Bag">
@@ -660,6 +661,7 @@
                 </div>
                 <div class="col-4">
                   <div class="input-group input-group-sm">
+                    <label for="sandPrice" class="visually-hidden">Stone Dust Sand Price per Ton</label>
                     <span class="input-group-text">₹</span>
                     <input type="number" class="form-control" id="sandPrice" value="450" step="50"
                       oninput="calculateROI()" placeholder="Price/Ton" aria-label="Stone Dust Sand Purchase Price per Ton">
@@ -676,6 +678,7 @@
                 </div>
                 <div class="col-4">
                   <div class="input-group input-group-sm">
+                    <label for="overheadCost" class="visually-hidden">Labor and Power Overhead Cost per Brick</label>
                     <span class="input-group-text">₹</span>
                     <input type="number" class="form-control" id="overheadCost" value="0.45" step="0.05"
                       oninput="calculateROI()" aria-label="Labor and Power Overhead Cost per Brick">
@@ -1375,7 +1378,10 @@
   <!-- Footer End -->
 
   <!-- Back to Top -->
-  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2" aria-label="Scroll back to top of page" title="Scroll back to top">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+    <span class="visually-hidden">Scroll back to top</span>
+  </a>
 
   <!-- JavaScript Libraries -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
@@ -1400,6 +1406,7 @@
       <span>Jee Engineers Assistant</span>
       <button id="chatbot-toggle" class="btn-chat-toggle" aria-label="Toggle Jee Engineers Assistant Chatbot" title="Toggle Chat Assistant">
         <i class="bi bi-chat-dots-fill" aria-hidden="true"></i>
+        <span class="visually-hidden">Toggle Jee Engineers Assistant Chatbot</span>
       </button>
     </div>
     <div class="chatbot-body">
