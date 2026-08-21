@@ -1,4 +1,20 @@
 /********** Template CSS **********/
+/********** Font Display Swap Overrides for PageSpeed **********/
+@font-face {
+    font-family: 'bootstrap-icons';
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-display: swap;
+}
+
 :root {
     --primary: #0284C7 !important;
     /* Vibrant Cyan-Blue Accent */

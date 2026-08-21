@@ -4,8 +4,11 @@ Disallow: /scss/
 Disallow: /send.php
 Disallow: /form.html
 Disallow: /404.html
+Disallow: /indexcopy.html
+Disallow: /theme-sample.html
+Disallow: /sample blog.html
 
-# AI Crawler Permissions
+# AI & Search Crawler Permissions
 User-agent: GPTBot
 Allow: /
 
@@ -30,11 +33,8 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-# Sitemap location
+# Sitemap Location
 Sitemap: https://jeeengineers.com/sitemap.xml
-
-# AI content guide
-# https://jeeengineers.com/llms.txt
 
 # LLM & AI Context Files
 LLM-txt: https://jeeengineers.com/llm.txt

@@ -2,17 +2,8 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0TGCJ3HWY"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-E0TGCJ3HWY");
-  </script>
+    <!-- Centralized Google Analytics -->
+  <script src="js/analytics.js" defer></script>
   <meta charset="utf-8" />
   <title>Fly Ash Brick & Concrete Block Machines | Jee Engineers</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -103,28 +94,39 @@
   <link rel="preload" href="css/style.css" as="style">
 
   <!-- Google Web Fonts -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/fonts/bootstrap-icons.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'" />
 
   <!-- Icon Font Stylesheet -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" /></noscript>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" /></noscript>
 
   <!-- Libraries Stylesheet -->
-  <link href="lib/animate/animate.min.css" rel="stylesheet" />
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="lib/animate/animate.min.css" rel="stylesheet" /></noscript>
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" /></noscript>
 
   <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="css/bootstrap.min.css" rel="stylesheet" /></noscript>
 
   <!-- Centralized Theme Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- Search Stylesheet -->
-  <link href="css/search.css" rel="stylesheet" />
-  <link href="chatbot.css" rel="stylesheet" />
+  <link href="css/search.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="css/search.css" rel="stylesheet" /></noscript>
+  <link href="chatbot.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="chatbot.css" rel="stylesheet" /></noscript>
 
 </head>
 
@@ -143,7 +145,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
         <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-          <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" width="180" height="60" />
+          <img src="img/Jee-Engineers_logo.webp" alt="Jee Engineers Logo" class="logo-img" width="180" height="60" />
         </a>
         <div class="d-flex align-items-center ms-auto me-2 me-lg-0 order-lg-last">
           <button type="button" class="btn btn-search-trigger me-2 me-lg-0" data-bs-toggle="modal"
@@ -200,7 +202,7 @@
           </div>
         </div>
         <div class="col-lg-6 align-self-end text-center text-lg-end">
-          <img class="img-fluid" src="img/hero-img.png" alt="Fly Ash Brick Machinery Lineup" width="600" height="400"
+          <img class="img-fluid" src="img/hero-img.webp" alt="Fly Ash Brick Machinery Lineup" width="600" height="400"
             loading="lazy" />
         </div>
       </div>
@@ -249,7 +251,7 @@
         <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
           <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden">
             <div class="position-relative">
-              <img class="img-fluid w-100" src="img/hero-img.png" alt="Automatic Fly Ash Brick Making Machine"
+              <img class="img-fluid w-100" src="img/hero-img.webp" alt="Automatic Fly Ash Brick Making Machine"
                 style="height: 240px; object-fit: cover;" loading="lazy" />
               <span class="badge bg-primary text-white position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill">10,000+
                 Bricks / Day</span>
@@ -271,7 +273,7 @@
         <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
           <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden">
             <div class="position-relative">
-              <img class="img-fluid w-100" src="img/about-img.png" alt="Semi Automatic Fly Ash Brick Machine"
+              <img class="img-fluid w-100" src="img/about-img.webp" alt="Semi Automatic Fly Ash Brick Machine"
                 style="height: 240px; object-fit: cover;" loading="lazy" />
               <span class="badge bg-primary text-white position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill">5,000 -
                 7,000 Bricks / Day</span>
@@ -293,7 +295,7 @@
         <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden">
             <div class="position-relative">
-              <img class="img-fluid w-100" src="img/feature.png" alt="Concrete Block & Paver Machine"
+              <img class="img-fluid w-100" src="img/feature.webp" alt="Concrete Block & Paver Machine"
                 style="height: 240px; object-fit: cover;" loading="lazy" />
               <span
                 class="badge bg-primary text-white position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill">Multi-Mould
@@ -578,8 +580,8 @@
   <div id="chatbot-container" class="chatbot-closed">
     <div class="chatbot-header">
       <span>Jee Engineers Assistant</span>
-      <button id="chatbot-toggle" class="btn-chat-toggle" type="button">
-        <i class="bi bi-chat-dots-fill"></i>
+      <button id="chatbot-toggle" class="btn-chat-toggle" aria-label="Toggle Jee Engineers Assistant Chatbot" title="Toggle Chat Assistant">
+        <i class="bi bi-chat-dots-fill" aria-hidden="true"></i>
       </button>
     </div>
     <div class="chatbot-body">

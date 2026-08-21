@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <!-- Centralized Google Analytics -->
+  <script src="js/analytics.js" defer></script>
     <meta charset="utf-8" />
     <title>Hydraulic Press vs Vibro Compaction | Jee Engineers</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -74,26 +76,36 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/fonts/bootstrap-icons.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
         rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" /></noscript>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" /></noscript>
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="lib/animate/animate.min.css" rel="stylesheet" /></noscript>
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" /></noscript>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="css/bootstrap.min.css" rel="stylesheet" /></noscript>
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <!-- Search Stylesheet -->
-    <link href="css/search.css" rel="stylesheet" />
+    <link href="css/search.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="css/search.css" rel="stylesheet" /></noscript>
 
     <script type="application/ld+json">
     {
@@ -127,7 +139,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
                 <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-                    <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" />
+                    <img src="img/Jee-Engineers_logo.webp" alt="Jee Engineers Logo" class="logo-img" />
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -187,7 +199,7 @@
                     </nav>
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/hydraulic-vs-vibro-hero.png" <!-- FIXME: Replace image -->
+                    <img class="img-fluid" src="img/hydraulic-vs-vibro-hero.webp" <!-- FIXME: Replace image -->
                     alt="Comparison graphic of hydraulic press and vibro compaction mechanisms" />
                 </div>
             </div>
@@ -247,7 +259,7 @@
                     </p>
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/hydraulic-vs-vibro-feature.png" <!-- FIXME: Replace image -->
+                    <img class="img-fluid" src="img/hydraulic-vs-vibro-feature.webp" <!-- FIXME: Replace image -->
                     alt="Diagram illustrating hydraulic pressure and vibration mechanisms" />
                 </div>
             </div>

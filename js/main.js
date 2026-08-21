@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    // Spinner
+    // Spinner - Hide cleanly without layout thrashing
     var spinner = function () {
         setTimeout(function () {
             var spinnerEl = document.getElementById('spinner');
@@ -21,22 +21,44 @@
             if (spinnerEl) {
                 spinnerEl.classList.remove('show');
             }
-        });
+        }, { passive: true });
     }
     
-    // Initiate WOW.js if available
+    // Initiate WOW.js if available (defer slightly to avoid initial paint reflow)
     if (typeof WOW !== 'undefined') {
-        new WOW().init();
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(function () { new WOW().init(); });
+        } else {
+            setTimeout(function () { new WOW().init(); }, 100);
+        }
     }
 
-    // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.sticky-top').addClass('bg-primary shadow-sm').css('top', '0px');
-        } else {
-            $('.sticky-top').removeClass('bg-primary shadow-sm').css('top', '-150px');
+    // Throttled Scroll Listener using requestAnimationFrame (prevents forced reflow)
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+        if (!ticking) {
+            window.requestAnimationFrame(function () {
+                var top = window.pageYOffset || document.documentElement.scrollTop;
+                
+                // Sticky Navbar toggle
+                if (top > 300) {
+                    $('.sticky-top').addClass('bg-primary shadow-sm').css('top', '0px');
+                } else {
+                    $('.sticky-top').removeClass('bg-primary shadow-sm').css('top', '-150px');
+                }
+
+                // Back to top button toggle
+                if (top > 100) {
+                    $('.back-to-top').fadeIn('slow');
+                } else {
+                    $('.back-to-top').fadeOut('slow');
+                }
+                
+                ticking = false;
+            });
+            ticking = true;
         }
-    });
+    }, { passive: true });
 
     // Facts counter
     if ($.fn.counterUp) {
@@ -46,14 +68,7 @@
         });
     }
     
-    // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
+    // Back to top click handler
     $('.back-to-top').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
@@ -76,4 +91,3 @@
     }
     
 })(jQuery);
-

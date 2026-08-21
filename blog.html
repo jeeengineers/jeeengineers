@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <!-- Centralized Google Analytics -->
+  <script src="js/analytics.js" defer></script>
     <meta charset="utf-8">
     <title>Fly Ash Brick Industry Blog & Guides | Jee Engineers</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -54,28 +56,39 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/fonts/bootstrap-icons.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
         rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" /></noscript>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" /></noscript>
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="lib/animate/animate.min.css" rel="stylesheet" /></noscript>
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" /></noscript>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="css/bootstrap.min.css" rel="stylesheet" /></noscript>
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <!-- Search Stylesheet -->
-    <link href="css/search.css" rel="stylesheet" />
-    <link href="chatbot.css" rel="stylesheet" />
+    <link href="css/search.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="css/search.css" rel="stylesheet" /></noscript>
+    <link href="chatbot.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="chatbot.css" rel="stylesheet" /></noscript>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -113,7 +126,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
                 <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-                    <img src="img/Jee-Engineers_logo.png" alt="Jee Engineers Logo" class="logo-img" />
+                    <img src="img/Jee-Engineers_logo.webp" alt="Jee Engineers Logo" class="logo-img" />
                 </a>
                 <div class="d-flex align-items-center ms-auto me-2 me-lg-0 order-lg-last">
                     <button type="button" class="btn btn-search-trigger me-2 me-lg-0" data-bs-toggle="modal"
@@ -177,7 +190,7 @@
                     </nav>
                 </div>
                 <div class="col-lg-6 text-center text-lg-end">
-                    <img class="img-fluid hero-img animated zoomIn" src="img/hero-img.png" alt="Jee Engineers Blog Hero"
+                    <img class="img-fluid hero-img animated zoomIn" src="img/hero-img.webp" alt="Jee Engineers Blog Hero"
                         width="600" height="400" />
                 </div>
             </div>
@@ -228,7 +241,7 @@
                 <!-- The Future of Sustainable Construction -->
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
-                        <img class="card-img-top" src="img/How-Fly-Ash-Bricks-Are-Leading-the-Way-blog-listing.png"
+                        <img class="card-img-top" src="img/How-Fly-Ash-Bricks-Are-Leading-the-Way-blog-listing.webp"
                             alt="The Future of Sustainable Construction" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -260,7 +273,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
                         <img class="card-img-top"
-                            src="img/Fly-Ash-Bricks-vs-Red-Bricks-A-Comprehensive-Comparison-blog-listing.png"
+                            src="img/Fly-Ash-Bricks-vs-Red-Bricks-A-Comprehensive-Comparison-blog-listing.webp"
                             alt="Fly Ash Bricks vs Red Bricks" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -290,7 +303,7 @@
                 <!-- Cost of Fly Ash Brick Making Machines -->
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
-                        <img class="card-img-top" src="img/Cost-of-Fly-Ash-Brick-Making-Machines-blog-listing.png"
+                        <img class="card-img-top" src="img/Cost-of-Fly-Ash-Brick-Making-Machines-blog-listing.webp"
                             alt="Cost of Fly Ash Brick Making Machines" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -320,7 +333,7 @@
                 <!-- Maintenance Tips -->
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
-                        <img class="card-img-top" src="img/Maintenance-Tips-for-Brick-Making-Machines-blog-listing.png"
+                        <img class="card-img-top" src="img/Maintenance-Tips-for-Brick-Making-Machines-blog-listing.webp"
                             alt="Maintenance Tips for Brick Making Machines" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -351,7 +364,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
                         <img class="card-img-top"
-                            src="img/Understanding-the-Making-Principle-of-Fly-Ash-Brick-Machines-blog-listing.png"
+                            src="img/Understanding-the-Making-Principle-of-Fly-Ash-Brick-Machines-blog-listing.webp"
                             alt="Fly Ash Bricks Machine Making Principle" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -381,7 +394,7 @@
                 <!-- Advantages -->
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
-                        <img class="card-img-top" src="img/Advantages-of-Fly-Ash-Bricks​‌-blog-listing.png"
+                        <img class="card-img-top" src="img/Advantages-of-Fly-Ash-Bricks​‌-blog-listing.webp"
                             alt="Advantages of Fly Ash Bricks" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -411,7 +424,7 @@
                 <!-- How Fly Ash Bricks Are Made -->
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
-                        <img class="card-img-top" src="img/How-Fly-Ash-Bricks-Are-Made-blog-listing.png"
+                        <img class="card-img-top" src="img/How-Fly-Ash-Bricks-Are-Made-blog-listing.webp"
                             alt="How Fly Ash Bricks Are Made" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -441,7 +454,7 @@
                 <!-- What is Fly Ash -->
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
-                        <img class="card-img-top" src="img/What-is-Fly-Ash-blog-listing.png" alt="What is Fly Ash"
+                        <img class="card-img-top" src="img/What-is-Fly-Ash-blog-listing.webp" alt="What is Fly Ash"
                             style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -473,7 +486,7 @@
                 <!-- Sustainable Construction -->
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
-                        <img class="card-img-top" src="img/Fly-Ash-Bricks-The-Sustainable-Solution​‌-blog-listing.png"
+                        <img class="card-img-top" src="img/Fly-Ash-Bricks-The-Sustainable-Solution​‌-blog-listing.webp"
                             alt="Sustainable Construction with Fly Ash Bricks"
                             style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
@@ -506,7 +519,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
                         <img class="card-img-top"
-                            src="img/Why-Fly-Ash-Bricks-Are-The-Best-Choice-For-Construction-Projects-blog-listing.png"
+                            src="img/Why-Fly-Ash-Bricks-Are-The-Best-Choice-For-Construction-Projects-blog-listing.webp"
                             alt="What is Fly Ash Bricks" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -537,7 +550,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
                         <img class="card-img-top"
-                            src="img/Material-Innovations-New-Additives-for-Enhanced-Brick-Strength-blog-listing.png"
+                            src="img/Material-Innovations-New-Additives-for-Enhanced-Brick-Strength-blog-listing.webp"
                             alt="Material Innovations" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -569,7 +582,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
                         <img class="card-img-top"
-                            src="img/Market-Expansion-Strategies-for-Brick-Manufacturers-blog-listing.png"
+                            src="img/Market-Expansion-Strategies-for-Brick-Manufacturers-blog-listing.webp"
                             alt="Market Expansion" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -601,7 +614,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden border border-light-subtle">
                         <img class="card-img-top"
-                            src="img/Comprehensive-Troubleshooting-Guide-for-Fly-Ash-Brick-Machines-blog-listing.png"
+                            src="img/Comprehensive-Troubleshooting-Guide-for-Fly-Ash-Brick-Machines-blog-listing.webp"
                             alt="Troubleshooting Guide" style="height: 220px; object-fit: cover;">
                         <div class="card-body p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -768,9 +781,9 @@
     <div id="chatbot-container" class="chatbot-closed">
         <div class="chatbot-header">
             <span>Jee Engineers Assistant</span>
-            <button id="chatbot-toggle" class="btn-chat-toggle" type="button">
-                <i class="bi bi-chat-dots-fill"></i>
-            </button>
+            <button id="chatbot-toggle" class="btn-chat-toggle" aria-label="Toggle Jee Engineers Assistant Chatbot" title="Toggle Chat Assistant">
+        <i class="bi bi-chat-dots-fill" aria-hidden="true"></i>
+      </button>
         </div>
         <div class="chatbot-body">
             <div id="chatbot-messages">
