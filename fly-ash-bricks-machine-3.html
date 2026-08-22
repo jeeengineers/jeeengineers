@@ -235,6 +235,11 @@
   <noscript>
     <link href="css/search.css" rel="stylesheet" />
   </noscript>
+  <!-- Chatbot Stylesheet -->
+  <link href="chatbot.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link href="chatbot.css" rel="stylesheet" />
+  </noscript>
 </head>
 
 <body>
@@ -252,13 +257,18 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Main navigation">
         <a href="index" class="navbar-brand" aria-label="Jee Engineers Home">
-          <img src="img/Jee-Engineers_logo.webp" alt="Jee Engineers Logo" class="logo-img" />
+          <img src="img/Jee-Engineers_logo.webp" alt="Jee Engineers Logo" class="logo-img" width="180" height="60" />
         </a>
-        <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="d-flex align-items-center ms-auto me-2 me-lg-0 order-lg-last">
+          <button type="button" class="btn btn-search-trigger me-2 me-lg-0" data-bs-toggle="modal"
+            data-bs-target="#searchModal" aria-label="Search website" title="Search (Ctrl + K)">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -277,10 +287,6 @@
               <a href="contact" class="nav-item nav-link">Contact</a>
             </li>
           </ul>
-          <button type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-            data-bs-target="#searchModal" aria-label="Search">
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </button>
         </div>
       </nav>
     </div>
@@ -1066,6 +1072,29 @@
   <script>
     document.getElementById("currentYear").textContent = new Date().getFullYear();
   </script>
+
+  <!-- Chatbot HTML -->
+  <div id="chatbot-container" class="chatbot-closed">
+    <div class="chatbot-header">
+      <span>Jee Engineers Assistant</span>
+      <button id="chatbot-toggle" class="btn-chat-toggle" aria-label="Toggle Jee Engineers Assistant Chatbot" title="Toggle Chat Assistant">
+        <i class="bi bi-chat-dots-fill" aria-hidden="true"></i>
+        <span class="visually-hidden">Toggle Jee Engineers Assistant Chatbot</span>
+      </button>
+    </div>
+    <div class="chatbot-body">
+      <div id="chatbot-messages">
+        <!-- Initial messages will be added by JavaScript -->
+      </div>
+      <div class="chatbot-input">
+        <input type="text" id="user-input" placeholder="Type your question here...">
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chatbot JavaScript -->
+  <script src="chatbot.js"></script>
 </body>
 
 </html>
