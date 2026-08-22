@@ -106,9 +106,9 @@ The table below summarizes the exact status across all files in the project repo
 | [`blog.html`](file:///d:/Personal/Jee%20Engineers/blog.html) | ✅ Modernized | ✅ Complete | ✅ Clean | ⚠️ Hierarchy Gap | Article schema verification |
 | [`project.html`](file:///d:/Personal/Jee%20Engineers/project.html) | ✅ Theme Master | ⚠️ Title (64ch) | ✅ Clean | ⚠️ Hierarchy Gap | Trim title to under 60 chars |
 | [`faq.html`](file:///d:/Personal/Jee%20Engineers/faq.html) | ✅ Modernized | ⚠️ Missing Brand Suffix | ✅ Clean | ⚠️ Hierarchy Gap | Add `\| Jee Engineers` to Title |
-| [`fly-ash-bricks-machine.html`](file:///d:/Personal/Jee%20Engineers/fly-ash-bricks-machine.html) | ✅ Specs Grid | ⚠️ Missing `og:locale` | ✅ Clean | ⚠️ 5 H1s | Convert extra H1s to H2 |
-| [`fly-ash-bricks-machine2.html`](file:///d:/Personal/Jee%20Engineers/fly-ash-bricks-machine2.html) | ✅ Specs Grid | ⚠️ Missing `og:locale` | ✅ Clean | ⚠️ 3 H1s | Convert extra H1s to H2 |
-| [`fly-ash-bricks-machine-3.html`](file:///d:/Personal/Jee%20Engineers/fly-ash-bricks-machine-3.html) | ✅ Specs Grid | ⚠️ Missing `og:locale` | ✅ Clean | ⚠️ 5 H1s | Convert extra H1s to H2 |
+| [`fly-ash-bricks-machine.html`](file:///d:/Personal/Jee%20Engineers/fly-ash-bricks-machine.html) | ✅ Specs Grid | ✅ Complete | ✅ Clean | ✅ Single H1 | ✅ Fully Compliant |
+| [`fly-ash-bricks-machine2.html`](file:///d:/Personal/Jee%20Engineers/fly-ash-bricks-machine2.html) | ✅ Specs Grid | ✅ Complete | ✅ Clean | ✅ Single H1 | ✅ Fully Compliant |
+| [`fly-ash-bricks-machine-3.html`](file:///d:/Personal/Jee%20Engineers/fly-ash-bricks-machine-3.html) | ✅ Specs Grid | ✅ Complete | ✅ Clean | ✅ Single H1 | ✅ Fully Compliant |
 | [`custom-mould-options.html`](file:///d:/Personal/Jee%20Engineers/custom-mould-options.html) | ✅ Specs Grid | ✅ Complete | ✅ Clean | ⚠️ 3 H1s | Convert extra H1s to H2 |
 | [`Fly-Ash-Bricks-vs-Red-Bricks.html`](file:///d:/Personal/Jee%20Engineers/Fly-Ash-Bricks-vs-Red-Bricks.html) | ✅ Modernized | ⚠️ Missing `og:locale` | ✅ Clean | ⚠️ Hierarchy Gap | Add `og:locale` tag |
 | [`How-Fly-Ash-Bricks-Are-Made.html`](file:///d:/Personal/Jee%20Engineers/How-Fly-Ash-Bricks-Are-Made.html) | ✅ Modernized | ⚠️ Missing Brand Suffix | ✅ Clean | ⚠️ Hierarchy Gap | Add `\| Jee Engineers` to Title |
