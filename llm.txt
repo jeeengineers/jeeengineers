@@ -22,7 +22,7 @@
 ## Technical Guides & Comparisons
 
 - [Fly Ash Bricks vs Red Clay Bricks](https://jeeengineers.com/Fly-Ash-Bricks-vs-Red-Bricks.html): In-depth comparison covering compressive strength, cost, water absorption, and environmental footprint.
-- [How Fly Ash Bricks Are Made](https://jeeengineers.com/How-Fly-Ash-Bricks-Are-Made.html): Detailed manufacturing process explaining raw materials (fly ash, sand/stone dust, lime/cement, gypsum), mixing, compaction, and curing.
+- [How Fly Ash Bricks Are Made](https://jeeengineers.com/how-fly-ash-bricks-are-made): Detailed manufacturing process explaining raw materials (fly ash, sand/stone dust, lime/cement, gypsum), mixing, compaction, and curing.
 - [Hydraulic vs Vibro-Compaction Technology](https://jeeengineers.com/hydraulic-vs-vibro-compaction-technology.html): Technical analysis of hydraulic pressure vs vibro-compaction press methods.
 - [Key Machine Components Explained](https://jeeengineers.com/key-machine-components-explained.html): Engineering breakdown of hydraulic power packs, pan mixers, feeder boxes, conveyor belts, and PLC systems.
 - [Material Innovations & Mix Ratios](https://jeeengineers.com/material-innovations-enhanced-brick-properties.html): Optimal mix proportions and additive technologies for enhanced brick durability and finish.

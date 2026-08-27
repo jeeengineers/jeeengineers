@@ -28,6 +28,13 @@
     /* Vibrant Purple Accent */
     --body-bg: #F8FAFC !important;
     /* Crisp Light Slate Background */
+
+    /* Standardized Border Radius Tokens */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-pill: 50rem;
+    --radius-circle: 50%;
 }
 
 /* Apply Google Fonts & Light Theme */
@@ -634,14 +641,22 @@ li {
 }
 
 /* Fix ROI Calculator Dark Summary Box Text on Card Hover */
-#roi-calculator .card:hover h5,
-#roi-calculator .card:hover h4,
-#roi-calculator .card:hover h3,
+#roi-calculator .card:hover .col-lg-5 h5,
+#roi-calculator .card:hover .col-lg-5 h4,
+#roi-calculator .card:hover .col-lg-5 h3,
 #roi-calculator .card:hover .text-white,
 #roi-calculator .card:hover h5 span,
 #roi-calculator .card:hover h5 i {
     color: #FFFFFF !important;
     -webkit-text-fill-color: #FFFFFF !important;
+}
+
+#roi-calculator .card:hover .text-dark,
+#roi-calculator .card:hover h3.text-dark,
+#roi-calculator .card:hover h2.text-dark,
+#roi-calculator .card:hover label.text-dark {
+    color: #0F172A !important;
+    -webkit-text-fill-color: #0F172A !important;
 }
 
 #roi-calculator .card:hover .text-info {

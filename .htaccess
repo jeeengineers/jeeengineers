@@ -5,9 +5,13 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Rewrite www to non-www (or vice versa - choose one)
-RewriteCond %{HTTP_HOST} ^www\.yourdomain\.com [NC]
-RewriteRule ^(.*)$ https://yourdomain.com/$1 [L,R=301]
+# Rewrite www to non-www
+RewriteCond %{HTTP_HOST} ^www\.jeeengineers\.com [NC]
+RewriteRule ^(.*)$ https://jeeengineers.com/$1 [L,R=301]
+
+# 301 Redirect for legacy PascalCase blog post URL
+RewriteRule ^How-Fly-Ash-Bricks-Are-Made(\.html)?$ /how-fly-ash-bricks-are-made [L,R=301]
+
 
 # Custom error pages
 ErrorDocument 404 /404.html

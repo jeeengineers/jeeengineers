@@ -44,7 +44,7 @@ class StaticSiteSearch {
       // Technical & Maintenance Guides
       { path: 'what-is-fly-ash', title: 'What is Fly Ash? Raw Material Guide', category: 'Raw Materials', description: 'Chemical composition, fly ash quality grades, and binder ratios for optimal brick strength.' },
       { path: 'what-is-fly-ash-bricks', title: 'What are Fly Ash Bricks? Overview & Specs', category: 'Guide', description: 'Complete technical overview of fly ash brick properties, compressive strength, and advantages.' },
-      { path: 'How-Fly-Ash-Bricks-Are-Made', title: 'How Fly Ash Bricks Are Made: Step-by-Step', category: 'Process', description: 'Raw material mixing, compaction pressing, curing, and quality testing process.' },
+      { path: 'how-fly-ash-bricks-are-made', title: 'How Fly Ash Bricks Are Made: Step-by-Step', category: 'Process', description: 'Raw material mixing, compaction pressing, curing, and quality testing process.' },
       { path: 'fly-ash-bricks-machine-making-principle', title: 'Working Principle of Fly Ash Brick Machines', category: 'Technical', description: 'Hydraulic pressure and vibration mechanism principles explained.' },
       { path: 'material-innovations-enhanced-brick-properties', title: 'Material Innovations for Brick Strength', category: 'Research', description: 'Using lime-fly ash ratios, silica fume, GGBS slag, and polymer additives for higher strength.' },
       { path: 'advantages-of-fly-ash-bricks', title: 'Key Advantages of Fly Ash Bricks', category: 'Guide', description: 'Lower water absorption, uniform shape, eco-friendliness, and thermal insulation benefits.' },
