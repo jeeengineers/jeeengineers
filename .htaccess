@@ -10,11 +10,11 @@ RewriteCond %{HTTP_HOST} ^www\.jeeengineers\.com [NC]
 RewriteRule ^(.*)$ https://jeeengineers.com/$1 [L,R=301]
 
 # 301 Redirect for legacy PascalCase blog post URL
-RewriteRule ^How-Fly-Ash-Bricks-Are-Made(\.html)?$ /how-fly-ash-bricks-are-made [L,R=301]
+RewriteRule ^How-Fly-Ash-Bricks-Are-Made(\)?$ /how-fly-ash-bricks-are-made [L,R=301]
 
 
 # Custom error pages
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404
 
 # Browser caching
 <IfModule mod_expires.c>

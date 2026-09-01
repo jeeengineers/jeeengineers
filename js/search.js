@@ -143,12 +143,12 @@ class StaticSiteSearch {
       elements.forEach(el => {
         const text = el.textContent.trim();
         if (text && text.length > 3) {
-          let url = window.location.pathname.replace(/^\//, '').replace(/\.html$/, '');
+          let url = window.location.pathname.replace(/^\//, '').replace(/\$/, '');
           if (!url) url = 'index';
 
           let linkEl = el.closest('a');
           if (linkEl && linkEl.href) {
-            url = new URL(linkEl.href).pathname.replace(/^\//, '').replace(/\.html$/, '');
+            url = new URL(linkEl.href).pathname.replace(/^\//, '').replace(/\$/, '');
           }
 
           this.searchIndex.push({

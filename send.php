@@ -102,7 +102,7 @@ try {
 
     // Send email
     $mail->send();
-    header('Location: thank-you.html');
+    header('Location: thank-you');
     exit(); // Stop further script execution
 } catch (Exception $e) {
     echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";

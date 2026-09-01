@@ -8,37 +8,37 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/about.html</loc>
+    <loc>https://jeeengineers.com/about</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/products.html</loc>
+    <loc>https://jeeengineers.com/products</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/blog.html</loc>
+    <loc>https://jeeengineers.com/blog</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/contact.html</loc>
+    <loc>https://jeeengineers.com/contact</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/faq.html</loc>
+    <loc>https://jeeengineers.com/faq</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/help.html</loc>
+    <loc>https://jeeengineers.com/help</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -46,49 +46,49 @@
 
   <!-- Product & Machinery Detail Pages -->
   <url>
-    <loc>https://jeeengineers.com/fly-ash-bricks-machine.html</loc>
+    <loc>https://jeeengineers.com/fly-ash-bricks-machine</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/fly-ash-bricks-machine2.html</loc>
+    <loc>https://jeeengineers.com/fly-ash-bricks-machine2</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/fly-ash-bricks-machine-3.html</loc>
+    <loc>https://jeeengineers.com/fly-ash-bricks-machine-3</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/choosing-brick-making-machine.html</loc>
+    <loc>https://jeeengineers.com/choosing-brick-making-machine</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/hydraulic-vs-vibro-compaction-technology.html</loc>
+    <loc>https://jeeengineers.com/hydraulic-vs-vibro-compaction-technology</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/paver-block-technology.html</loc>
+    <loc>https://jeeengineers.com/paver-block-technology</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/custom-mould-options.html</loc>
+    <loc>https://jeeengineers.com/custom-mould-options</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/key-machine-components-explained.html</loc>
+    <loc>https://jeeengineers.com/key-machine-components-explained</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -96,43 +96,43 @@
 
   <!-- Business & Plant Setup Guides -->
   <url>
-    <loc>https://jeeengineers.com/how-to-start-fly-ash-brick-business.html</loc>
+    <loc>https://jeeengineers.com/how-to-start-fly-ash-brick-business</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/how-to-start-fly-ash-brick-plant.html</loc>
+    <loc>https://jeeengineers.com/how-to-start-fly-ash-brick-plant</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/fly-ash-brick-plant-setup-guide.html</loc>
+    <loc>https://jeeengineers.com/fly-ash-brick-plant-setup-guide</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/cost-of-fly-ash-brick-making-machines.html</loc>
+    <loc>https://jeeengineers.com/cost-of-fly-ash-brick-making-machines</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/market-expansion-fly-ash-bricks.html</loc>
+    <loc>https://jeeengineers.com/market-expansion-fly-ash-bricks</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/government-policies-on-fly-ash-utilization.html</loc>
+    <loc>https://jeeengineers.com/government-policies-on-fly-ash-utilization</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/case-study-small-business-production.html</loc>
+    <loc>https://jeeengineers.com/case-study-small-business-production</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -140,13 +140,13 @@
 
   <!-- Technical & Educational Knowledge Articles -->
   <url>
-    <loc>https://jeeengineers.com/what-is-fly-ash.html</loc>
+    <loc>https://jeeengineers.com/what-is-fly-ash</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/what-is-fly-ash-bricks.html</loc>
+    <loc>https://jeeengineers.com/what-is-fly-ash-bricks</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -158,73 +158,73 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/fly-ash-bricks-machine-making-principle.html</loc>
+    <loc>https://jeeengineers.com/fly-ash-bricks-machine-making-principle</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/material-innovations-enhanced-brick-properties.html</loc>
+    <loc>https://jeeengineers.com/material-innovations-enhanced-brick-properties</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/advantages-of-fly-ash-bricks.html</loc>
+    <loc>https://jeeengineers.com/advantages-of-fly-ash-bricks</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/Fly-Ash-Bricks-vs-Red-Bricks.html</loc>
+    <loc>https://jeeengineers.com/Fly-Ash-Bricks-vs-Red-Bricks</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/sustainable-construction-with-fly-ash-bricks.html</loc>
+    <loc>https://jeeengineers.com/sustainable-construction-with-fly-ash-bricks</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/the-future-of-sustainable-contruction.html</loc>
+    <loc>https://jeeengineers.com/the-future-of-sustainable-contruction</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/the-future-of-fly-ash-bricks.html</loc>
+    <loc>https://jeeengineers.com/the-future-of-fly-ash-bricks</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/maintenance-tips-for-brick-making-machines.html</loc>
+    <loc>https://jeeengineers.com/maintenance-tips-for-brick-making-machines</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/troubleshooting-fly-ash-brick-machines.html</loc>
+    <loc>https://jeeengineers.com/troubleshooting-fly-ash-brick-machines</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/troubleshooting-brick-making-machines.html</loc>
+    <loc>https://jeeengineers.com/troubleshooting-brick-making-machines</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/innovations-in-brick-making-technology.html</loc>
+    <loc>https://jeeengineers.com/innovations-in-brick-making-technology</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/project.html</loc>
+    <loc>https://jeeengineers.com/project</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -232,25 +232,25 @@
 
   <!-- Legal & Support Pages -->
   <url>
-    <loc>https://jeeengineers.com/cookies.html</loc>
+    <loc>https://jeeengineers.com/cookies</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/privacy.html</loc>
+    <loc>https://jeeengineers.com/privacy</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/terms-and-conditions.html</loc>
+    <loc>https://jeeengineers.com/terms-and-conditions</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://jeeengineers.com/thank-you.html</loc>
+    <loc>https://jeeengineers.com/thank-you</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

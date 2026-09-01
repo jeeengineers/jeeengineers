@@ -118,4 +118,4 @@ Company Name: Jee Engineers
 Address: Ahmedabad, Gujarat, India
 Phone / WhatsApp: +91 9327491268
 Official Website: https://jeeengineers.com
-Product Inquiries: https://jeeengineers.com/contact.html
+Product Inquiries: https://jeeengineers.com/contact

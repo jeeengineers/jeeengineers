@@ -75,18 +75,18 @@ SEO & Analytics:
 ================================================================================
 
 Root Directory:
-├── index.html                  # Homepage
-├── about.html                  # About Us page
-├── blog.html                   # Blog listing page
-├── products.html               # Products showcase
-├── contact.html                # Contact page
-├── faq.html                    # Frequently Asked Questions
-├── privacy.html                # Privacy Policy
-├── terms-and-conditions.html   # Terms & Conditions
-├── cookies.html                # Cookie Policy
-├── help.html                   # Help Center
-├── thank-you.html              # Thank you page (after form submission)
-├── 404.html                    # Custom 404 error page
+├── index                  # Homepage
+├── about                  # About Us page
+├── blog                   # Blog listing page
+├── products               # Products showcase
+├── contact                # Contact page
+├── faq                    # Frequently Asked Questions
+├── privacy                # Privacy Policy
+├── terms-and-conditions   # Terms & Conditions
+├── cookies                # Cookie Policy
+├── help                   # Help Center
+├── thank-you              # Thank you page (after form submission)
+├── 404                    # Custom 404 error page
 ├── sitemap.xml                 # XML sitemap for SEO
 ├── robots.txt                  # Robots.txt for search engines
 ├── .htaccess                   # Apache configuration
@@ -118,37 +118,37 @@ Images Directory (img/):
 └── [Various product images, hero images, and assets]
 
 Blog Articles (Educational Content):
-├── advantages-of-fly-ash-bricks.html
-├── cost-of-fly-ash-brick-making-machines.html
-├── fly-ash-brick-plant-setup-guide.html
-├── Fly-Ash-Bricks-vs-Red-Bricks.html
-├── How-Fly-Ash-Bricks-Are-Made.html
-├── what-is-fly-ash.html
-├── what-is-fly-ash-bricks.html
-├── sustainable-construction-with-fly-ash-bricks.html
-├── how-to-start-fly-ash-brick-business.html
-├── how-to-start-fly-ash-brick-plant.html
-├── maintenance-tips-for-brick-making-machines.html
-├── troubleshooting-brick-making-machines.html
-├── troubleshooting-fly-ash-brick-machines.html
-├── choosing-brick-making-machine.html
-├── hydraulic-vs-vibro-compaction-technology.html
-├── innovations-in-brick-making-technology.html
-├── key-machine-components-explained.html
-├── paver-block-technology.html
-├── custom-mould-options.html
-├── government-policies-on-fly-ash-utilization.html
-├── market-expansion-fly-ash-bricks.html
-├── material-innovations-enhanced-brick-properties.html
-├── the-future-of-fly-ash-bricks.html
-├── the-future-of-sustainable-contruction.html
-├── fly-ash-bricks-machine-making-principle.html
-└── case-study-small-business-production.html
+├── advantages-of-fly-ash-bricks
+├── cost-of-fly-ash-brick-making-machines
+├── fly-ash-brick-plant-setup-guide
+├── Fly-Ash-Bricks-vs-Red-Bricks
+├── How-Fly-Ash-Bricks-Are-Made
+├── what-is-fly-ash
+├── what-is-fly-ash-bricks
+├── sustainable-construction-with-fly-ash-bricks
+├── how-to-start-fly-ash-brick-business
+├── how-to-start-fly-ash-brick-plant
+├── maintenance-tips-for-brick-making-machines
+├── troubleshooting-brick-making-machines
+├── troubleshooting-fly-ash-brick-machines
+├── choosing-brick-making-machine
+├── hydraulic-vs-vibro-compaction-technology
+├── innovations-in-brick-making-technology
+├── key-machine-components-explained
+├── paver-block-technology
+├── custom-mould-options
+├── government-policies-on-fly-ash-utilization
+├── market-expansion-fly-ash-bricks
+├── material-innovations-enhanced-brick-properties
+├── the-future-of-fly-ash-bricks
+├── the-future-of-sustainable-contruction
+├── fly-ash-bricks-machine-making-principle
+└── case-study-small-business-production
 
 Product Pages:
-├── fly-ash-bricks-machine.html
-├── fly-ash-bricks-machine2.html
-└── fly-ash-bricks-machine-3.html
+├── fly-ash-bricks-machine
+├── fly-ash-bricks-machine2
+└── fly-ash-bricks-machine-3
 
 ================================================================================
                         CORE FUNCTIONALITY

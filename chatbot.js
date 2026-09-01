@@ -72,32 +72,32 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add this new section to the knowledgeBase object with related blog/page URLs
     const relatedPages = {
         "maintenance": [
-            { title: "Maintenance Tips for Brick Making Machines", url: "maintenance-tips-brick-making-machines.html" },
-            { title: "Fly Ash Brick Machine Working Principle", url: "fly-ash-brick-machine-working-principle.html" }
+            { title: "Maintenance Tips for Brick Making Machines", url: "maintenance-tips-brick-making-machines" },
+            { title: "Fly Ash Brick Machine Working Principle", url: "fly-ash-brick-machine-working-principle" }
         ],
         "fly ash": [
-            { title: "What is Fly Ash Bricks", url: "what-is-fly-ash-bricks.html" },
-            { title: "How Fly Ash Bricks Are Made", url: "how-fly-ash-bricks-are-made.html" },
-            { title: "Fly Ash Bricks vs Red Bricks", url: "Fly-Ash-Bricks-vs-Red-Bricks.html" },
-            { title: "Sustainable Construction with Fly Ash Bricks", url: "sustainable-construction-with-fly-ash-bricks.html" }
+            { title: "What is Fly Ash Bricks", url: "what-is-fly-ash-bricks" },
+            { title: "How Fly Ash Bricks Are Made", url: "how-fly-ash-bricks-are-made" },
+            { title: "Fly Ash Bricks vs Red Bricks", url: "Fly-Ash-Bricks-vs-Red-Bricks" },
+            { title: "Sustainable Construction with Fly Ash Bricks", url: "sustainable-construction-with-fly-ash-bricks" }
         ],
         "working principle": [
-            { title: "Fly Ash Brick Machine Working Principle", url: "fly-ash-brick-machine-working-principle.html" },
-            { title: "How Fly Ash Bricks Are Made", url: "how-fly-ash-bricks-are-made.html" }
+            { title: "Fly Ash Brick Machine Working Principle", url: "fly-ash-brick-machine-working-principle" },
+            { title: "How Fly Ash Bricks Are Made", url: "how-fly-ash-bricks-are-made" }
         ],
         "sustainable": [
-            { title: "Sustainable Construction with Fly Ash Bricks", url: "sustainable-construction-with-fly-ash-bricks.html" },
-            { title: "What is Fly Ash Bricks", url: "what-is-fly-ash-bricks.html" }
+            { title: "Sustainable Construction with Fly Ash Bricks", url: "sustainable-construction-with-fly-ash-bricks" },
+            { title: "What is Fly Ash Bricks", url: "what-is-fly-ash-bricks" }
         ],
         "products": [
-            { title: "Products", url: "products.html" },
-            { title: "Fly Ash Brick Machine Working Principle", url: "fly-ash-brick-machine-working-principle.html" }
+            { title: "Products", url: "products" },
+            { title: "Fly Ash Brick Machine Working Principle", url: "fly-ash-brick-machine-working-principle" }
         ],
         "contact": [
-            { title: "Contact Us", url: "contact.html" }
+            { title: "Contact Us", url: "contact" }
         ],
         "about": [
-            { title: "About Us", url: "about.html" }
+            { title: "About Us", url: "about" }
         ]
     };
 

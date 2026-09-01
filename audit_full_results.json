@@ -1,5 +1,5 @@
 {
-  "404.html": {
+  "404": {
     "size": 14523,
     "title": "404 Page Not Found | Jee Engineers",
     "title_len": 34,
@@ -33,7 +33,7 @@
       "BreadcrumbList"
     ]
   },
-  "about.html": {
+  "about": {
     "size": 51723,
     "title": "About Jee Engineers | Fly Ash Brick Machine Manufacturer",
     "title_len": 56,
@@ -70,7 +70,7 @@
       "FAQPage"
     ]
   },
-  "advantages-of-fly-ash-bricks.html": {
+  "advantages-of-fly-ash-bricks": {
     "size": 49759,
     "title": "Advantages of Fly Ash Bricks | Jee Engineers",
     "title_len": 44,
@@ -107,7 +107,7 @@
       "BreadcrumbList"
     ]
   },
-  "blog.html": {
+  "blog": {
     "size": 51517,
     "title": "Fly Ash Brick Industry Blog & Guides | Jee Engineers",
     "title_len": 52,
@@ -140,7 +140,7 @@
       "BreadcrumbList"
     ]
   },
-  "case-study-small-business-production.html": {
+  "case-study-small-business-production": {
     "size": 25032,
     "title": "Case Study: Brick Production Success | Jee Engineers",
     "title_len": 52,
@@ -176,7 +176,7 @@
       "BreadcrumbList"
     ]
   },
-  "choosing-brick-making-machine.html": {
+  "choosing-brick-making-machine": {
     "size": 36985,
     "title": "Choosing a Brick Making Machine Guide | Jee Engineers",
     "title_len": 53,
@@ -211,7 +211,7 @@
       "BreadcrumbList"
     ]
   },
-  "contact.html": {
+  "contact": {
     "size": 55029,
     "title": "Contact Jee Engineers | Fly Ash Brick Machine Quote",
     "title_len": 51,
@@ -247,7 +247,7 @@
       "FAQPage"
     ]
   },
-  "cookies.html": {
+  "cookies": {
     "size": 26347,
     "title": "Cookie Policy | Jee Engineers",
     "title_len": 29,
@@ -280,7 +280,7 @@
       "BreadcrumbList"
     ]
   },
-  "cost-of-fly-ash-brick-making-machines.html": {
+  "cost-of-fly-ash-brick-making-machines": {
     "size": 70368,
     "title": "Cost of Fly Ash Brick Making Machines & ROI Guide | Jee Engineers",
     "title_len": 65,
@@ -315,7 +315,7 @@
       "BreadcrumbList"
     ]
   },
-  "custom-mould-options.html": {
+  "custom-mould-options": {
     "size": 30040,
     "title": "Custom Mould Options for Brick Machines | Jee Engineers",
     "title_len": 55,
@@ -350,7 +350,7 @@
       "BreadcrumbList"
     ]
   },
-  "faq.html": {
+  "faq": {
     "size": 46398,
     "title": "Fly Ash Brick Machine FAQs | Capacity, Price & Specs",
     "title_len": 52,
@@ -385,7 +385,7 @@
       "FAQPage"
     ]
   },
-  "fly-ash-brick-plant-setup-guide.html": {
+  "fly-ash-brick-plant-setup-guide": {
     "size": 31744,
     "title": "Fly Ash Brick Plant Setup Guide | Jee Engineers",
     "title_len": 47,
@@ -420,7 +420,7 @@
       "BreadcrumbList"
     ]
   },
-  "fly-ash-bricks-machine-3.html": {
+  "fly-ash-bricks-machine-3": {
     "size": 30118,
     "title": "Fully Automatic Hydraulic Brick Plant (6HV) | Jee Engineers",
     "title_len": 59,
@@ -454,7 +454,7 @@
       "Product"
     ]
   },
-  "fly-ash-bricks-machine-making-principle.html": {
+  "fly-ash-bricks-machine-making-principle": {
     "size": 59568,
     "title": "Fly Ash Brick Machine Working Principle | Jee Engineers",
     "title_len": 55,
@@ -488,11 +488,11 @@
       "BreadcrumbList"
     ]
   },
-  "fly-ash-bricks-machine-making-process.html": {
+  "fly-ash-bricks-machine-making-process": {
     "status": "EMPTY/CORRUPTED",
     "size": 1
   },
-  "fly-ash-bricks-machine.html": {
+  "fly-ash-bricks-machine": {
     "size": 28496,
     "title": "Semi Automatic Fly Ash Brick Machine (4HVS) | Jee Engineers",
     "title_len": 59,
@@ -527,7 +527,7 @@
       "BreadcrumbList"
     ]
   },
-  "fly-ash-bricks-machine2.html": {
+  "fly-ash-bricks-machine2": {
     "size": 24571,
     "title": "Automatic Fly Ash Brick Machine (JEE 4HV) | Jee Engineers",
     "title_len": 57,
@@ -561,7 +561,7 @@
       "Product"
     ]
   },
-  "Fly-Ash-Bricks-vs-Red-Bricks.html": {
+  "Fly-Ash-Bricks-vs-Red-Bricks": {
     "size": 36025,
     "title": "Fly Ash Bricks vs Red Bricks | Jee Engineers",
     "title_len": 44,
@@ -595,7 +595,7 @@
       "BreadcrumbList"
     ]
   },
-  "government-policies-on-fly-ash-utilization.html": {
+  "government-policies-on-fly-ash-utilization": {
     "size": 31064,
     "title": "Government Policies on Fly Ash Utilization | Jee Engineers",
     "title_len": 58,
@@ -629,7 +629,7 @@
       "BreadcrumbList"
     ]
   },
-  "help.html": {
+  "help": {
     "size": 26414,
     "title": "Help & Support Center | Jee Engineers",
     "title_len": 37,
@@ -662,7 +662,7 @@
       "BreadcrumbList"
     ]
   },
-  "How-Fly-Ash-Bricks-Are-Made.html": {
+  "How-Fly-Ash-Bricks-Are-Made": {
     "size": 45997,
     "title": "How Fly Ash Bricks Are Made: Step-by-Step Process",
     "title_len": 49,
@@ -698,7 +698,7 @@
       "BreadcrumbList"
     ]
   },
-  "how-to-start-fly-ash-brick-business.html": {
+  "how-to-start-fly-ash-brick-business": {
     "size": 39436,
     "title": "Start Fly Ash Brick Business Guide | Jee Engineers",
     "title_len": 50,
@@ -733,7 +733,7 @@
       "BreadcrumbList"
     ]
   },
-  "how-to-start-fly-ash-brick-plant.html": {
+  "how-to-start-fly-ash-brick-plant": {
     "size": 35638,
     "title": "Start a Fly Ash Brick Plant Guide | Jee Engineers",
     "title_len": 49,
@@ -768,7 +768,7 @@
       "BreadcrumbList"
     ]
   },
-  "hydraulic-vs-vibro-compaction-technology.html": {
+  "hydraulic-vs-vibro-compaction-technology": {
     "size": 33142,
     "title": "Hydraulic Press vs Vibro Compaction | Jee Engineers",
     "title_len": 51,
@@ -803,7 +803,7 @@
       "BreadcrumbList"
     ]
   },
-  "index.html": {
+  "index": {
     "size": 71708,
     "title": "Fly Ash Brick Machine Manufacturer | Jee Engineers",
     "title_len": 50,
@@ -841,7 +841,7 @@
       "Product"
     ]
   },
-  "indexcopy.html": {
+  "indexcopy": {
     "size": 46648,
     "title": "Jee Engineers, Ahmedabad - Manufacturer of Fly Ash Brick Making Machine\n        and Concrete Block Making Machine.",
     "title_len": 114,
@@ -873,7 +873,7 @@
     "sr_only_matches_cnt": 0,
     "schemas": []
   },
-  "innovations-in-brick-making-technology.html": {
+  "innovations-in-brick-making-technology": {
     "size": 29517,
     "title": "Innovations in Brick Making Tech | Jee Engineers",
     "title_len": 48,
@@ -907,7 +907,7 @@
       "BreadcrumbList"
     ]
   },
-  "key-machine-components-explained.html": {
+  "key-machine-components-explained": {
     "size": 29076,
     "title": "Key Brick Machine Components Explained | Jee Engineers",
     "title_len": 54,
@@ -942,7 +942,7 @@
       "BreadcrumbList"
     ]
   },
-  "maintenance-tips-for-brick-making-machines.html": {
+  "maintenance-tips-for-brick-making-machines": {
     "size": 48980,
     "title": "Essential Maintenance Tips for Brick Making Machines | Guide",
     "title_len": 60,
@@ -975,7 +975,7 @@
       "BreadcrumbList"
     ]
   },
-  "market-expansion-fly-ash-bricks.html": {
+  "market-expansion-fly-ash-bricks": {
     "size": 39725,
     "title": "Market Expansion Strategies for Brick Plants | Jee Engineers",
     "title_len": 60,
@@ -1006,7 +1006,7 @@
     "sr_only_matches_cnt": 0,
     "schemas": []
   },
-  "material-innovations-enhanced-brick-properties.html": {
+  "material-innovations-enhanced-brick-properties": {
     "size": 38554,
     "title": "Material Innovations for Brick Strength | Jee Engineers",
     "title_len": 55,
@@ -1037,7 +1037,7 @@
     "sr_only_matches_cnt": 0,
     "schemas": []
   },
-  "paver-block-technology.html": {
+  "paver-block-technology": {
     "size": 31191,
     "title": "Paver Block Technology & Machines | Jee Engineers",
     "title_len": 49,
@@ -1072,7 +1072,7 @@
       "BreadcrumbList"
     ]
   },
-  "privacy.html": {
+  "privacy": {
     "size": 25934,
     "title": "Privacy Policy | Jee Engineers",
     "title_len": 30,
@@ -1105,7 +1105,7 @@
       "BreadcrumbList"
     ]
   },
-  "products.html": {
+  "products": {
     "size": 30841,
     "title": "Fly Ash Brick & Concrete Block Machines | Jee Engineers",
     "title_len": 55,
@@ -1140,7 +1140,7 @@
       "Product"
     ]
   },
-  "project.html": {
+  "project": {
     "size": 68670,
     "title": "Jee Engineers Project | Premium Fly Ash Brick Machinery Showcase",
     "title_len": 64,
@@ -1177,7 +1177,7 @@
       "Product"
     ]
   },
-  "sample blog.html": {
+  "sample blog": {
     "size": 27830,
     "title": "Fly Ash Brick Making Blog: Industry Insights & Innovations | Jee Engineers, Ahmedabad, India",
     "title_len": 92,
@@ -1211,7 +1211,7 @@
       "BreadcrumbList"
     ]
   },
-  "sustainable-construction-with-fly-ash-bricks.html": {
+  "sustainable-construction-with-fly-ash-bricks": {
     "size": 49194,
     "title": "Sustainable Construction with Fly Ash Bricks | Jee Engineers",
     "title_len": 60,
@@ -1242,7 +1242,7 @@
     "sr_only_matches_cnt": 0,
     "schemas": []
   },
-  "terms-and-conditions.html": {
+  "terms-and-conditions": {
     "size": 27559,
     "title": "Terms and Conditions | Jee Engineers",
     "title_len": 36,
@@ -1275,7 +1275,7 @@
       "BreadcrumbList"
     ]
   },
-  "thank-you.html": {
+  "thank-you": {
     "size": 12879,
     "title": "Thank You | Jee Engineers",
     "title_len": 25,
@@ -1307,7 +1307,7 @@
     "sr_only_matches_cnt": 0,
     "schemas": []
   },
-  "the-future-of-fly-ash-bricks.html": {
+  "the-future-of-fly-ash-bricks": {
     "size": 21140,
     "title": "The Future of Fly Ash Bricks & Trends | Jee Engineers",
     "title_len": 53,
@@ -1341,7 +1341,7 @@
       "BreadcrumbList"
     ]
   },
-  "the-future-of-sustainable-contruction.html": {
+  "the-future-of-sustainable-contruction": {
     "size": 43788,
     "title": "Future of Sustainable Construction | Jee Engineers",
     "title_len": 50,
@@ -1374,7 +1374,7 @@
       "BreadcrumbList"
     ]
   },
-  "theme-sample.html": {
+  "theme-sample": {
     "size": 51641,
     "title": "Fly Ash Brick Making Machine Manufacturer in Ahmedabad | Jee Engineers",
     "title_len": 70,
@@ -1411,7 +1411,7 @@
       "Product"
     ]
   },
-  "troubleshooting-brick-making-machines.html": {
+  "troubleshooting-brick-making-machines": {
     "size": 42233,
     "title": "Brick Making Machine Troubleshooting | Jee Engineers",
     "title_len": 52,
@@ -1446,7 +1446,7 @@
       "BreadcrumbList"
     ]
   },
-  "troubleshooting-fly-ash-brick-machines.html": {
+  "troubleshooting-fly-ash-brick-machines": {
     "size": 55438,
     "title": "Troubleshooting Fly Ash Brick Machines | Problem & Solution",
     "title_len": 59,
@@ -1477,7 +1477,7 @@
     "sr_only_matches_cnt": 0,
     "schemas": []
   },
-  "what-is-fly-ash-bricks.html": {
+  "what-is-fly-ash-bricks": {
     "size": 33495,
     "title": "What is Fly Ash Bricks? Guide | Jee Engineers",
     "title_len": 45,
@@ -1510,7 +1510,7 @@
       "Article"
     ]
   },
-  "what-is-fly-ash.html": {
+  "what-is-fly-ash": {
     "size": 47207,
     "title": "What is Fly Ash & Its Uses in Bricks | Jee Engineers",
     "title_len": 52,

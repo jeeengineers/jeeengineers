@@ -22,10 +22,10 @@ Compare these real URLs from your site:
 ```
 https://jeeengineers.com/what-is-fly-ash-bricks        ✅ clean, lowercase, hyphenated
 https://jeeengineers.com/about                          ✅ clean
-https://jeeengineers.com/How-Fly-Ash-Bricks-Are-Made.html  ❌ PascalCase + .html
+https://jeeengineers.com/How-Fly-Ash-Bricks-Are-Made  ❌ PascalCase + 
 ```
 Pick the clean pattern (lowercase-with-hyphens, no extension) as the standard, rename
-the outlier, and 301-redirect the old `.html` URL to the new one so you don't lose any
+the outlier, and 301-redirect the old `` URL to the new one so you don't lose any
 indexing or links pointing at it.
 
 ### 0.3 No structured data (schema.org) detected
@@ -222,7 +222,7 @@ Also — check each product page's `<title>` and meta description are unique per
 ---
 
 ## 4. Blog articles (`/what-is-fly-ash-bricks`, `/what-is-fly-ash`,
-`/How-Fly-Ash-Bricks-Are-Made.html` → rename per Section 0.2)
+`/How-Fly-Ash-Bricks-Are-Made` → rename per Section 0.2)
 
 **Title/H1 mismatch:** On `/what-is-fly-ash-bricks`, the `<title>` tag reads
 "What is Fly Ash Bricks? Guide | Jee Engineers" but the on-page H1 reads "Why Fly Ash
