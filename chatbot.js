@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "fly ash": [
             { title: "What is Fly Ash Bricks", url: "what-is-fly-ash-bricks" },
             { title: "How Fly Ash Bricks Are Made", url: "how-fly-ash-bricks-are-made" },
-            { title: "Fly Ash Bricks vs Red Bricks", url: "Fly-Ash-Bricks-vs-Red-Bricks" },
+            { title: "Fly Ash Bricks vs Red Bricks", url: "fly-ash-bricks-vs-red-bricks" },
             { title: "Sustainable Construction with Fly Ash Bricks", url: "sustainable-construction-with-fly-ash-bricks" }
         ],
         "working principle": [

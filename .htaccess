@@ -9,8 +9,9 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.jeeengineers\.com [NC]
 RewriteRule ^(.*)$ https://jeeengineers.com/$1 [L,R=301]
 
-# 301 Redirect for legacy PascalCase blog post URL
+# 301 Redirect for legacy PascalCase blog post URLs
 RewriteRule ^How-Fly-Ash-Bricks-Are-Made(\)?$ /how-fly-ash-bricks-are-made [L,R=301]
+RewriteRule ^Fly-Ash-Bricks-vs-Red-Bricks(\.html)?$ /fly-ash-bricks-vs-red-bricks [L,R=301]
 
 
 # Custom error pages
